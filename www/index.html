@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="description" content=""/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<title>Hackerspace IFUSP</title>
+		<link rel="stylesheet" href="css/style.css"/>
+		<link rel="stylesheet" href="css/index.css"/>
+		<link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+	</head>
+	<body>
+
+		<nav role="navigation" class="navigation">
+			<div class="wrapper">
+				<div class="menu">
+					<a class="bars" onclick="$('div.menu-btn').slideToggle(300);"><i class="fas fa-bars"></i></a>
+					<a class="title" href="/">Hackerspace</a>
+					<!-- <div class="hide-btn menu-btn">
+						<a href="/events">Eventos</a>
+						<a href="/oficinas">Oficinas</a>
+						<a href="/info">Informações</a>
+					</div> -->
+					<div class="right">
+						<a class="status closed" title="O Hackerspace está fechado atualmente."><i class="fas fa-door-closed"></i></a>
+						<a class="active hide-btn">PT</a>
+						<!-- <a class="hide-btn" href="/en-US">EN</a> -->
+						<a><i class="fas fa-search"></i></a>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<header>
+			<div id="particles-js"></div>
+			<div class="text">
+				<div class="wrapper">
+					<h1>Hackerspace</h1>
+					<h2>Muito mais que um <b>espaço</b>.<br>Um <b>space</b>.</h2>
+				</div>
+			</div>
+		</header>
+
+		<div class="page">
+			<div class="stack">
+
+				<div class="element light" id="intro">
+					<div class="wrapper">
+						<div class="container">
+							<div class="panel presents" id="goals">
+								<div class="item">
+									<div class="icon"><i class="fas fa-globe-americas"></i></div>
+									<div class="title"><h1>Olá, mundo!</h1></div>
+									<div class="text">
+										<p>Hackerspaces são espaços físicos mantidos e operados pela comunidade, onde pessoas compartilham seus interesses e projetos relacionados à tecnologia e aprendem com o trabalho dos outros.</p>
+									</div>
+								</div>
+								<div class="item">
+									<div class="icon"><i class="fas fa-code"></i></div>
+									<div class="title"><h1>Desenvolver</h1></div>
+									<div class="text">
+										<p>A programação é uma importante ferramenta para solução de problemas, aplicações práticas e análise de dados.</p>
+									</div>
+								</div>
+								<div class="item">
+									<div class="icon"><i class="fas fa-shapes"></i></div>
+									<div class="title"><h1>Construir</h1></div>
+									<div class="text">
+										<p>No HS, dispomos de componentes eletrônicos, arduinos, Raspberries Pi e outros equipamentos para construir máquinas, geringonças e te manter curioso.</p>
+									</div>
+								</div>
+								<div class="item">
+									<div class="icon"><i class="fas fa-share-alt"></i></div>
+									<div class="title"><h1>Conectar</h1></div>
+									<div class="text">
+										<p>Conhecer pessoas que podem agregar no seu conhecimento e crescimento.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="element light-gray" id="extension">
+					<div class="wrapper">
+						<div class="panel presents" id="activities">
+							<div class="item">
+								<div class="icon"><i class="fas fa-mug-hot"></i></div>
+								<div class="title"><h1>Café</h1></div>
+								<div class="text">
+									<p>Sempre temos café!</p>
+								</div>
+							</div>
+							<div class="item">
+								<div class="icon"><i class="fas fa-university"></i></div>
+								<div class="title"><h1>Cursos</h1></div>
+								<div class="text">
+									<p>Reunimos pessoas que estão dispostas a dividir seus conhecimentos com a comunidade para organizar cursos e oficinas no espaço do HS.</p>
+								</div>
+							</div>
+							<div class="item">
+								<div class="icon"><i class="fas fa-robot"></i></div>
+								<div class="title"><h1>Grupo de Robótica</h1><h4>(EM BREVE)</h4></div>
+								<div class="text">
+									<p></p>
+								</div>
+							</div>
+							<div class="item">
+								<div class="icon"><i class="fas fa-gamepad"></i></div>
+								<div class="title"><h1>Gamedev</h1><h4>(EM BREVE)</h4></div>
+								<div class="text">
+									<p></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			
+				<div class="element light" id="recent">
+					<div class="wrapper">
+						<h1 class="dark">Atualmente, no HS:</h1>
+						<div class="panel" id="news">
+							<!--JS carrega eventos recentes aqui! -->
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<footer>
+			<div class="lowermenu">
+				<div class="wrapper">
+					<div class="menu">
+						<div class="menu-holder">
+							<div class="container">
+								<ul>
+									<li class="title"><i class="fas fa-door-open"></i> Acesso</li>
+									<li>Alunos</li>
+									<li>Membros</li>
+									<li>Sem vínculo universitário</li>
+								</ul>
+							</div>
+							<div class="container">
+								<ul>
+									<li class="title"><i class="far fa-calendar-alt"></i> Eventos</li>
+									<li>Workshops</li>
+									<li>Coffee breaks</li>
+								</ul>
+							</div>
+							<div class="container">
+								<ul>
+									<li class="title"><i class="fas fa-star"></i> Extensão</li>
+									<li>Cursos</li>
+									<li>Oficinas</li>
+									<li>Grupo de robótica</li>
+									<li>Gamedev</li>
+								</ul>
+							</div>
+							<div class="container">
+								<ul>
+									<li class="title"><i class="fas fa-info-circle"></i> Informações</li>
+									<li><a href="http://portal.if.usp.br/ifusp/">Instituto de Física</a></li>
+									<li><a href="http://usp.br/">USP</a></li>
+									<li><a href="http://cefisma.org.br/">CEFISMA</a></li>
+									<li>Contato</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="logos">
+						<div class="logos-holder">
+							<img src="images/ifusp.png" alt="IFUSP" title="Instituto de Física da USP" class="logo" id="ifusp">
+							<!-- <img src="images/usp.png" alt="USP" title="Universidade de São Paulo" class="logo" id="usp"> -->
+							<!-- <img src="images/cefisma.png" alt="CEFISMA" title="CEFISMA" class="logo" id="cefisma"> -->
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="bottom">
+				<div class="wrapper">
+					<p>Sala 1013, Instituto de Física da USP - Prédio Principal<br>R. do Matão, 1371 - Cid. Universitária - Butantã - São Paulo, SP</p>
+				</div>
+			</div>
+		</footer>
+
+	</body>
+
+	<script src="js/fontawesome.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/particles.min.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/index.js"></script>
+	<script src="js/calendar.js"></script>
+</html>

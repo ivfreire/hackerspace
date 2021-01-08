@@ -1,0 +1,18 @@
+{
+	"events": [{
+		"title": "Oficina de matplotlib",
+		"start": "2019-09-10T18:00:00-03:00",
+		"end": "2020-09-10T19:30:00-03:00",
+		"id": "00"
+	},{
+		"title": "Encontro de instrumentação científica de baixo custo",
+		"start": "2019-09-10T18:00:00-03:00",
+		"end": "",
+		"id": "01"
+	},{
+		"title": "Oficina de recepção aos calouros de 2019",
+		"start": "2019-02-21T16:00:00-03:00",
+		"end": "2019-02-21T17:30:00-03:00",
+		"id": "03"
+	}]
+}
