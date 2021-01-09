@@ -11,6 +11,10 @@ window.onload = () => {
 
 	Hackerspace.init();
 
+	particlesJS.load('particles-js', 'assets/particles.json', function() {
+		console.log('callback - particles.js config loaded');
+	});
+
 	$.get('assets/events.json', (data) => {
 		data['events'].forEach(event => {
 			var date = new Date(event['start']);
