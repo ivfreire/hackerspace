@@ -23,7 +23,8 @@ div#resume p#text {
 
 div.presents {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
+	flex-flow: row wrap;
 }
 
 div.presents div.item {
@@ -56,123 +57,127 @@ div.presents div.item div.text p {
 }
 
 
-
-@media only screen and (min-width: 800px) {
-	div.presents#goals div.item { width: 20%; }
-	div.presents#activities div.item { width: 20%; }
-}
+div.presents#goals > div { width: 22%; }
 
 
 
-div#events {
-	padding-right: 30px;
-}
 
-div#events div.content {
+
+
+div#activities div.holder {
 	display: flex;
 	justify-content: space-between;
+	flex-flow: row wrap;
 }
 
-div#events div.event {
-	display: inline-block;
-	width: 24%;
-}
-
-div#events div.event div.cover {
-	max-width: 100%;
-	height: 200px;
-	overflow: hidden;
-}
-
-div#events div.event div.cover img {
-	width: 100%;
-	height: 100%;
-}
-
-div#events div.event div.title {
-	padding-top: 20px;
-	font-weight: bold;
-	overflow: hidden;
-}
-
-
-
-
-div#news {
+div#activities div.holder > div {
 	display: flex;
-	justify-content: space-between;
-	padding-top: 30px;
+	width: 32%;
+	cursor: default;
 }
 
-div#news div.container {
-	display: flex;
-	width: 30%;
-	cursor: pointer;
-}
-
-div#news div.container:hover div.text { color: #0F6688; }
-
-div#news div.container div { display: block; }
-
-div#news div.container div.header img {
+div#activities div.holder > div > div {
 	width: 100%;
+}
+
+div#activities div.holder > div:hover div.image i { transition: all 300ms; }
+div#activities div.holder > div:hover div.image i { color: white; }
+
+div#activities div.holder > div#gamedev:hover div.image {
+	background-color: rgba(0, 0, 0, 0);
+	text-shadow: 0 10px 0 #bbb;
+	background-size: cover;
+}
+
+div#activities div.holder > div#robotics:hover div.image {
+	background-color: #00878F;
+	text-shadow: 0 10px 0 #00777F;
+}
+
+div#activities div.holder > div#courses:hover div.image {
+	background-color: #C41313;
+	text-shadow: 0 10px 0 #940000;
+}
+
+div#activities div.holder > div#gamedev div.bg {
+	background-image: url('../images/rocks.png');
+	background-size: cover;
+	background-position: center;
 	border-radius: 5px;
 }
 
-div#news div.container div.text div.datetime {
-	padding: 5px 0;
-	color: #0F6688;
+
+div#activities div.holder > div div.image {
+	width: 100%;
+	background-color: #E6E7E8;
+	text-align: center;
+	font-size: 150px;
+	padding: 40px 0;
+	border-radius: 5px;
+	transition: all 300ms;
 }
 
-div#news a {
+div#activities div.holder > div div.text { padding-top: 20px; }
+
+div#activities div.holder > div div.text div.title {
+	text-align: center;
+}
+
+div#activities div.holder > div div.text div.content {
+	padding-top: 10px;
+	font-size: 16px;
+	line-height: 24px;
+	color: #333;
+}
+
+div#activities div.holder > div div.text div.content div.more {
+	width: 100%;
+	text-align: center;
+	padding-top: 20px;
+	font-weight: bold;
+}
+
+div#activities div.holder > div div.text div.content div.more a {
+	color: #069;
 	text-decoration: none;
-	color: black;
+}
+
+div#activities div.holder > div div.text div.content div.more a:hover { text-decoration: underline; }
+
+div#activities div.holder > div div.text div.content div.more a:hover i {
+	margin-left: 5px;
+}
+
+div#activities div.holder > div div.text div.content div.more a i {
+	color: #069;
+	transition: all 100ms;
 }
 
 
 
 @media only screen and (max-width: 800px) {
-	div.presents {
-		display: inline-table;
-		width: 98%;
-		padding: 0 2% 0;
-		justify-content: center;
-	}
+	div.presents#goals > div { width: 40%; }
+	div.presents#goals > div:first-child { padding: 0 0 60px 0; }
 
-	div.presents div.item {
-		width: 49%;
-		display: inline-table;
-		padding-bottom: 10px;
-	}
+	div#activities div.holder > div div.image { font-size: 100px; }
 }
 
+
+
 @media only screen and (max-width: 624px) {
-	div.presents {
-		display: inline-table;
-		width: 80%;
-		padding: 0 10% 0;
-		justify-content: center;
-	}
-
-	div.presents div.item {
+	div.presents#goals div.item {
 		width: 100%;
-		display: inline-table;
-		padding-bottom: 60px;
+		padding: 0 0 60px 0;
 	}
 
-	div.presents div.item:last-child { padding-bottom: 0; }
+	div.presents#goals div.item:last-child { padding: 0; }
 
-
-	div#news {
+	div#activities div.holder > div {
 		width: 100%;
-		display: inline-table;
+		padding: 0 0 60px 0;
 	}
 
-	div#news div.container {
-		display: inline-table;
-		width: 100%;
-		padding: 30px 0;
-	}
+	div#activities div.holder > div:last-child { padding: 0; }
 
-	div#news div.container:last-child { padding-bottom: 0; }
+	div#activities div.holder > div div.image { font-size: 150px; }
 }

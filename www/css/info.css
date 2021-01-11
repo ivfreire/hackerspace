@@ -1,5 +1,12 @@
+header {
+	background-image: url('../images/world.png');
+	background-position: center;
+	background-attachment: fixed;
+}
+
 header div.wrapper { text-align: center; }
 header div.text { bottom: 45%; overflow: visible; }
+
 
 div.chapter div.header {
 	width: 100%;
@@ -36,6 +43,7 @@ div.chapter div.content div.text {
 }
 
 div.dark div.chapter div.content div.text, div.darker div.chapter div.content div.text { text-shadow: 0 3px 0 #00203A; }
+
 
 
 

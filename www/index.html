@@ -7,7 +7,7 @@
 		<title>Hackerspace IFUSP</title>
 		<link rel="stylesheet" href="css/style.css"/>
 		<link rel="stylesheet" href="css/index.css"/>
-		<link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+		<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
 	</head>
 	<body>
 
@@ -15,11 +15,11 @@
 			<div class="wrapper">
 				<div class="menu">
 					<a class="bars" onclick="$('div.menu-btn').slideToggle(300);"><i class="fas fa-bars"></i></a>
-					<a class="title" href="/">Hackerspace</a>
+					<a class="title" href="index.html">Hackerspace</a>
 					<div class="hide-btn menu-btn">
 						<!-- <a href="/events">Eventos</a>
 						<a href="/oficinas">Oficinas</a> -->
-						<a href="/info.html">Informações</a>
+						<a href="info.html">Informações</a>
 					</div>
 					<div class="right">
 						<a class="status closed" title="O Hackerspace está fechado atualmente."><i class="fas fa-door-closed"></i></a>
@@ -44,7 +44,7 @@
 		<div class="page">
 			<div class="stack">
 
-				<div class="element light" id="intro">
+				<div class="element light-gray" id="intro">
 					<div class="wrapper">
 						<div class="container">
 							<div class="panel presents" id="goals">
@@ -81,46 +81,74 @@
 					</div>
 				</div>
 
-				<div class="element light-gray" id="extension">
+				<div class="element light">
 					<div class="wrapper">
-						<div class="panel presents" id="activities">
-							<div class="item">
-								<div class="icon"><i class="fas fa-mug-hot"></i></div>
-								<div class="title"><h1>Café</h1></div>
-								<div class="text">
-									<p>Sempre temos café!</p>
+						<div class="panel">
+							<div class="title">
+								<h1>Atividades de Extensão</h1>
+							</div>
+							<div class="content">
+								<div id="activities">
+									<div class="holder">
+										<div id="courses">
+											<div>
+												<div class="image">
+													<i class="fas fa-university"></i>
+												</div>
+												<div class="text">
+													<div class="title">
+														<h2>Cursos e Oficinas</h2>
+													</div>
+													<div class="content">
+														<p>O <b>Hackerspace</b> reune pessoas dispostas a dividir seus conhecimentos com a comunidade para organizar cursos e oficinas no espaço.</p>
+														<div class="more">
+															<a href="events.html">Saiba mais <i class="fas fa-chevron-right"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div id="robotics">
+											<div>
+												<div class="image">
+													<i class="fas fa-robot"></i>
+												</div>
+												<div class="text">
+													<div class="title">
+														<h2>Grupo de Robótica</h2>
+													</div>
+													<div class="content">
+														<p>O grupo de robótica explora as possibilidades de construção de robôs com Arduinos e componentes eletrônicos.</p>
+														<div class="more">
+															<a href="robotics.html">Saiba mais <i class="fas fa-chevron-right"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div id="gamedev">
+											<div>
+												<div class="bg">
+													<div class="image">
+														<i class="fas fa-gamepad"></i>
+													</div>
+												</div>
+												<div class="text">
+													<div class="title">
+														<h2>Gamedev</h2>
+													</div>
+													<div class="content">
+														<p>Recentemente criado, o grupo de Gamedev do <b>Hackerspace</b> é formado por alunos interessados no desenvolvimento de jogos eletônicos para múltiplas plataformas.</p>
+														<div class="more">
+															<a href="gamedev.html">Saiba mais <i class="fas fa-chevron-right"></i></a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>	
+									</div>
 								</div>
 							</div>
-							<div class="item">
-								<div class="icon"><i class="fas fa-university"></i></div>
-								<div class="title"><h1>Cursos</h1></div>
-								<div class="text">
-									<p>Reunimos pessoas que estão dispostas a dividir seus conhecimentos com a comunidade para organizar cursos e oficinas no espaço do HS.</p>
-								</div>
-							</div>
-							<div class="item">
-								<div class="icon"><i class="fas fa-robot"></i></div>
-								<div class="title"><h1>Grupo de Robótica</h1><h4>(EM BREVE)</h4></div>
-								<div class="text">
-									<p></p>
-								</div>
-							</div>
-							<div class="item">
-								<div class="icon"><i class="fas fa-gamepad"></i></div>
-								<div class="title"><h1>Gamedev</h1><h4>(EM BREVE)</h4></div>
-								<div class="text">
-									<p></p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			
-				<div class="element light" id="recent">
-					<div class="wrapper">
-						<h1 class="dark">Atualmente, no HS:</h1>
-						<div class="panel" id="news">
-							<!--JS carrega eventos recentes aqui! -->
 						</div>
 					</div>
 				</div>
@@ -132,8 +160,8 @@
 			<div class="lowermenu">
 				<div class="wrapper">
 					<div class="menu">
-						<div class="menu-holder">
-							<div class="container">
+						<div>
+							<div>
 								<ul>
 									<li class="title"><i class="fas fa-door-open"></i> Acesso</li>
 									<li>Alunos</li>
@@ -141,14 +169,14 @@
 									<li>Sem vínculo universitário</li>
 								</ul>
 							</div>
-							<div class="container">
+							<div>
 								<ul>
 									<li class="title"><i class="far fa-calendar-alt"></i> Eventos</li>
 									<li>Workshops</li>
 									<li>Coffee breaks</li>
 								</ul>
 							</div>
-							<div class="container">
+							<div>
 								<ul>
 									<li class="title"><i class="fas fa-star"></i> Extensão</li>
 									<li>Cursos</li>
@@ -157,7 +185,7 @@
 									<li>Gamedev</li>
 								</ul>
 							</div>
-							<div class="container">
+							<div>
 								<ul>
 									<li class="title"><i class="fas fa-info-circle"></i> Informações</li>
 									<li><a href="http://portal.if.usp.br/ifusp/">Instituto de Física</a></li>
@@ -169,10 +197,8 @@
 						</div>
 					</div>
 					<div class="logos">
-						<div class="logos-holder">
+						<div class="holder">
 							<img src="images/ifusp.png" alt="IFUSP" title="Instituto de Física da USP" class="logo" id="ifusp">
-							<!-- <img src="images/usp.png" alt="USP" title="Universidade de São Paulo" class="logo" id="usp"> -->
-							<!-- <img src="images/cefisma.png" alt="CEFISMA" title="CEFISMA" class="logo" id="cefisma"> -->
 						</div>
 					</div>
 				</div>

@@ -39,6 +39,6 @@ window.onload = () => {
 	$('body').show();
 
 	var titlePos = '30%';
-	if (window.innerWidth < 624) titlePos = '50%';
+	if (window.innerWidth <= 800) titlePos = '50%';
 	$('header div.text').animate({ bottom: titlePos, opacity: 1.0 }, 500);
 }
