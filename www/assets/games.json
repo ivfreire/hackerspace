@@ -1,0 +1,16 @@
+{
+	"games": [
+		{
+			"title": "Amaldoçado",
+			"developers": [["jaspior", "https://jaspior.itch.io/"]],
+			"status": 0,
+			"id": "amaldocado"
+		},
+		{
+			"title": "Aleph Online",
+			"developers": [["Ícaro Freire", "https://github.com/ivfreire"]],
+			"status": 1,
+			"id": "aleph"
+		}
+	]
+}

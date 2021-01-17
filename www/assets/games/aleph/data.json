@@ -1,0 +1,12 @@
+{
+	"title": "Aleph Online",
+	"developers": [["Ícaro Freire", "https://github.com/ivfreire/"]],
+	"status": 1,
+	"links": {
+		"github": "https://github.com/ivfreire/aleph"
+	},
+	"platform": "browser",
+	"sources": ["HTML5", "JavaScript", "Node.js"],
+	"tags": ["rpg", "mmo", "online", "browser", "game"],
+	"images": 0
+}

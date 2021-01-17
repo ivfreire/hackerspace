@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="description" content=""/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<title>Hackerspace IFUSP</title>
+		<link rel="stylesheet" href="css/style.css"/>
+		<link rel="stylesheet" href="css/gamedev.css"/>
+		<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+	</head>
+	<body>
+
+		<nav role="navigation" class="navigation">
+			<div class="wrapper">
+				<div class="menu">
+					<a class="bars" onclick="$('div.menu-btn').slideToggle(300);"><i class="fas fa-bars"></i></a>
+					<a class="title" href="index.html">Hackerspace</a>
+					<div class="hide-btn menu-btn">
+						<!-- <a href="/events">Eventos</a>
+						<a href="/oficinas">Oficinas</a> -->
+						<a href="info.html">Informações</a>
+					</div>
+					<div class="right">
+						<a class="status closed" title="O Hackerspace está fechado atualmente."><i class="fas fa-door-closed"></i></a>
+						<a class="active hide-btn">PT</a>
+						<!-- <a class="hide-btn" href="/en-US">EN</a> -->
+						<a><i class="fas fa-search"></i></a>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<header>
+			<div class="shadow"></div>
+			<div class="text">
+				<div class="wrapper">
+					<h1>GAMEDEV</h1>
+				</div>
+			</div>
+		</header>
+
+		<div class="page">
+			<div class="stack">
+
+				<div class="element dark">
+					<div class="wrapper">
+						<div class="panel">
+							<div class="content">
+								<div id="cards">
+									<div>
+										<div class="icon"><i class="fas fa-gamepad"></i></div>
+										<div class="title"><h2>Gamedev</h2></div>
+										<div class="text">
+											<p>O grupo de Gamedev recém formado do <b>Hackerspace</b> é composto por alunos interessados no desenvolvimento de jogos digitais.</p>
+										</div>
+									</div>
+									<div>
+										<div class="icon"><i class="fas fa-question-circle"></i></div>
+										<div class="title"><h2>Contribuições?</h2></div>
+										<div class="text">
+											<p>Jogos digitais têm um impacto imenso sobre a didática no ensino e divulgação científica para o público geral.</p>
+										</div>
+									</div>
+									<div>
+										<div class="icon"><i class="fas fa-tools"></i></i></div>
+										<div class="title"><h2>Ferramentas</h2></div>
+										<div class="text">
+											<p>Nós priorizamos o uso de ferramentas e <i>softwares</i> open-source no processo de desenvolvimento. Porém programas proprietários também são usados sem problemas.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="element darker">
+					<div class="wrapper">
+						<div class="panel">
+							<div class="title">
+								<h1>Ferramentas</h1><br>
+							</div>
+							<div class="content">
+								<div id="tools">
+									<div onclick="window.location = 'https://www.gimp.org/'">
+										<div class="image"><img src="images/gimp.png" alt=""></div>
+										<div class="title"><h3>GIMP</h3></div>
+										<div class="text"><p>Gimp é uma ótima ferramenta para edição e manipulação de imagens.</p></div>
+									</div>
+									<div onclick="window.location = 'https://blender.org/'">
+										<div class="image"><img src="images/blender.png" alt=""></div>
+										<div class="title"><h3>Blender</h3></div>
+										<div class="text"><p>Blender é um software de modelagem e renderização 3D, perfeito pra jogos mais complexos.</p></div>
+									</div>
+									<div onclick="window.location = 'https://godotengine.org/'">
+										<div class="image"><img src="images/godot.png" alt=""></div>
+										<div class="title"><h3>Godot</h3></div>
+										<div class="text"><p>Godot é uma <i>Game Engine</i> open-source que suporta jogos 2D e 3D.</p></div>
+									</div>
+									<div onclick="window.location = 'https://code.visualstudio.com'">
+										<div class="image"><img src="images/vscode.png" alt=""></div>
+										<div class="title"><h3>Code</h3></div>
+										<div class="text"><p>O VS Code é um editor de texto open-source desenvolvido pela Microsoft baseado na IDE Visual Studio.</p></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="element dark">
+					<div class="wrapper">
+						<div class="panel">
+							<div class="title">
+								<h1>Títulos recentes</h1>
+							</div>
+							<div class="content">
+								<div id="recents">
+									<!-- Jogos recentes aqui! -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<footer>
+			<div class="lowermenu">
+				<div class="wrapper">
+					<div class="menu">
+						<div>
+							<div>
+								<ul>
+									<li class="title"><i class="fas fa-door-open"></i> Acesso</li>
+									<li><a href="info.html#access">Alunos</a></li>
+									<li><a href="info.html#access">Membros</a></li>
+									<li><a href="info.html#access">Sem vínculo universitário</a></li>
+								</ul>
+							</div>
+							<div>
+								<ul>
+									<li class="title"><i class="far fa-calendar-alt"></i> Eventos</li>
+									<li>Workshops</li>
+									<li>Coffee breaks</li>
+								</ul>
+							</div>
+							<div>
+								<ul>
+									<li class="title"><i class="fas fa-star"></i> Extensão</li>
+									<li><a href="events.html#courses">Cursos</a></li>
+									<li><a href="events.html#workshops">Oficinas</a></li>
+									<li><a href="robotics.html">Grupo de robótica</a></li>
+									<li><a href="gamedev.html">Gamedev</a></li>
+								</ul>
+							</div>
+							<div>
+								<ul>
+									<li class="title"><i class="fas fa-info-circle"></i> Informações</li>
+									<li><a href="http://portal.if.usp.br/ifusp/">Instituto de Física</a></li>
+									<li><a href="http://usp.br/">USP</a></li>
+									<li><a href="http://cefisma.org.br/">CEFISMA</a></li>
+									<li><a href="info.html#contact">Contato</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="logos">
+						<div class="holder">
+							<img src="images/ifusp.png" alt="IFUSP" title="Instituto de Física da USP" class="logo" id="ifusp">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="bottom">
+				<div class="wrapper">
+					<p>Sala 1013, Instituto de Física da USP - Prédio Principal<br>R. do Matão, 1371 - Cid. Universitária - Butantã - São Paulo, SP</p>
+				</div>
+			</div>
+		</footer>
+
+	</body>
+
+	<script src="js/fontawesome.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/gamedev.js"></script>
+</html>

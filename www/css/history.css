@@ -1,0 +1,72 @@
+header {
+	background-image: url('../images/world.png');
+	background-position: center;
+	background-attachment: fixed;
+}
+
+header div.wrapper { text-align: center; }
+header div.text { bottom: 45%; overflow: visible; }
+
+
+div.chapter div.header {
+	width: 100%;
+	text-align: center;
+}
+
+div.chapter div.content { padding: 60px 0 0 0; }
+
+div.chapter div.content div.content-holder { display: flex; }
+div.chapter div.content div.content-holder > div { display: flex; }
+div.chapter div.content div.content-holder.rev { flex-direction: row-reverse; }
+
+div.chapter div.content div.icon {
+	padding: 0 3% 0 0;
+	text-align: center;
+	font-size: 300px;
+}
+
+@media only screen and (min-width: 800px) {
+	div.chapter div.content div.content-holder.rev div.icon { padding: 0 0 0 3%; }
+}
+
+div.dark div.content div.icon { text-shadow: 0 24px 0 #00314B; }
+div.darker div.content div.icon { text-shadow: 0 24px 0 #00314B; }
+div.light div.content div.icon { text-shadow: 0 24px 0 #D1D2D4; }
+div.light-gray div.content div.icon { text-shadow: 0 24px 0 #D1D2D4; }
+
+div.chapter div.content div.text p {
+	font-size: 33px;
+	line-height: 44px;
+	font-weight: normal;
+	text-align: justify;
+	word-spacing: 3px;
+}
+
+div.dark div.chapter div.content div.text, div.darker div.chapter div.content div.text { text-shadow: 0 3px 0 #00203A; }
+
+
+
+
+
+
+@media only screen and (max-width: 800px) {
+	div.chapter div.content div.content-holder { display: block; }
+	div.chapter div.content div.content-holder > div { display: block; }
+	div.chapter div.content div.icon { padding: 0 0 40px 0; }
+
+	div.chapter div.content { padding: 40px 0 0 0; }
+
+	div.chapter div.content div.icon { font-size: 200px; }
+
+	div.dark div.content div.icon { text-shadow: 0 6px 0 #00314B; }
+	div.darker div.content div.icon { text-shadow: 0 6px 0 #00314B; }
+	div.light div.content div.icon { text-shadow: 0 6px 0 #D1D2D4; }
+	div.light-gray div.content div.icon { text-shadow: 0 6px 0 #D1D2D4; }
+
+	div.dark div.chapter div.content div.text, div.darker div.chapter div.content div.text { text-shadow: 0 0px 0 #00203A; }
+
+	div.chapter div.content div.text {
+		font-size: 24px;
+		line-height: 32px;
+	}
+}

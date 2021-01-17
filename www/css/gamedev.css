@@ -1,0 +1,189 @@
+div.dark { background-color: #4D4D4F; }
+div.dark h1, div.dark h2, div.dark h3, div.dark h4, div.dark h5, div.dark h6 { color: white; }
+div.dark p, div.dark a, div.dark i, div.dark span { color: white; }
+div.dark button { background: #17739A; color: white; transition: all 200ms; }
+div.dark button i { color: white; }
+div.dark button:hover { background: #228FBD; }
+
+div.darker { background-color: #231F20; }
+div.darker h1, div.darker h2, div.darker h3, div.darker h4, div.darker h5, div.darker h6 { color: white; }
+div.darker p, div.darker a, div.darker i, div.darker span { color: white; }
+div.darker button { background: #17739A; color: white; transition: all 200ms; }
+div.darker button i { color: white; }
+div.darker button:hover { background: #228FBD; }
+
+div.panel div.title { text-align: left; }
+
+
+
+
+body { display: block; }
+
+nav.navigation { background: transparent; }
+
+nav.navigation div.menu a:hover, nav.navigation div.menu a.active { background: #4D4D4F; }
+nav.navigation div.menu a.title:hover { background: transparent; }
+
+header {
+	height: 100vh;
+	background: url('../images/rocks.png');
+	background-size: cover;
+}
+
+header div.shadow {
+	width: 100%;
+	height: 100%;
+	box-shadow: inset 0 0 1000px #000;
+}
+
+header div.text {
+	position: absolute;
+	bottom: 50%;
+	text-shadow: 5px 0 50px #000;
+}
+
+header div.text div.wrapper { text-align: center; }
+
+footer {
+	background: #231F20;
+}
+
+
+
+
+div#cards {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-flow: row wrap;
+}
+
+div#cards > div {
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+}
+
+div#cards > div div.icon { font-size: 64px; }
+
+div#cards > div div.title { padding: 5px 0; }
+
+
+
+
+div#tools {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-flow: row wrap;
+}
+
+div#tools > div {
+	background: #4D4D4F;
+	width: 17%;
+	display: flex;
+	flex-direction: column;
+	padding: 3%;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: all 200ms;
+}
+
+div#tools > div:hover { 
+	transform: scale(1.07);
+	box-shadow: 10px 10px #201020;
+}
+
+div#tools > div div.image { padding: 0 0 30px 0; }
+
+div#tools > div div.image img { height: 60px; }
+
+div#tools > div div.title { padding: 0 0 10px 0; }
+
+
+
+
+
+div#recents {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-flow: row wrap;
+}
+
+div#recents > div {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	width: 49%;
+	cursor: pointer;
+}
+
+div#recents > div:hover img {
+	transform: scale(1.05);
+	box-shadow: 10px 10px 5px #3D3D3F;
+	border-radius: 10px;
+}
+
+div#recents > div:hover div.text {
+	opacity: 1;
+	bottom: 0;
+	text-shadow: 0 0 3px #000;
+}
+
+div#recents > div div.header {
+	width: 100%;
+}
+
+div#recents > div div.header img {
+	width: 100%;
+	max-height: 300px;
+	border-radius: 10px;
+	object-fit: cover;
+	transition: all 200ms;
+}
+
+div#recents > div div.text {
+	position: absolute;
+	width: 88%;
+	padding: 6%;
+	bottom: 0;
+	transition: all 200ms;
+	opacity: 0;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+	div#tools > div {
+		width: 42%;
+		margin-bottom: 30px;
+	}
+}
+
+
+
+
+@media only screen and (max-width: 624px) {
+	div#tools > div {
+		width: 80%;
+		padding: 10%;
+		margin-bottom: 30px;
+	}
+
+	div#tools > div:last-child { margin: 0; }
+
+
+	div#cards > div {
+		width: 80%;
+		padding: 10%;
+	}
+
+
+	div#recents > div {
+		width: 100%;
+		margin-bottom: 60px;
+	}
+
+	div#recents > div:last-child { margin: 0; }
+}

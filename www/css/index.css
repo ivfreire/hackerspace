@@ -3,62 +3,43 @@ header div.text {
 	opacity: 0;
 }
 
-div#resume {
-	border-right: 1px solid #E6E7E8;
-	padding-left: 30px;
-	text-align: center;
-}
+header div#particles-js { height: 100vh; }
 
-div#resume img {
-	width: 184px;
-	padding: 20px 0;
-}
 
-div#resume p#text {
-	text-align: justify;
-
-}
 
 
 
 div.presents {
+	width: 100%;
 	display: flex;
 	justify-content: space-around;
 	flex-flow: row wrap;
 }
 
-div.presents div.item {
-	text-align: center;
-	overflow: visible;
+div.presents > div {
+	display: flex;
+	flex-direction: column;
 }
 
-div.presents div.item div.icon {
+div.presents > div div.icon {
 	overflow: visible;
 	padding: 0 0 20px 0;
-	font-size: 150px;
+	font-size: 64px;
 	color: #808285;
-}
-
-div.presents div.item div.icon img {
-	width: 150px;
 }
 
 div.presents div.item div.title {
 	color: #0F6688;
-	padding-bottom: 10px;
+	padding-bottom: 10px 0;
 }
 
 div.presents div.item div.text p {
 	color: #808285;
-	text-align: center;
-	font-style: italic;
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 24px;
 }
 
-
-div.presents#goals > div { width: 22%; }
-
+div.presents#goals > div { width: 20%; }
 
 
 
@@ -166,18 +147,14 @@ div#activities div.holder > div div.text div.content div.more a i {
 
 @media only screen and (max-width: 624px) {
 	div.presents#goals div.item {
-		width: 100%;
-		padding: 0 0 60px 0;
-	}
-
-	div.presents#goals div.item:last-child { padding: 0; }
+		width: 80%;
+		padding: 5% 10%;
+	}}
 
 	div#activities div.holder > div {
-		width: 100%;
-		padding: 0 0 60px 0;
+		width: 90%;
+		padding: 5% 5%;
 	}
-
-	div#activities div.holder > div:last-child { padding: 0; }
 
 	div#activities div.holder > div div.image { font-size: 150px; }
 }

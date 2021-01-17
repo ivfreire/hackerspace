@@ -1,8 +1,6 @@
 
 // Roda quando a página terminar de carregar
 window.onload = () => {
-	$('#particles-js').width(window.innerWidth);
-	$('#particles-js').height(window.innerHeight);
 
 	// Carrega frases de efeitos
 	$.get("assets/motd.json", (data) => {
