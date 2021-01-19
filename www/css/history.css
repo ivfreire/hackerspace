@@ -2,6 +2,7 @@ header {
 	background-image: url('../images/world.png');
 	background-position: center;
 	background-attachment: fixed;
+	height: 100vh;
 }
 
 header div.wrapper { text-align: center; }

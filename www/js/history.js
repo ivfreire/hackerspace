@@ -1,8 +1,6 @@
 
 // Roda quando a página terminar de carregar
 window.onload = () => {
-	$('header').height(window.innerHeight);
-
 	Hackerspace.init();
 	
 	$('body').show();
