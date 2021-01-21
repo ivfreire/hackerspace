@@ -56,8 +56,12 @@ div.dark div.chapter div.content div.text, div.darker div.chapter div.content di
 	div.chapter div.content div.icon { padding: 0 0 40px 0; }
 
 	div.chapter div.content { padding: 40px 0 0 0; }
-
 	div.chapter div.content div.icon { font-size: 200px; }
+
+	div.chapter div.content div.text p {
+		font-size: 20px;
+		line-height: 32px;
+	}
 
 	div.dark div.content div.icon { text-shadow: 0 6px 0 #00314B; }
 	div.darker div.content div.icon { text-shadow: 0 6px 0 #00314B; }
@@ -69,5 +73,13 @@ div.dark div.chapter div.content div.text, div.darker div.chapter div.content di
 	div.chapter div.content div.text {
 		font-size: 24px;
 		line-height: 32px;
+	}
+}
+
+
+@media only screen and (max-width: 624px) {
+	div.chapter div.content div.text p {
+		font-size: 18px;
+		line-height: 24px;
 	}
 }
