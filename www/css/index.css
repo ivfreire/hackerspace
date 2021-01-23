@@ -1,11 +1,13 @@
-header div.text {
-	bottom: -300px;
-	opacity: 0;
+header { height: 100vh; }
+
+header div#particles-js {
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	left: -0vw;
 }
 
-header div#particles-js { height: 100vh; }
-
-
+div.page { z-index: 2; }
 
 
 
@@ -62,7 +64,10 @@ div#activities div.holder > div > div {
 }
 
 div#activities div.holder > div:hover div.image i { transition: all 300ms; }
-div#activities div.holder > div:hover div.image i { color: white; }
+div#activities div.holder > div:hover div.image i {
+	color: white;
+	transform: scale(0.8) rotate(15deg);
+}
 
 div#activities div.holder > div#gamedev:hover div.image {
 	background-color: rgba(0, 0, 0, 0);
