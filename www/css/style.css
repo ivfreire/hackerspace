@@ -113,6 +113,7 @@ nav.navigation {
 	color: white;
 	font-family: Eau;
 	z-index: 1;
+	display: none;
 }
 
 nav.navigation a {
@@ -171,6 +172,7 @@ header div.text {
 	text-shadow: 4px 0 0 #00203A;
 	top: 40vh;
 	z-index: 0;
+	display: none;
 }
 
 header div.text > div { text-align: center; }
