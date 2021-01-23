@@ -1,6 +1,9 @@
 body { display: block; }
 
-header { height: 100vh; }
+header {
+	height: 100vh;
+	background-color: #00425C;
+}
 
 header > div {
 	bottom: 45%;
