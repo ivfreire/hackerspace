@@ -4,7 +4,7 @@
 
 O Hackerspace IFUSP é um espaço físico mantido e operado pela comunidade que o frequenta, onde pessoas compartilham seus interesses e projetos relacionados à tecnologia e aprendem com o trabalho dos outros.
 
-Este repositório contém os arquivos da página web do HS hospedada em [Hackerspace IFUSP](http://www2.if.usp.br/~hackresp).
+Este repositório contém os arquivos da página web do HS hospedada em [Hackerspace IFUSP](http://www2.if.usp.br/~hackersp).
 
 ## Recursos
 
