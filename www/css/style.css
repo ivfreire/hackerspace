@@ -139,11 +139,10 @@ nav.navigation a.active {
 nav.navigation a.bars { display: none; }
 
 nav.navigation a.title {
-	padding-left: 0;
 	font-weight: bold;
 	cursor: pointer;
 }
-nav.navigation a.title:hover { background-color: #00425C; }
+nav.navigation a.title:hover { background-color: transparent; }
 
 nav.navigation a.status { cursor: default; }
 nav.navigation a.open { color: #0f0; }
@@ -226,7 +225,8 @@ footer div.lowermenu div.menu > div {
 
 footer div.lowermenu div.menu > div > div {
 	display: flex;
-	width: 25%;
+	width: 20%;
+	line-height: 20px;
 }
 
 footer div.menu ul { list-style-type: none; }
@@ -255,8 +255,6 @@ footer div.logos { padding: 0 60px 0 0; }
 footer div.logos div.holder { text-align: center; }
 
 footer img.logo { width: 100%; }
-
-
 
 
 
