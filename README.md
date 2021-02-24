@@ -1,4 +1,6 @@
-# Hackerspace IFUSP
+# Hackerspace IFUSP - Webpage
+
+<img src="images/screenshot.png"/>
 
 <img src="www/images/favicon.png" width="100px" align="right"/>
 
