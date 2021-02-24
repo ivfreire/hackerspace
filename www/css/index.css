@@ -134,60 +134,6 @@ div#activities div.holder > div div.text div.content div.more a i {
 div.presents#goals > div { width: 20%; }
 
 
-div#highlight { padding-bottom: 0; }
-
-div.highlights {
-	display: flex;
-	width: 100%;
-	background-color: #E6E7E8;
-	border-radius: 5px;
-	overflow: hidden;
-}
-
-div.highlights > div {
-	display: flex;
-	flex-flow: row wrap;
-	width: 100%;
-}
-
-div.highlights > div > div {
-	display: flex;
-	width: 50%;
-	overflow: hidden;
-}
-
-div.highlights > div > div.info {
-	flex-flow: column;
-	justify-content: center;
-}
-
-div.highlights > div > div.info > div {
-	width: 80%;
-	padding: 10% 10%;
-}
-
-div.highlights > div > div.info p {
-	color: #666768;
-	font-style: italic;
-}
-
-div.highlights > div > div.info a {
-	text-decoration: none;
-	transition: all 0.25s;
-}
-div.highlights > div > div.info a:hover {
-	color: #0F6688;
-	text-decoration: underline;
-}
-
-div.highlights > div > div.image > img {
-	width: 100%;
-	height: 100%;
-	transition: all 0.25s;
-}
-
-div.highlights > div > div.image > img:hover { transform: scale(1.2); }
-
 
 
 

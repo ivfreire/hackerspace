@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="description" content="Eventos, cursos, oficinas e palestras que acontecem no Hackerspace IFUSP."/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<title>Hackerspace IFUSP - Eventos</title>
+		<link rel="stylesheet" href="css/style.css"/>
+		<link rel="stylesheet" href="css/events.css"/>
+		<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+	</head>
+	<body>
+
+		<nav role="navigation" class="navigation">
+			<div class="wrapper">
+				<div class="menu">
+					<a class="bars" onclick="$('div.menu-btn').slideToggle(300);"><i class="fas fa-bars"></i></a>
+					<a class="title" href="index.html">Hackerspace</a>
+					<div class="hide-btn menu-btn">
+						<a href="events.html" class="active">Eventos</a>
+						<!-- <a href="/oficinas">Oficinas</a> -->
+						<a href="info.html">Informações</a>
+					</div>
+					<div class="right">
+						<a class="status closed" title="O Hackerspace está fechado atualmente."><i class="fas fa-door-closed"></i></a>
+						<a class="active hide-btn">PT</a>
+						<!-- <a class="hide-btn" href="/en-US">EN</a> -->
+						<a><i class="fas fa-search"></i></a>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<header>
+			<div class="text">
+				<div class="wrapper">
+					<h1>Hackerspace</h1>
+					<h4><b>Eventos</b></h4>
+				</div>
+			</div>
+			<div class="indicator"><i class="fas fa-chevron-down"></i></div>
+		</header>
+
+		<div class="page">
+			<div class="stack">
+
+				<div class="element light" id="recent">
+					<div class="wrapper">
+						<div class="panel">
+							<div class="title">
+								<h2>Recentemente, no Hackerspace...</h2>
+							</div>
+							<div class="content">
+								<div id="recents">
+									<div class="highlight">
+										<div class="highlights">
+											<div>
+												<div class="info">
+													<div>
+														<h2>Recepção dos bixos 2019</h2><br>
+														<span>FEV 2019</span>
+														<p>Apresentação do <b>Hackerspace</b> aos bixos de 2019 com oficina de Arduino e rubber-ducky.</p><br>
+													</div>
+												</div>
+												<div class="image">
+													<img class="background" src="assets/events/recepcao_dos_bixos_2019/thumb.jpg" alt="hackerspace, impressora 3d">
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="other">
+										<div class="boxes" id="recents">
+											<div>
+												<div class="image">
+													<img src="assets/events/instrumentacao_cientifica_de_baixo_custo/thumb.jpg" alt="instrumentacao cientifica de baixo custo">
+												</div>
+												<div class="text">
+													<h3>Instrumentação científica de baixo custo.</h3>
+													<span>MAR 2019</span>
+													<p>Encontro de instrumentação científica de baixo custo em parceria com Hardware-Livre (IME-USP).</p>
+												</div>
+											</div>
+											<div>
+												<div class="image">
+													<img src="assets/events/oficina_introdutoria_de_monte_carlo/thumb.jpg" alt="oficina introdutoria de monte carlo">
+												</div>
+												<div class="text">
+													<h3>Oficina introdutória de Monte Carlo.</h3>
+													<span>OUT 2018</span>
+													<p>Oficina de ensino de Métodos de Monte Carlos feita por Gabriel Freitas.</p>
+												</div>
+											</div>
+											<div>
+												<div class="image">
+													<img src="assets/events/fundacao/thumb.jpg" alt="fundacao">
+												</div>
+												<div class="text">
+													<h3>Nascimento do Hackerspace.</h3>
+													<span>JAN 2018</span>
+													<p>Imagens do nascimento do Hackerspace.</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<footer>
+			<div class="lowermenu">
+				<div class="wrapper">
+					<div class="menu">
+						<div>
+							<div>
+								<ul>
+									<li class="title"><i class="fas fa-door-open"></i> Acesso</li>
+									<li><a href="info.html#access">Alunos</a></li>
+									<li><a href="info.html#access">Membros</a></li>
+									<li><a href="info.html#access">Sem vínculo universitário</a></li>
+								</ul>
+							</div>
+							<div>
+								<ul>
+									<li class="title"><i class="fas fa-globe"></i> Redes</li>
+									<li><a href="https://github.com/ivfreire/hackerspace">GitHub</a></li>
+									<li><a href="https://facebook.com/hackerspace.ifusp">Facebook</a></li>
+								</ul>
+							</div>
+							<div>
+								<ul>
+									<li class="title"><i class="fas fa-star"></i> Extensão</li>
+									<li><a href="events.html#courses">Cursos</a></li>
+									<li><a href="events.html#workshops">Oficinas</a></li>
+									<li><a href="robotics.html">Grupo de robótica</a></li>
+									<li><a href="gamedev.html">Gamedev</a></li>
+								</ul>
+							</div>
+							<div>
+								<ul>
+									<li class="title"><i class="fas fa-info-circle"></i> Informações</li>
+									<li><a href="http://portal.if.usp.br/ifusp/">Instituto de Física</a></li>
+									<li><a href="http://usp.br/">USP</a></li>
+									<li><a href="http://cefisma.org.br/">CEFISMA</a></li>
+									<li><a href="info.html#contact">Contato</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="logos">
+						<div class="holder">
+							<img src="images/ifusp.png" alt="IFUSP" title="Instituto de Física da USP" class="logo" id="ifusp">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="bottom">
+				<div class="wrapper">
+					<p>Sala 1013, Instituto de Física da USP - Prédio Principal<br>R. do Matão, 1371 - Cid. Universitária - Butantã - São Paulo, SP</p>
+				</div>
+			</div>
+		</footer>
+
+	</body>
+
+	<script src="js/fontawesome.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/events.js"></script>
+</html>

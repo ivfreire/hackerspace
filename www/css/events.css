@@ -1,0 +1,30 @@
+header {
+	height: 100vh;
+	background-color: #00425C;
+	background-image: url('../images/events.jpg');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+div.highlights > div { flex-direction: row-reverse; }
+
+div.other { padding: 20px 0 0 0; }
+
+div.boxes#recents > div { width: 32%; }
+
+@media only screen and (max-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 800px) {
+	div.highlights > div { flex-direction: column-reverse; }	
+	div.highlights > div > div { width: 100%; }
+
+	div.boxes#recents > div { width: 49%; }
+	div.boxes#recents > div:last-child { width: 100%; margin: 20px 0 0 0; }
+}
+
+@media only screen and (max-width: 624px) {
+	div.boxes#recents > div { width: 100%; margin: 20px 0 0 0; }
+}
