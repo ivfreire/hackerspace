@@ -335,6 +335,10 @@ div.presents div.item div.text p {
 	footer div.lowermenu div.wrapper { flex-direction: column; }
 	footer div.lowermenu div.logos { padding: 60px 0 0 0; }
 	footer div.lowermenu div.logos img { width: 50%; }
+
+	div.stack div.element {
+		padding: 50px 0;
+	}
 }
 
 

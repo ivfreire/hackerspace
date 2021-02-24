@@ -159,7 +159,7 @@ div#recents > div div.text {
 	div#tools > div:last-child { margin: 0; }
 
 
-	div#cards > div {
+	div.presents#intro > div {
 		width: 80%;
 		padding: 10%;
 	}

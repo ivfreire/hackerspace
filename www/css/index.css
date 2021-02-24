@@ -215,10 +215,6 @@ div.highlights > div:hover > div > img.background {
 		padding: 5% 10%;
 	}
 
-	div#activities div.holder > div {
-		width: 90%;
-		padding: 5% 5%;
-	}
-
-	div#activities div.holder > div div.image { font-size: 150px; }
+	div#activities div.holder > div { width: 100%; }
+	div#activities div.holder > div div.image { font-size: 100px; }
 }	
