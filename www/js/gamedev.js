@@ -19,6 +19,7 @@ window.onload = function() {
 		});
 	});
 
+	Hackerspace.onload();
 }
 
 var openGame = function(id) { window.location = `game.html?g=${id}`; }

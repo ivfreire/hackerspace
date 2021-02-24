@@ -51,22 +51,7 @@ footer {
 
 
 
-div#cards {
-	width: 100%;
-	display: flex;
-	justify-content: space-between;
-	flex-flow: row wrap;
-}
-
-div#cards > div {
-	width: 30%;
-	display: flex;
-	flex-direction: column;
-}
-
-div#cards > div div.icon { font-size: 64px; }
-
-div#cards > div div.title { padding: 5px 0; }
+div.presents#intro > div { width: 30%; }
 
 
 

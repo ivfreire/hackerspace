@@ -11,40 +11,6 @@ div.page { z-index: 2; }
 
 
 
-div.presents {
-	width: 100%;
-	display: flex;
-	justify-content: space-around;
-	flex-flow: row wrap;
-}
-
-div.presents > div {
-	display: flex;
-	flex-direction: column;
-}
-
-div.presents > div div.icon {
-	overflow: visible;
-	padding: 0 0 20px 0;
-	font-size: 64px;
-	color: #808285;
-}
-
-div.presents div.item div.title {
-	color: #0F6688;
-	padding-bottom: 15px;
-}
-
-div.presents div.item div.text p {
-	color: #808285;
-	font-size: 16px;
-	line-height: 24px;
-}
-
-div.presents#goals > div { width: 20%; }
-
-
-
 
 
 div#activities div.holder {
@@ -138,6 +104,10 @@ div#activities div.holder > div div.text div.content div.more a i {
 	color: #069;
 	transition: all 100ms;
 }
+
+
+
+div.presents#goals > div { width: 20%; }
 
 
 
