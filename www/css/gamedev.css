@@ -146,8 +146,8 @@ div#recents > a > div div.text span {
 
 
 @media only screen and (max-width: 800px) {
-	div#tools > div {
-		width: 42%;
+	div#tools a {
+		width: 49%;
 		margin-bottom: 30px;
 	}
 }
@@ -156,25 +156,15 @@ div#recents > a > div div.text span {
 
 
 @media only screen and (max-width: 624px) {
-	div#tools > div {
-		width: 80%;
-		padding: 10%;
-		margin-bottom: 30px;
-	}
-
-	div#tools > div:last-child { margin: 0; }
-
-
 	div.presents#intro > div {
 		width: 80%;
 		padding: 10%;
 	}
 
+	div#tools a { width: 100%; }
 
-	div#recents > div {
+	div#recents a {
 		width: 100%;
 		margin-bottom: 60px;
 	}
-
-	div#recents > div:last-child { margin: 0; }
 }
