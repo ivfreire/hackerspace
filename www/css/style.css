@@ -289,12 +289,12 @@ div.presents > div div.icon {
 	color: #808285;
 }
 
-div.presents div.item div.title {
+div.presents div div.title {
 	color: #0F6688;
 	padding-bottom: 15px;
 }
 
-div.presents div.item div.text p {
+div.presents div div.text p {
 	color: #808285;
 	font-size: 16px;
 	line-height: 24px;

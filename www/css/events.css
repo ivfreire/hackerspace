@@ -13,6 +13,10 @@ div.other { padding: 20px 0 0 0; }
 
 div.boxes#recents > div { width: 32%; }
 
+div.presents#intro > div { width: 30%; }
+
+
+
 @media only screen and (max-width: 1200px) {
 
 }

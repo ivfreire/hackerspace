@@ -48,21 +48,17 @@ div.img-holder div.panel div.content p {
 	line-height: 32px;
 }
 
+div.img-holder div.panel div.content a { text-decoration: none; }
+
+div.img-holder div.panel div.content a:hover {
+	color: #0F6688;
+	text-decoration: underline;
+}
+
 div#about div.image {
 	background-image: url('../images/spherical.jpg');
 	background-position: center;
 }
-
-div#coffee > div { flex-direction: row-reverse; }
-
-div#coffee > div div.panel div { text-align: right; }
-div#coffee > div div.panel div.content { padding: 0 0 0 40%; }
-
-div#coffee div.image {
-	background-image: url('../images/cafe.jpg');
-	background-position-x: center;
-}
-
 
 
 
@@ -98,29 +94,7 @@ div.row > div div.text { text-align: center; }
 div.row > div > div.content { flex-direction: column; }
 
 
-
-
-div.cards {
-	display: flex;
-	justify-content: space-between;
-	flex-wrap: row wrap;
-}
-
-div.cards > div {
-	display: flex;
-	flex-direction: column;
-	background-color: #E6E7E8;
-	border-radius: 5px;
-	padding: 3%;
-}
-
-div.cards div.text { padding: 10px 0 0 0; }
-
-div#access div.cards > div { width: 27%; }
-
-
-
-
+div.presents#access > div { width: 30%; }
 
 
 @media only screen and (max-width: 1200px) {
