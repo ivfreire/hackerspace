@@ -34,7 +34,7 @@ div.chapter div.content div.icon {
 div.dark div.content div.icon { text-shadow: 0 24px 0 #00314B; }
 div.darker div.content div.icon { text-shadow: 0 24px 0 #00314B; }
 div.light div.content div.icon { text-shadow: 0 24px 0 #D1D2D4; }
-div.light-gray div.content div.icon { text-shadow: 0 24px 0 #D1D2D4; }
+div.gray div.content div.icon { text-shadow: 0 24px 0 #D1D2D4; }
 
 div.chapter div.content div.text p {
 	font-size: 33px;
@@ -67,7 +67,7 @@ div.dark div.chapter div.content div.text, div.darker div.chapter div.content di
 	div.dark div.content div.icon { text-shadow: 0 6px 0 #00314B; }
 	div.darker div.content div.icon { text-shadow: 0 6px 0 #00314B; }
 	div.light div.content div.icon { text-shadow: 0 6px 0 #D1D2D4; }
-	div.light-gray div.content div.icon { text-shadow: 0 6px 0 #D1D2D4; }
+	div.gray div.content div.icon { text-shadow: 0 6px 0 #D1D2D4; }
 
 	div.dark div.chapter div.content div.text, div.darker div.chapter div.content div.text { text-shadow: 0 0px 0 #00203A; }
 

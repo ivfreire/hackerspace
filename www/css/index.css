@@ -1,3 +1,5 @@
+header div#particles-js { background-color: #00425C; }
+
 header { height: 100vh; }
 
 header div#particles-js {
@@ -32,10 +34,7 @@ header div.social > div i:hover {
 	text-shadow: 0 0 20px #333;
 }
 
-
 div.page { z-index: 2; }	
-
-
 
 div#activities div.holder {
 	display: flex;
@@ -76,12 +75,11 @@ div#activities div.holder > div#courses:hover div.image {
 }
 
 div#activities div.holder > div#gamedev div.bg {
-	background-image: url('../images/rocks.png');
+	background-image: url('../images/headers/gamedev.jpg');
 	background-size: cover;
 	background-position: center;
 	border-radius: 5px;
 }
-
 
 div#activities div.holder > div div.image {
 	width: 100%;
@@ -129,14 +127,7 @@ div#activities div.holder > div div.text div.content div.more a i {
 	transition: all 100ms;
 }
 
-
-
 div.presents#goals > div { width: 20%; }
-
-
-
-
-
 
 @media only screen and (max-width: 800px) {
 	div.presents#goals > div { width: 40%; }
@@ -148,14 +139,10 @@ div.presents#goals > div { width: 20%; }
 	div.highlights > div > div { width: 100%; }
 }
 
-
-
 @media only screen and (max-width: 624px) {
-	div.presents#goals div.item {
-		width: 80%;
-		padding: 5% 10%;
-	}
+	div.presents#goals div.item { width: 100%; }
 
-	div#activities div.holder > div { width: 100%; }
+	div#activities div.holder > div { width: 100%; margin-bottom: 30px; }
+	div#activities div.holder > div:last-child { margin-bottom: 0; }
 	div#activities div.holder > div div.image { font-size: 100px; }
-}	
+}

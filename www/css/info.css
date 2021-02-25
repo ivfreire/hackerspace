@@ -12,10 +12,6 @@ header > div {
 
 header > div h3 { font-weight: normal; }
 
-
-
-
-
 div.stack div.element.img-holder { padding: 0; }
 
 div.img-holder > div {
@@ -60,8 +56,6 @@ div#about div.image {
 	background-position: center;
 }
 
-
-
 div.row {
 	display: flex;
 	justify-content: space-between;
@@ -93,9 +87,7 @@ div.row > div div.text { text-align: center; }
 
 div.row > div > div.content { flex-direction: column; }
 
-
 div.presents#access > div { width: 30%; }
-
 
 @media only screen and (max-width: 1200px) {
 	div.img-holder div.panel div.content { width: 100%; }
@@ -110,22 +102,13 @@ div.presents#access > div { width: 30%; }
 		width: 50%;
 		padding: 30px 0;
 	}
-
-	div#access div.cards { flex-direction: column; }
-
-	div#access div.cards > div {
-		width: 84%;
-		padding: 8%;
-		margin-bottom: 30px;
-	}
-
-	div#access div.cards > div:last-child { margin-bottom: 0; }
 }
-
 
 @media only screen and (max-width: 624px) {
 	div.img-holder div.panel div.content p {
 		font-size: 18px;
 		line-height: 24px;
 	}
+
+	div.presents#access div.item { width: 100%; }
 }

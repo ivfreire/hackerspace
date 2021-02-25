@@ -11,11 +11,8 @@ div.highlights > div { flex-direction: row-reverse; }
 
 div.other { padding: 20px 0 0 0; }
 
-div.boxes#recents > div { width: 32%; }
-
-div.presents#intro > div { width: 30%; }
-
-
+div.boxes#recents div.box { width: 32%; }
+div.presents#intro div.item { width: 30%; }
 
 @media only screen and (max-width: 1200px) {
 
@@ -25,10 +22,11 @@ div.presents#intro > div { width: 30%; }
 	div.highlights > div { flex-direction: column-reverse; }	
 	div.highlights > div > div { width: 100%; }
 
-	div.boxes#recents > div { width: 49%; }
-	div.boxes#recents > div:last-child { width: 100%; margin: 20px 0 0 0; }
+	div.boxes#recents div.box { width: 49%; }
+	div.boxes#recents div.box:last-child { width: 100%; margin: 20px 0 0 0; }
 }
 
 @media only screen and (max-width: 624px) {
-	div.boxes#recents > div { width: 100%; margin: 20px 0 0 0; }
+	div.boxes#recents div.box { width: 100%; margin: 10px 0 0 0; }
+	div.presents#intro div.item { width: 100%; margin: 30px 0 0 0; }
 }
