@@ -26,7 +26,8 @@ nav.navigation div.menu a.title:hover { background: transparent; }
 
 header {
 	height: 100vh;
-	background: url('../images/rocks.png');
+	background-image: url('../images/headers/gamedev.jpg');
+	background-attachment: fixed;
 	background-size: cover;
 }
 
@@ -39,7 +40,7 @@ header div.shadow {
 header div.text {
 	position: absolute;
 	bottom: 50%;
-	text-shadow: 5px 0 50px #000;
+	text-shadow: ;
 }
 
 header div.text div.wrapper { text-align: center; }
@@ -47,7 +48,6 @@ header div.text div.wrapper { text-align: center; }
 footer {
 	background: #231F20;
 }
-
 
 
 
@@ -63,79 +63,85 @@ div#tools {
 	flex-flow: row wrap;
 }
 
-div#tools > div {
-	background: #4D4D4F;
-	width: 17%;
+div#tools a {
 	display: flex;
-	flex-direction: column;
-	padding: 3%;
-	border-radius: 10px;
-	cursor: pointer;
-	transition: all 200ms;
+	width: 23%;
+	height: auto;
+	text-decoration: none;
 }
 
-div#tools > div:hover { 
-	transform: scale(1.07);
-	box-shadow: 10px 10px #201020;
+div#tools a > div {
+	width: 80%;
+	background: #4D4D4F;
+	padding: 10%;
+	border-radius: 5px;
+	transition: all 0.25s;
 }
 
-div#tools > div div.image { padding: 0 0 30px 0; }
+div#tools a > div:hover {
+	transform: scale(1.1);
+	box-shadow: 0 0 30px #121212;
+}
 
-div#tools > div div.image img { height: 60px; }
+div#tools a > div div.image { padding: 0 0 30px 0; }
 
-div#tools > div div.title { padding: 0 0 10px 0; }
+div#tools a > div div.image img { height: 60px; }
+
+div#tools a > div div.title { padding: 0 0 10px 0; }
 
 
 
 
 
 div#recents {
-	width: 100%;
 	display: flex;
-	justify-content: space-between;
 	flex-flow: row wrap;
+	justify-content: space-between;
+	width: 100%;
 }
 
-div#recents > div {
-	position: relative;
+div#recents > a {
+	display: flex;
+	width: 32%;
+	text-decoration: none;
+}
+
+div#recents > a > div {
 	display: flex;
 	flex-direction: column;
-	width: 49%;
-	cursor: pointer;
-}
-
-div#recents > div:hover img {
-	transform: scale(1.05);
-	box-shadow: 10px 10px 5px #3D3D3F;
-	border-radius: 10px;
-}
-
-div#recents > div:hover div.text {
-	opacity: 1;
-	bottom: 0;
-	text-shadow: 0 0 3px #000;
-}
-
-div#recents > div div.header {
 	width: 100%;
+	overflow: hidden;
+	border-radius: 5px;
+	background-color: #4D4D4F;
 }
 
-div#recents > div div.header img {
+div#recents > a > div div.thumb {
 	width: 100%;
-	max-height: 300px;
-	border-radius: 10px;
-	object-fit: cover;
-	transition: all 200ms;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
 }
 
-div#recents > div div.text {
-	position: absolute;
-	width: 88%;
-	padding: 6%;
-	bottom: 0;
-	transition: all 200ms;
-	opacity: 0;
+div#recents > a > div div.thumb img {
+	width: 100%;
+	transition: all 0.25s;
 }
+
+div#recents > a > div:hover div.thumb img { transform: scale(1.2); }
+
+div#recents > a > div div.text {
+	width: 80%;
+	padding: 10%;
+}
+
+div#recents > a > div div.text h2 { transition: all 0.25s; }
+div#recents > a > div:hover div.text h2 { color: #ff3f00; }
+
+div#recents > a > div div.text span {
+	color: #ff3f00;
+	font-weight: bold;
+}
+
 
 
 

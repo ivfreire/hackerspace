@@ -2,15 +2,30 @@
 	"games": [
 		{
 			"title": "Amaldoçado",
+			"description": "Sua devoção por feriados estrangeiros te colocou em apuros!",
+			"link": "https://jaspior.itch.io/amaldocado",
 			"developers": [["jaspior", "https://jaspior.itch.io/"]],
+			"year": "2019",
 			"status": 0,
 			"id": "amaldocado"
 		},
 		{
 			"title": "Aleph Online",
+			"description": "MMORPG online simples para browser.",
+			"link": "https://github.com/ivfreire/aleph",
 			"developers": [["Ícaro Freire", "https://github.com/ivfreire"]],
+			"year": "2020",
 			"status": 1,
 			"id": "aleph"
+		},
+		{
+			"title": "Tresure Submarine",
+			"description": "Look for treasures in a sympathetic submarine in the deep sea.",
+			"link": "https://globalgamejam.org/2021/games/treasure-submarine-0",
+			"developers": [],
+			"year": "2021",
+			"status": 0,
+			"id": "tresuresubmarine"
 		}
 	]
 }

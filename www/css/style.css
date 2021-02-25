@@ -28,7 +28,7 @@ div#particles-js { background-color: #00425C; }
 
 div.light { background-color: white; }
 div.light h1, div.light h2, div.light h3, div.light h4, div.light h5, div.light h6 { color: #0F6688; }
-div.light p, div.light a, div.light i, div.light span { color: black; }
+div.light p, div.light a, div.light i, div.light span { color: #808285; }
 div.light i { color: #808285; }
 div.light button { background: #E6E7E8; color: #4D4D4F; transition: all 200ms; }
 div.light button i { color: #4D4D4F; transition: all 200ms; }
@@ -37,7 +37,7 @@ div.light button:hover i { color: white; }
 
 div.light-gray { background-color: #E6E7E8; }
 div.light-gray h1, div.light-gray h2, div.light-gray h3, div.light-gray h4, div.light-gray h5, div.light-gray h6 { color: #0F6688; }
-div.light-gray p, div.light-gray a, div.light-gray span { color: black; }
+div.light-gray p, div.light-gray a, div.light-gray span { color: #808285; }
 div.light-gray i { color: #808285; }
 div.light-gray button { background: white; color: #4D4D4F; transition: all 200ms; }
 div.light-gray button i { color: #4D4D4F; transition: all 200ms; }
@@ -273,7 +273,7 @@ div.bottom div.wrapper { text-align: center; }
 div.presents {
 	width: 100%;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	flex-flow: row wrap;
 }
 
@@ -295,7 +295,6 @@ div.presents div div.title {
 }
 
 div.presents div div.text p {
-	color: #808285;
 	font-size: 16px;
 	line-height: 24px;
 }

@@ -5,21 +5,25 @@ window.onload = function() {
 	$.get("assets/games.json", (data) => {
 		data['games'].forEach(game => {
 			$('div#recents').append(`
-				<div onclick='openGame(\"${game['id']}\")'>
-					<div class='header'>
-						<img src='assets/games/${game['id']}/header.png'/>
-					</div>
-					<div class='text'>
-						<div class='title'>
-							<h3>${game['title']}</h3>
+				<a href="${game['link']}">
+					<div>
+						<div class='thumb'>
+							<img src="assets/games/${game['id']}/thumb.jpg"/>
+						</div>
+						<div class='text'>
+							<h2>${game['title']}</h2><br>
+							<span>${game['year']}</span>
+							<p>${game['description']}</p>
 						</div>
 					</div>
-				</div>
+				</a>
 			`);
 		});
 	});
 
 	Hackerspace.onload();
+
+	$('div#recents > a > div div.thumb').css('max-height', '100px');
 }
 
 window.onscroll = function() {
