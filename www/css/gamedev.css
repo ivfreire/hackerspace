@@ -85,12 +85,18 @@ div.highlights#coming-soon div.highlight {
 	flex-direction: row-reverse;
 }
 
+div.highlights#coming-soon div.highlight div.info h2 { transition: all 0.25s; }
+div.highlights#coming-soon div.highlight:hover div.info h2 { color: #ff3f00; }
+
 div.boxes#recents > a { width: 32%; }
 
 div.boxes#recents > a > div div.text span {
 	color: #ff3f00;
 	font-weight: bold;
 }
+
+div.boxes#recents > a div.box div.text h2 { transition: all 0.25s; }
+div.boxes#recents > a div.box:hover div.text h2 { color: #ff3f00; }
 
 @media only screen and (max-width: 800px) {
 	div#tools a {
