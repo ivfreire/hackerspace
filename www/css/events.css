@@ -7,7 +7,8 @@ header {
 	background-attachment: fixed;
 }
 
-div.highlights > div { flex-direction: row-reverse; }
+div.highlights { margin-bottom: 20px; }
+div.highlights div.highlight { flex-direction: row-reverse; }
 
 div.other { padding: 20px 0 0 0; }
 
@@ -27,6 +28,6 @@ div.presents#intro div.item { width: 30%; }
 }
 
 @media only screen and (max-width: 624px) {
-	div.boxes#recents div.box { width: 100%; margin: 10px 0 0 0; }
+	div.boxes#recents div.box { width: 100%; }
 	div.presents#intro div.item { width: 100%; margin: 30px 0 0 0; }
 }
