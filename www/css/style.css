@@ -32,7 +32,7 @@ div.light button { background: #E6E7E8; color: #4D4D4F; transition: all 200ms; }
 div.light button i { color: #4D4D4F; transition: all 200ms; }
 div.light button:hover { background: #0F6688; color: white; }
 div.light button:hover i { color: white; }
-div.light div.box { background: #E6E7E8; }
+div.light div.box, div.light div.highlight { background: #E6E7E8; }
 
 div.gray { background-color: #E6E7E8; }
 div.gray h1, div.gray h2, div.gray h3, div.gray h4, div.gray h5, div.gray h6 { color: #0F6688; }
@@ -42,7 +42,7 @@ div.gray button { background: white; color: #4D4D4F; transition: all 200ms; }
 div.gray button i { color: #4D4D4F; transition: all 200ms; }
 div.gray button:hover { background: #0F6688; color: white; }
 div.gray button:hover i { color: white; }
-div.gray div.box { background: #FFFFFF; }
+div.gray div.box, div.gray div.highlight { background: #FFFFFF; }
 
 div.dark { background-color: #0F6688; }
 div.dark h1, div.dark h2, div.dark h3, div.dark h4, div.dark h5, div.dark h6 { color: white; }
@@ -289,58 +289,45 @@ div#highlight { padding-bottom: 0; }
 
 div.highlights {
 	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
 	width: 100%;
-	background-color: #E6E7E8;
+	overflow: hidden;
+}
+
+div.highlights a { text-decoration: none; }
+
+div.highlights div.highlight {
+	display: flex;
+	flex-flow: row wrap;
+	width: 100%;
 	border-radius: 5px;
 	overflow: hidden;
 }
 
-div.highlights > div {
-	display: flex;
-	flex-flow: row wrap;
-	width: 100%;
-}
-
-div.highlights > div > div {
+div.highlights div.highlight > div {
 	display: flex;
 	width: 50%;
 	overflow: hidden;
 }
 
-div.highlights > div > div.info {
+div.highlights div.highlight div.info {
 	flex-flow: column;
 	justify-content: center;
 }
 
-div.highlights > div > div.info > div {
+div.highlights div.highlight div.info > div {
 	width: 80%;
 	padding: 10% 10%;
 }
 
-div.highlights > div > div.info p { color: #666768; }
-
-div.highlights > div > div.info a {
-	text-decoration: none;
-	transition: all 0.25s;
-}
-div.highlights > div > div.info a:hover {
-	color: #0F6688;
-	text-decoration: underline;
-}
-
-div.highlights > div > div.image > img {
+div.highlights div.highlight div.image img {
 	width: 100%;
 	height: 100%;
 	transition: all 0.25s;
 }
 
-div.highlights > div:hover > div.image > img { transform: scale(1.2); }
-
-div.highlights.dark {
-	background-color: #00425C;
-}
-
-div.highlights.dark > div > div.info p { color: white; }
+div.highlights div.highlight:hover div.image img { transform: scale(1.2); }
 
 div.boxes {
 	display: flex;
@@ -448,6 +435,11 @@ div.boxes div.box div.text h3 { padding-bottom: 10px; }
 	div.presents div.item { width: 100%;  padding: 30px 0; }
 	div.presents div.item div.icon { text-align: center; }
 	div.presents div.item div.title { text-align: center; }
+
+	div.highlights div.highlight { width: 100%; flex-direction: column; }
+	div.highlights div.highlight > div { width: 100%; }
+	div.highlights > a { width: 100%; margin-bottom: 30px; }
+	div.highlights > a:last-child { margin-bottom: 0; }
 
 	div.boxes div.box { width: 100%; margin-bottom: 30px; }
 	div.boxes div.box:last-child { margin-bottom: 0; }

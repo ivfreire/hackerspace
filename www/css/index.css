@@ -134,13 +134,12 @@ div.presents#goals > div { width: 20%; }
 	div.presents#goals > div:first-child { padding: 0 0 60px 0; }
 
 	div#activities div.holder > div div.image { font-size: 100px; }
-
-	div.highlights > div { flex-direction: column-reverse; }	
-	div.highlights > div > div { width: 100%; }
 }
 
 @media only screen and (max-width: 624px) {
 	div.presents#goals div.item { width: 100%; }
+
+	div.highlights#highlights div.highlight { flex-direction: column-reverse; }
 
 	div#activities div.holder > div { width: 100%; margin-bottom: 30px; }
 	div#activities div.holder > div:last-child { margin-bottom: 0; }

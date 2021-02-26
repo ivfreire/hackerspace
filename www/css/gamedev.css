@@ -4,7 +4,7 @@ div.dark p, div.dark a, div.dark i, div.dark span { color: white; }
 div.dark button { background: #17739A; color: white; transition: all 200ms; }
 div.dark button i { color: white; }
 div.dark button:hover { background: #228FBD; }
-div.dark div.box { background: #4D4D4F; }
+div.dark div.box, div.dark div.highlight { background: #4D4D4F; }
 
 div.darker { background-color: #231F20; }
 div.darker h1, div.darker h2, div.darker h3, div.darker h4, div.darker h5, div.darker h6 { color: white; }
@@ -12,7 +12,7 @@ div.darker p, div.darker a, div.darker i, div.darker span { color: white; }
 div.darker button { background: #17739A; color: white; transition: all 200ms; }
 div.darker button i { color: white; }
 div.darker button:hover { background: #228FBD; }
-div.darker div.box { background: #4D4D4F; }
+div.darker div.box, div.darker div.highlight { background: #4D4D4F; }
 
 div.panel div.title { text-align: left; }
 
@@ -80,6 +80,11 @@ div#tools a > div div.image img { height: 60px; }
 
 div#tools a > div div.title { padding: 0 0 10px 0; }
 
+div.highlights#coming-soon div.highlight {
+	width: 49%;
+	flex-direction: row-reverse;
+}
+
 div.boxes#recents > a { width: 32%; }
 
 div.boxes#recents > a > div div.text span {
@@ -92,6 +97,9 @@ div.boxes#recents > a > div div.text span {
 		width: 49%;
 		margin-bottom: 30px;
 	}
+
+	div.highlights#coming-soon div.highlight { width: 100%; margin-bottom: 30px; }
+	div.highlights#coming-soon div.highlight:last-child { margin-bottom: 0; }
 }
 
 @media only screen and (max-width: 624px) {
