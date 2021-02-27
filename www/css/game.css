@@ -1,3 +1,7 @@
+body {
+	display: none;
+}
+
 div.gameinfo {
 	display: flex;
 	flex-flow: row wrap;
