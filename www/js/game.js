@@ -58,10 +58,7 @@ const loadGameData = function (id) {
 
 window.onload = function() {
 	let params = getUrlParameters(window.location.search);
-
-	if ('g' in params) loadGameData(params['g']);
-	else window.location = 'gamedev.html';
-
+	loadGameData(params['g']);
 	$('body').show();
 	Hackerspace.onload();
 }

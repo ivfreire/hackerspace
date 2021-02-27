@@ -168,7 +168,7 @@ div#tags input {
 
 @media only screen and (max-width: 800px) {
 	div.gameinfo div.left { width: 100%; }
-	div.gameinfo div.right { width: 100%; }
+	div.gameinfo div.right { width: 100%; padding-top: 30px; }
 }
 
 

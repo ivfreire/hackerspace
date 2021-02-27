@@ -29,6 +29,7 @@ nav.navigation div.menu a.title:hover { background: transparent; }
 
 header {
 	height: 100vh;
+	background-color: #231F20;
 	background-image: url('../images/headers/gamedev.jpg');
 	background-attachment: fixed;
 	background-size: cover;
