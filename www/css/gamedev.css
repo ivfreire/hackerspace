@@ -5,6 +5,8 @@ div.dark button { background: #17739A; color: white; transition: all 200ms; }
 div.dark button i { color: white; }
 div.dark button:hover { background: #228FBD; }
 div.dark div.box, div.dark div.highlight { background: #4D4D4F; }
+div.dark button { background-color: #ff3f00; }
+div.dark button:hover { background-color: #cc0c00; }
 
 div.darker { background-color: #231F20; }
 div.darker h1, div.darker h2, div.darker h3, div.darker h4, div.darker h5, div.darker h6 { color: white; }
@@ -13,6 +15,8 @@ div.darker button { background: #17739A; color: white; transition: all 200ms; }
 div.darker button i { color: white; }
 div.darker button:hover { background: #228FBD; }
 div.darker div.box, div.darker div.highlight { background: #4D4D4F; }
+div.darker button { background-color: #ff3f00; }
+div.darker button:hover { background-color: #cc0c00; }
 
 div.panel div.title { text-align: left; }
 

@@ -1,4 +1,14 @@
-var Hackerspace = {
+const getUrlParameters = function(url) {
+	let params = {};
+	bits = url.replace('?', '').split('&');
+	bits.forEach(bit => {
+		let tmp = bit.split('=');
+		params[tmp[0]] = tmp[1];
+	});
+	return params;
+}
+
+let Hackerspace = {
 	onload: function() {
 		$('header div.text').fadeIn(300);
 

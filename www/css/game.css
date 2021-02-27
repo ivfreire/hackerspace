@@ -1,0 +1,177 @@
+div.gameinfo {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	width: 100%;
+}
+
+div.gameinfo div.left { 
+	display: flex;
+	width: 30%;
+}
+
+div.gameinfo div.right { 
+	display: flex;
+	flex-direction: column;
+	width: 68%;
+}
+
+div.gameinfo div.right > div { margin-bottom: 40px; }
+div.gameinfo div.right > div:last-child { margin-bottom: 0; }
+
+div.gameinfo div.info {
+	width: 100%;
+	background-color: #4D4D4F;
+	border-radius: 5px;
+	overflow: hidden;
+	height: max-content;
+}
+
+div.gameinfo div.info div.thumb { width: 100%; }
+div.gameinfo div.info div.thumb img { width: 100%; }
+
+div.gameinfo div.info div.text {
+	width: 80%;
+	padding: 10%;
+}
+
+div.gameinfo div.info div.text > div { padding: 30px 0; border-bottom: 1px solid #6D6D6F; }
+div.gameinfo div.info div.text > div:first-child { padding-top: 0; }
+div.gameinfo div.info div.text > div:last-child { padding-bottom: 0; border-bottom: none;}
+
+div#general-info span {
+	font-weight: bold;
+	color: #ff3f00;
+}
+
+div#devs ul { list-style-type: none; }
+
+div#devs ul li { padding: 0 0 10px 0; }
+div#devs ul li:last-child { padding: 0; }
+
+div#devs ul li span {
+	color: #CDCDCF;
+	font-weight: bold;
+}
+
+div#devs ul li p {
+	color: #8D8D8F;
+	font-size: 16px;
+	font-style: italic;
+	padding-left: 10%;
+}
+
+div#screenshots {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	width: 100%;
+}
+
+div#screenshots a {
+	width: 33%;
+	padding-bottom: 5px;;
+}
+
+div#screenshots div {
+	height: 0;
+	padding-bottom: 56.25%;
+	border: 1px solid #000000;
+	border-radius: 5px;
+	overflow: hidden;
+	transition: all 0.25s;
+}
+
+div#screenshots div:hover {
+	border: 1px solid #ff3f00;
+	box-shadow: 0 0 20px #000000;
+}
+
+div#screenshots div img {
+	width: 100%;
+	transition: all 0.25s;
+}
+
+div#screenshots div:hover img { transform: scale(1.1) }
+
+div#platforms {
+	display: flex;
+	flex-flow: row wrap;
+	width: 100%;
+}
+
+div#platforms a { text-decoration: none; }
+
+div#platforms div {
+	padding: 20px 30px;
+	border-radius: 5px;
+	text-align: center;
+	transition: all 0.25s;
+	cursor: pointer;
+}
+
+div#platforms div:hover {
+	background: #4D4D4F;
+	transform: scale(1.1);
+}
+
+div#platforms div i { font-size: 48px; }
+
+div#platforms div span {
+	font-weight: bold;
+}
+
+div#built-with {
+	display: flex;
+	flex-flow: row wrap;
+	width: 100%;
+}
+
+div#built-with a { text-decoration: none; }
+
+div#built-with div {
+	padding: 20px 30px;
+	border-radius: 5px;
+	text-align: center;
+	transition: all 0.25s;
+	cursor: pointer;
+}
+
+div#built-with div:hover {
+	background: #4D4D4F;
+	transform: scale(1.1);
+}
+
+div#built-with div img {
+	width: 50px;
+}
+
+div#built-with div i { font-size: 48px; }
+
+div#built-with div span {
+	font-weight: bold;
+}
+
+div#tags input {
+	background-color: #ff3f00;
+	padding: 6px 14px;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+	margin-left: 5px;
+}
+
+@media only screen and (max-width: 1200px) {
+	div#screenshots a { width: 49.5%; }
+}
+
+@media only screen and (max-width: 800px) {
+	div.gameinfo div.left { width: 100%; }
+	div.gameinfo div.right { width: 100%; }
+}
+
+
+@media only screen and (max-width: 624px) {
+	div#screenshots a { width: 100%; }
+}

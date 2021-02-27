@@ -5,7 +5,7 @@ window.onload = function() {
 	$.get("assets/games.json", (data) => {
 		data['games'].forEach(game => {
 			$('div#recents').append(`
-				<a href="${game['link']}">
+				<a href='game.html?g=${game['id']}'>
 					<div class='box'>
 						<div class='image'>
 							<img src="assets/games/${game['id']}/thumb.jpg"/>

@@ -1,0 +1,44 @@
+{
+	"title": "Treasure Submarine",
+	"description": "Look for treasures in a sympathetic submarine in the deep sea.",
+	"link": "https://globalgamejam.org/2021/games/treasure-submarine-0",
+	"year": "2021",
+	"developers": [
+		{
+			"nickname": "KeichiTS",
+			"name": "Victor Keichi Tsutsumiuchi",
+			"role": "Programming, Map Design"
+		},
+		{
+			"name": "Ricardo Pitta",
+			"role": "Pixel-art, Sprites"
+		},
+		{
+			"name": "João Paulo Parmegiani",
+			"role": "OST, sound design"
+		},
+		{
+			"name": "Julio de Oliveira Junior",
+			"role": "Level Design"
+		}
+	],
+	"platforms": [
+		{
+			"platform": "windows",
+			"link": "https://ggj.s3.amazonaws.com/games/2021/01/339388/exec/6oIr0/release.zip"
+		}
+	],
+	"built-with": [
+		{
+			"tool": "Godot Engine",
+			"icon": "<img src='images/icons/godot.png'>",
+			"link": "https://godotengine.org/"
+		}
+	],
+	"tags": [ "2D", "Action", "Top-down" ],
+	"images": {
+		"screenshots": [ "credits.png", "main_menu.png", "on_game_1.png", "on_game_3.png" ]
+	},
+	"status": "done",
+	"id": "treasuresubmarine"
+}

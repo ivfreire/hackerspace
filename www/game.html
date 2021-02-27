@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="description" content="Game"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<title>Hackerspace IFUSP</title>
+		<link rel="stylesheet" href="css/style.css"/>
+		<link rel="stylesheet" href="css/gamedev.css"/>
+		<link rel="stylesheet" href="css/game.css"/>
+		<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+	</head>
+	<body>
+
+		<nav role="navigation" class="navigation">
+			<div class="wrapper">
+				<div class="menu">
+					<a class="bars" onclick="$('div.menu-btn').slideToggle(300);"><i class="fas fa-bars"></i></a>
+					<a class="title" href="index.html">Hackerspace</a>
+					<div class="hide-btn menu-btn">
+						<a href="events.html">Eventos</a>
+						<a href="info.html">Informações</a>
+					</div>
+					<div class="right">
+						<a class="status closed" title="O Hackerspace está fechado atualmente."><i class="fas fa-door-closed"></i></a>
+						<a class="active hide-btn">PT</a>
+						<!-- <a class="hide-btn" href="/en-US">EN</a> -->
+						<a><i class="fas fa-search"></i></a>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<header>
+			<div class="shadow"></div>
+			<div class="text">
+				<div class="wrapper">
+					<h4><b>Hackerspace</b></h4>
+					<h1>Gamedev</h1>
+				</div>
+			</div>
+			<div class="indicator"><i class="fas fa-chevron-down"></i></div>
+		</header>
+
+		<div class="page">
+			<div class="stack">
+
+				<div class="element darker">
+					<div class="wrapper">
+						<div class="gameinfo">
+							<div class="left">
+								<div class="info">
+									<div class="thumb"></div>
+									<div class="text">
+										<div id="general-info"></div>
+										<div id="devs">
+											<h3>Desenvolvedores</h3><br>
+											<ul></ul>
+										</div>
+										<div id="tags">
+											<h4>Tags</h4><br>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="right">
+								<div class="images">
+									<div class="panel">
+										<div class="title">
+											<h2>Screenshots</h2>
+										</div>
+										<div class="content">
+											<div id="screenshots"></div>
+										</div>
+									</div>
+								</div>
+								<div class="platforms">
+									<div class="panel">
+										<div class="title">
+											<h2>Disponível para</h2>
+										</div>
+										<div class="content">
+											<div id="platforms"></div>
+										</div>
+									</div>
+								</div>
+								<div class="built-with">
+									<div class="panel">
+										<div class="title">
+											<h2>Feito com</h2>
+										</div>
+										<div class="content">
+											<div id="built-with"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<footer>
+			<div class="lowermenu">
+				<div class="wrapper">
+					<div class="menu">
+						<div>
+							<div>
+								<ul>
+									<li class="title"><i class="fas fa-door-open"></i> Acesso</li>
+									<li><a href="info.html#access">Alunos</a></li>
+									<li><a href="info.html#access">Membros</a></li>
+									<li><a href="info.html#access">Sem vínculo universitário</a></li>
+								</ul>
+							</div>
+							<div>
+								<ul>
+									<li class="title"><i class="far fa-calendar-alt"></i> Eventos</li>
+									<li>Workshops</li>
+									<li>Coffee breaks</li>
+								</ul>
+							</div>
+							<div>
+								<ul>
+									<li class="title"><i class="fas fa-star"></i> Extensão</li>
+									<li><a href="events.html#courses">Cursos</a></li>
+									<li><a href="events.html#workshops">Oficinas</a></li>
+									<li><a href="robotics.html">Grupo de robótica</a></li>
+									<li><a href="gamedev.html">Gamedev</a></li>
+								</ul>
+							</div>
+							<div>
+								<ul>
+									<li class="title"><i class="fas fa-info-circle"></i> Informações</li>
+									<li><a href="http://portal.if.usp.br/ifusp/">Instituto de Física</a></li>
+									<li><a href="http://usp.br/">USP</a></li>
+									<li><a href="http://cefisma.org.br/">CEFISMA</a></li>
+									<li><a href="info.html#contact">Contato</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="logos">
+						<div class="holder">
+							<img src="images/icons/ifusp.png" alt="IFUSP" title="Instituto de Física da USP" class="logo" id="ifusp">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="bottom">
+				<div class="wrapper">
+					<p>Sala 1013, Instituto de Física da USP - Prédio Principal<br>R. do Matão, 1371 - Cid. Universitária - Butantã - São Paulo, SP</p>
+				</div>
+			</div>
+		</footer>
+
+	</body>
+
+	<script src="js/fontawesome.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/game.js"></script>
+</html>
