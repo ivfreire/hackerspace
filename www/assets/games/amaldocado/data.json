@@ -1,0 +1,24 @@
+{
+	"title": "Amaldoçado",
+	"description": "Sua devoção por feriados estrangeiros te colocou em apuros!",
+	"link": "https://jaspior.itch.io/amaldocado",
+	"year": "2019",
+	"developers": [
+		{
+			"name": "Ricardo Pitta",
+			"role": "Desenvolvedor Solo"
+		}
+	],
+	"platforms": [
+		{
+			"platform": "browser",
+			"link": "https://jaspior.itch.io/amaldocado"
+		}
+	],
+	"tags": [ "2D", "Action", "Platformer" ],
+	"images": {
+		"screenshots": [ "screen_0.png", "screen_1.png", "screen_2.png", "screen_3.png" ]
+	},
+	"status": "done",
+	"id": "amaldocado"
+}

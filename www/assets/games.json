@@ -3,7 +3,6 @@
 		{
 			"title": "Amaldoçado",
 			"description": "Sua devoção por feriados estrangeiros te colocou em apuros!",
-			"developers": [["jaspior", "https://jaspior.itch.io/"]],
 			"year": "2019",
 			"status": 0,
 			"id": "amaldocado"
@@ -11,7 +10,6 @@
 		{
 			"title": "Aleph Online",
 			"description": "MMORPG online simples para browser.",
-			"developers": [["Ícaro Freire", "https://github.com/ivfreire"]],
 			"year": "2020",
 			"status": 1,
 			"id": "aleph"
@@ -20,7 +18,6 @@
 			"title": "Treasure Submarine",
 			"description": "Look for treasures in a sympathetic submarine in the deep sea.",
 			"developers": [],
-			"year": "2021",
 			"status": 0,
 			"id": "treasuresubmarine"
 		}
