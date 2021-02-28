@@ -32,7 +32,6 @@ header {
 	background-color: #231F20;
 	background-image: url('../images/headers/gamedev.jpg');
 	background-attachment: fixed;
-	background-size: cover;
 }
 
 header div.shadow {

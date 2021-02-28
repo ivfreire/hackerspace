@@ -2,11 +2,6 @@ body {
 	display: none;
 }
 
-header {
-	background-position-x: center;
-	background-size: cover;
-}
-
 div.gameinfo {
 	display: flex;
 	flex-flow: row wrap;
