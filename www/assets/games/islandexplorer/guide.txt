@@ -1,0 +1,7 @@
+<p>
+1. Vá até a página do jogo no itch.io<br>
+2. Baixe o arquivo 'Exe.rar'<br>
+3. Extraia o arquivo compactado<br>
+4. Execute o executável 'Island Explorer.exe'<br>
+5. Enjoy!
+</p>
