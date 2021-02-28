@@ -23,3 +23,7 @@ let Hackerspace = {
 		else $('div.indicator i').fadeOut(250);
 	}
 }
+
+$('div.panel.toggle > div.title').on('click', function(){
+	$(this).parent().children('div.content').toggle(250);
+});

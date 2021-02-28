@@ -2,7 +2,7 @@
 const loadGameData = function (id, callback) {
 	$.get(`assets/games/${id}/data.json`, function(game) {
 		$(document).attr('title', `${game['title']} - Hackerspace IFUSP`);
-		$('header').css('background-image', `url(../assets/games/${id}/thumb.jpg)`);
+		$('header').css('background-image', `url('assets/games/${id}/thumb.jpg')`);
 		$('header h1').html(game['title']);
 		$('div.gameinfo div.info div.thumb').append(`<img src='assets/games/${id}/thumb.jpg'>`);
 
@@ -49,7 +49,7 @@ const loadGameData = function (id, callback) {
 		if ('built-with' in game) {
 			game['built-with'].forEach(tool => {
 				$('div#built-with').append(`
-					<a href="#">
+					<a href='${tool['link']}'>
 						<div>
 							${tool['icon']}<br><br>
 							<span>${tool['tool']}</span>
@@ -59,6 +59,13 @@ const loadGameData = function (id, callback) {
 			});
 		} else
 			$('div.built-with').hide();
+
+		if ('instructions' in game) {
+			$.get(`assets/games/${id}/${game['instructions']}`, function(data) {
+				$('div#guide').append(data);
+			});
+		} else
+			$('div.guide').hide();
 
 		game['tags'].forEach(tag => {
 			$('div#tags').append(`<input type='submit' value='${tag}'/>`);

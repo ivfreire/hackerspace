@@ -1,0 +1,6 @@
+<p>
+1. Baixe o arquivo compactado 'releases.zip'<br>
+2. Descompacte o arquivo zipado<br>
+3. Execute o executável 'Treasure Submarine.exe' dentro do diretório 'releases'<br>
+4. Enjoy!
+</p>
