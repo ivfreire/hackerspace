@@ -1,0 +1,54 @@
+{
+	"title": "Attack on Tower",
+	"description": "A torre cansou de defender. Agora ela ataca. nesse protótipo, junte-se a torre em sua jornada para destruir todos aqueles que atrapalham seu descanso e amaçam sua cidade.",
+	"link": "https://gamejolt.com/games/attack_on_tower/574545",
+	"year": "2021",
+	"developers": [
+		{
+			"name": "Victor Keichi Tsutsumiuchi",
+			"role": ""
+		},
+		{
+			"name": "Ricardo Pitta",
+			"role": ""
+		},
+		{
+			"name": "Nene",
+			"role": ""
+		},
+		{
+			"name": "Julio de Oliveira Junior",
+			"role": ""
+		}
+	],
+	"platforms": [
+		{
+			"platform": "windows",
+			"link": "https://gamejolt.com/games/attack_on_tower/574545"
+		}
+	],
+	"built-with": [
+		{
+			"tool": "Godot Engine",
+			"icon": "<img src='images/icons/godot.png'>",
+			"link": "https://godotengine.org/"
+		}
+	],
+	"tags": [ "2d", "action", "top-down", "tower-defender" ],
+	"images": {
+		"screenshots": [ "screen_0.png", "screen_2.jpg", "screen_1.png" ]
+	},
+	"system-requirements": {
+		"windows": {
+			"minimal": {
+				"version": "Windows 7/8/10 (64 bits)",
+				"cpu": "64 bits processor x64",
+				"gpu": "Integrated Graphics Card",
+				"memory": "2 GB",
+				"storage": "12 GB",
+				"direct-x": "Version 11"
+			}
+		}
+	},
+	"status": "done"
+}
