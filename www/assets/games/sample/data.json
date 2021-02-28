@@ -1,0 +1,49 @@
+{
+	"title": "título do jogo",
+	"description": "descrição do jogo",
+	"link": "link para a página principal do jogo",
+	"year": "ano de publicação",
+	"developers": [
+		{
+			"name": "nome do desenvolvedor",
+			"role": "papel do desenvolvedor no desenvolvimento do jogo"
+		}
+	],
+	"platforms": [
+		{
+			"platform": "id da plataforma (windows, linux, mac, ios ou android)",
+			"link": "link para download dos executáveis para esta plataforma (ou loja de aplicativos para mobile)"
+		}
+	],
+	"built-with": [
+		{
+			"tool": "nome da ferramenta ou software",
+			"icon": "tag HTML de ícone (img ou i)",
+			"link": "link para o website da ferramenta (caso houver)"
+		}
+	],
+	"tags": [ "tag 0", "tag 1", "tag 2" ],
+	"images": {
+		"screenshots": [ "imagem_0.png", "imagen_1.png", "imagem_3.png" ]
+	},
+	"instructions": "arquivo de instruções de instalação, jogabilidade, configurações etc",
+	"system-requirements": {
+		"windows": {
+			"minimal": {
+				"version": "versão mínima para execução",
+				"cpu": "processador mínimo",
+				"gpu": "placa de vídeo mínima",
+				"memory": "capacidade de memória RAM mínima",
+				"storage": "capacidade de armazenamento mínima"
+			},
+			"recommendend": {
+				"version": "versão recomendada para execução",
+				"cpu": "processador recomendado",
+				"gpu": "placa de vídeo recomendada",
+				"memory": "capacidade de memória RAM recomendada",
+				"storage": "capacidade de armazenamento recomendada"
+			}
+		}
+	},
+	"status": "status de desenvovimento do jogo"
+}
