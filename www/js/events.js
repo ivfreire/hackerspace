@@ -1,7 +1,7 @@
 window.onload = function() {
 
 	// Carrega eventos
-	$.get('assets/events.json', function(data) {
+	$.get('assets/events/events.json', function(data) {
 		let first = true;
 		data['events'].forEach(event => {
 			if (first) {

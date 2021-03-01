@@ -1,26 +1,40 @@
 {
 	"games": [
 		{
+			"title": "Aleph",
+			"description": "MMORPG para browsers online.",
+			"year": "2019",
+			"id": "aleph"
+		},
+		{
+			"title": "Apocalypse",
+			"description": "Zumbis dominaram o mundo e agora você está em apuros.",
+			"year": "2019",
+			"id": "apocalypse"
+		},
+		{
 			"title": "Amaldoçado",
 			"description": "Sua devoção por feriados estrangeiros te colocou em apuros!",
 			"year": "2019",
-			"status": 0,
 			"id": "amaldocado"
 		},
 		{
 			"title": "Attack on Tower",
 			"description": "A revolta das torres.",
 			"year": "2021",
-			"status": 1,
 			"id": "attackontower"
 		},
 		{
 			"title": "Treasure Submarine",
 			"description": "Look for treasures in a sympathetic submarine in the deep sea.",
 			"year": "2021",
-			"developers": [],
-			"status": 0,
 			"id": "treasuresubmarine"
+		},
+		{
+			"title": "Island Explorer",
+			"description": "Explore o mar e ilhas desconhecidas.",
+			"year": "2021",
+			"id": "islandexplorer"
 		}
 	]
 }
