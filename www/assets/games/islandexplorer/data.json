@@ -32,11 +32,31 @@
 			"tool": "Godot Engine",
 			"icon": "<img src='images/icons/godot.png'>",
 			"link": "https://godotengine.org/"
+		},
+		{
+			"tool": "asesprite",
+			"icon": "<img src='https://www.aseprite.org/assets/images/header-logo.png'>",
+			"link": "https://www.aseprite.org/"
+		},
+		{
+			"tool": "Photoshop",
+			"icon": "<img src='https://www.adobe.com/content/dam/cc/us/en/creativecloud/max2020/mnemonics/photoshop.svg'>",
+			"link": "https://www.adobe.com/products/photoshop.html?sdid=KKQIN&mv=search&kw=photoshop&s_kwcid=AL!3085!10!79164972612201!79165251442725&ef_id=ea5315e84bce1d25677675d3a65f20b8:G:s#"
+		},
+		{
+			"tool": "Tilesetter",
+			"icon": "<img src='https://www.tilesetter.org/res/logo.png'>",
+			"link": "https://www.tilesetter.org/"
+		},
+		{
+			"tool": "Piskel",
+			"icon": "<img src='https://www.piskelapp.com/favicon.ico'>",
+			"link": "https://www.piskelapp.com"
 		}
 	],
 	"tags": [ "2d", "action", "top-down" ],
 	"images": {
-		"screenshots": [ "screen_0.jpg", "screen_1.jpg", "screen_2.jpg", "screen_3.jpg" ]
+		"screenshots": [ "screen_0.png", "screen_1.png", "screen_2.png", "screen_3.png", "screen_4.png", "screen_5.png" ]
 	},
 	"instructions": "guide.txt",
 	"system-requirements": {
