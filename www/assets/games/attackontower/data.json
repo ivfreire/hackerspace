@@ -1,7 +1,12 @@
 {
 	"title": "Attack on Tower",
 	"description": "A torre cansou de defender. Agora ela ataca. nesse protótipo, junte-se a torre em sua jornada para destruir todos aqueles que atrapalham seu descanso e amaçam sua cidade.",
-	"link": "https://gamejolt.com/games/attack_on_tower/574545",
+	"links": {
+		"gamejolt": {
+			"text": "Game Jolt",
+			"link": "https://gamejolt.com/games/attack_on_tower/574545"
+		}
+	},
 	"year": "2021",
 	"developers": [
 		{
@@ -27,13 +32,7 @@
 			"link": "https://gamejolt.com/games/attack_on_tower/574545"
 		}
 	],
-	"built-with": [
-		{
-			"tool": "Godot Engine",
-			"icon": "<img src='images/icons/godot.png'>",
-			"link": "https://godotengine.org/"
-		}
-	],
+	"built-with": [ "godot" ],
 	"tags": [ "2d", "action", "top-down", "tower-defender" ],
 	"images": {
 		"screenshots": [ "screen_0.png", "screen_2.jpg", "screen_1.png" ]

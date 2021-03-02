@@ -1,8 +1,11 @@
 {
 	"title": "Island Explorer",
-	"description": "",
+	"description": "Explore islands and dungeons in a black and white pixel world.",
 	"links": {
-		"itch.io": "https://keichits.itch.io/island-explorer"
+		"itch.io": {
+			"text": "itch.io",
+			"link": "https://keichits.itch.io/island-explorer"
+		}
 	},
 	"year": "2021",
 	"developers": [

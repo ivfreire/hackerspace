@@ -1,7 +1,12 @@
 {
 	"title": "Aleph Online",
 	"description": "MMORPG simples para browser.",
-	"link": "https://github.com/ivfreire/aleph",
+	"links": {
+		"github": {
+			"text": "GitHub",
+			"link": "https://github.com/ivfreire/aleph"
+		}
+	},
 	"year": "2021",
 	"developers": [
 		{
@@ -15,13 +20,7 @@
 			"link": "#"
 		}
 	],
-	"built-with": [
-		{
-			"tool": "Javascript",
-			"icon": "<i class='fab fa-js-square'></i>",
-			"link": "#"
-		}
-	],
+	"built-with": [ "js" ],
 	"tags": [ "2D", "RPG", "Top-down" ],
 	"images": {
 	},

@@ -1,7 +1,12 @@
 {
 	"title": "Amaldoçado",
 	"description": "Sua devoção por feriados estrangeiros te colocou em apuros!",
-	"link": "https://jaspior.itch.io/amaldocado",
+	"links": {
+		"itch.io": {
+			"text": "itch.io",
+			"link": "https://jaspior.itch.io/amaldocado"
+		}
+	},
 	"year": "2019",
 	"developers": [
 		{

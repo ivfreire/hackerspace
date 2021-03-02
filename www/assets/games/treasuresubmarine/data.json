@@ -1,7 +1,12 @@
 {
 	"title": "Treasure Submarine",
 	"description": "Look for treasures in a sympathetic submarine in the deep sea.",
-	"link": "https://globalgamejam.org/2021/games/treasure-submarine-0",
+	"links": {
+		"globalgamejam": {
+			"text": "globalgamejam.org",
+			"link": "https://globalgamejam.org/2021/games/treasure-submarine-0"
+		}
+	},
 	"year": "2021",
 	"developers": [
 		{
@@ -27,28 +32,7 @@
 			"link": "https://ggj.s3.amazonaws.com/games/2021/01/339388/exec/6oIr0/release.zip"
 		}
 	],
-	"built-with": [
-		{
-			"tool": "Godot Engine",
-			"icon": "<img src='images/icons/godot.png'>",
-			"link": "https://godotengine.org/"
-		},
-		{
-			"tool": "asesprite",
-			"icon": "<img src='https://www.aseprite.org/assets/images/header-logo.png'>",
-			"link": "https://www.aseprite.org/"
-		},
-		{
-			"tool": "Photoshop",
-			"icon": "<img src='https://www.adobe.com/content/dam/cc/us/en/creativecloud/max2020/mnemonics/photoshop.svg'>",
-			"link": "https://www.adobe.com/products/photoshop.html?sdid=KKQIN&mv=search&kw=photoshop&s_kwcid=AL!3085!10!79164972612201!79165251442725&ef_id=ea5315e84bce1d25677675d3a65f20b8:G:s#"
-		},
-		{
-			"tool": "Tilesetter",
-			"icon": "<img src='https://www.tilesetter.org/res/logo.png'>",
-			"link": "https://www.tilesetter.org/"
-		}
-	],
+	"built-with": [ "godot", "asesprite", "photoshop", "tilesetter" ],
 	"tags": [ "2D", "Action", "Top-down" ],
 	"images": {
 		"screenshots": [ "credits.png", "main_menu.png", "on_game_1.png", "on_game_3.png" ]
