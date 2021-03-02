@@ -10,8 +10,21 @@ const loadGameData = function (id, callback) {
 			<h2>${game['title']}</h2><br>
 			<span>${game['year']}</span><br><br>
 			<p>${game['description']}</p><br>
-			<a href='${game['link']}'><button>${game['title']}</button></a>
 		`);
+
+		if ('links' in game) {
+			$('div#general-info').append('<ul id="links"></ul>');
+			for (let link in game['links'])
+				$('ul#links').append(`
+					<a href='${game['links'][link]['link']}'>
+						<li>
+							<img src='images/icons/${link}.png'/>
+							<p>${game['links'][link]['text']}</p>
+						</li>
+					</a>
+				`);
+		}
+
 		
 		if ('developers' in game) {
 			game['developers'].forEach(dev => {
@@ -47,15 +60,17 @@ const loadGameData = function (id, callback) {
 			$('div.platforms').hide();
 
 		if ('built-with' in game) {
-			game['built-with'].forEach(tool => {
-				$('div#built-with').append(`
-					<a href='${tool['link']}'>
-						<div>
-							${tool['icon']}<br><br>
-							<span>${tool['tool']}</span>
-						</div>
-					</a>
-				`);
+			$.get('assets/tools.json', function(data) {
+				game['built-with'].forEach(tool => {
+					$('div#built-with').append(`
+						<a href='${data['tools'][tool]['link']}'>
+							<div>
+								${data['tools'][tool]['icon']}<br><br>
+								<span>${data['tools'][tool]['name']}</span>
+							</div>
+						</a>
+					`);
+				});
 			});
 		} else
 			$('div.built-with').hide();

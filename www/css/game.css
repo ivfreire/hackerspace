@@ -48,6 +48,20 @@ div#general-info span {
 	color: #ff3f00;
 }
 
+ul#links { list-style-type: none; }
+
+ul#links a { text-decoration: none; }
+
+ul#links li { padding: 5px; }
+
+ul#links li img {
+	position: absolute;
+	width: 22px;
+}
+
+ul#links li p { padding-left: 30px; font-weight: bold; transition: all 0.25s; }
+ul#links li:hover p { color: #ff3f00; }
+
 div#devs ul { list-style-type: none; }
 
 div#devs ul li { padding: 0 0 10px 0; }
