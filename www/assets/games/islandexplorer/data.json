@@ -30,6 +30,10 @@
 		{
 			"platform": "windows",
 			"link": "https://keichits.itch.io/island-explorer"
+		},
+		{
+			"platform": "linux",
+			"link": "https://keichits.itch.io/island-explorer"
 		}
 	],
 	"built-with": [ "godot", "asesprite", "photoshop", "tilesetter", "piskel" ],
