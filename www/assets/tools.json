@@ -24,6 +24,11 @@
 			"name": "Piskel",
 			"icon": "<img src='https://www.piskelapp.com/favicon.ico'>",
 			"link": "https://www.piskelapp.com"
+		},
+		"js": {
+			"name": "JavaScript",
+			"icon": "<i class='fab fa-js-square'></i>",
+			"link": "#"
 		}
 	}
 }
