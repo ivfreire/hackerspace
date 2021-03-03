@@ -3,11 +3,11 @@
 		$game_id = $_GET['g'];
 		$game = json_decode(file_get_contents('assets/games/'.$game_id.'/data.json'), true);
 		if (!isset($game)) {
-			echo "<h1>Jogo não encontrado :/</h1><a href='gamedev.html'>voltar</a>";
+			echo "<h1>Jogo não encontrado :/</h1><a href='gamedev.php'>voltar</a>";
 			exit;
 		}
 	} else {
-		echo "<h1>Jogo não encontrado :/</h1><a href='gamedev.html'>voltar</a>";
+		echo "<h1>Jogo não encontrado :/</h1><a href='gamedev.php'>voltar</a>";
 		exit;
 	}
 ?>
@@ -247,7 +247,7 @@
 									<li><a href="events.html#courses">Cursos</a></li>
 									<li><a href="events.html#workshops">Oficinas</a></li>
 									<li><a href="robotics.html">Grupo de robótica</a></li>
-									<li><a href="gamedev.html">Gamedev</a></li>
+									<li><a href="gamedev.php">Gamedev</a></li>
 								</ul>
 							</div>
 							<div>
