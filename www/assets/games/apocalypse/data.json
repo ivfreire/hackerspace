@@ -1,0 +1,28 @@
+{
+	"title": "Apocalypse",
+	"description": "Joguinho clichê de apocalypse zombie.",
+	"year": "2019",
+	"links": {
+		"github": {
+			"text": "GitHub",
+			"link": "https://github.com/ivfreire/apocalypse"
+		}
+	},
+	"developers": [
+		{
+			"name": "Ícaro Vaz Freire",
+			"role": "Desenvolvedor"
+		}
+	],
+	"platforms": [
+		{
+			"platform": "linux",
+			"link": "https://github.com/ivfreire/apocalypse"
+		}
+	],
+	"built-with": [ "cpp", "sdl2", "gimp", "vscode" ],
+	"images": {
+		"screenshots": [ "screen_0.png", "screen_1.png", "screen_2.png", "screen_3.png", "screen_4.png" ]
+	},
+	"tags": [ "2d", "top-down", "shoot 'em up", "zombies" ]
+}
