@@ -5,6 +5,7 @@ body {
 header img {
 	min-width: 100vw;
 	min-height: 100vh;
+	filter: blur(10px);
 }
 
 div.gameinfo {
