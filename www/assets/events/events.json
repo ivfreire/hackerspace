@@ -1,12 +1,6 @@
 {
 	"events": [
 		{
-			"title": "Recepção dos bixos 2019",
-			"description": "Apresentação do <b>Hackerspace</b> aos bixos de 2019 com oficina de Arduino e rubber-ducky.",
-			"date": "FEV 2019",
-			"id": "recepcao_dos_bixos_2019"
-		},
-		{
 			"title": "Instrumentação científica de baixo custo.",
 			"description": "Encontro de instrumentação científica de baixo custo em parceria com Hardware-Livre (IME-USP).",
 			"date": "MAR 2019",
@@ -23,6 +17,12 @@
 			"description": "Imagens do nascimento do <b>Hackerspace</b>.",
 			"date": "JAN 2018",
 			"id": "fundacao"
+		},
+		{
+			"title": "Recepção dos bixos 2019",
+			"description": "Apresentação do <b>Hackerspace</b> aos bixos de 2019 com oficina de Arduino e rubber-ducky.",
+			"date": "FEV 2019",
+			"id": "recepcao_dos_bixos_2019"
 		}
 	]
 }

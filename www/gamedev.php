@@ -17,7 +17,7 @@
 					<a class="bars" onclick="$('div.menu-btn').slideToggle(300);"><i class="fas fa-bars"></i></a>
 					<a class="title" href="index.html">Hackerspace</a>
 					<div class="hide-btn menu-btn">
-						<a href="events.html">Eventos</a>
+						<a href="events.php">Eventos</a>
 						<a href="info.html">Informações</a>
 					</div>
 					<div class="right">
@@ -158,7 +158,30 @@
 							</div>
 							<div class="content">
 								<div class="boxes" id="recents">
-									<!-- Jogos recentes aqui! -->
+									<?php
+										$games = json_decode(file_get_contents('assets/games/games.json'), true);
+										$games = $games['games'];
+										if (isset($games)) {
+											for($i = count($games) - 1; $i > count($games) - 4; $i--) {
+												echo "
+													<a href='game.php?g=".$games[$i]['id']."'>
+														<div class='box'>
+															<div class='image'>
+																<img src='assets/games/".$games[$i]['id']."/thumb.jpg'/>
+															</div>
+															<div class='text'>
+																<h2>".$games[$i]['title']."</h2><br>
+																<span>".$games[$i]['year']."</span><br><br>
+																<p>".$games[$i]['description']."</p>
+															</div>
+														</div>
+													</a>
+												";
+											}
+										} else {
+											echo "<span>Erro interno!</span>";
+										}
+									?>
 								</div>
 							</div>
 						</div>
@@ -172,7 +195,30 @@
 								<h2>Todos os títulos<i class="indicator fas fa-bars"></i></h2>
 							</div>
 							<div class="content">
-								<div id="all-titles"></div>
+								<div id="all-titles">
+									<?php
+										$games = json_decode(file_get_contents('assets/games/games.json'), true);
+										$games = $games['games'];
+										if (isset($games)) {
+											foreach($games as $game) {
+												echo "
+													<a href='game.php?g=".$game['id']."'>
+														<div class='game'>
+															<div class='thumb'>
+																<img src='assets/games/".$game['id']."/thumb.jpg'>
+															</div>
+															<div class='title'>
+																<span>".$game['title']."</span>
+															</div>
+														</div>
+													</a>
+												";
+											}
+										} else {
+											echo "<span>Erro interno!</span>";
+										}
+									?>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -205,10 +251,10 @@
 							<div>
 								<ul>
 									<li class="title"><i class="fas fa-star"></i> Extensão</li>
-									<li><a href="events.html#courses">Cursos</a></li>
-									<li><a href="events.html#workshops">Oficinas</a></li>
+									<li><a href="events.php#courses">Cursos</a></li>
+									<li><a href="events.php#workshops">Oficinas</a></li>
 									<li><a href="robotics.html">Grupo de robótica</a></li>
-									<li><a href="gamedev.html">Gamedev</a></li>
+									<li><a href="gamedev.php">Gamedev</a></li>
 								</ul>
 							</div>
 							<div>

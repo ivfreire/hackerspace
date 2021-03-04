@@ -24,6 +24,32 @@
 			"name": "Piskel",
 			"icon": "<img src='https://www.piskelapp.com/favicon.ico'>",
 			"link": "https://www.piskelapp.com"
+		},
+		"js": {
+			"name": "JavaScript",
+			"icon": "<i class='fab fa-js-square'></i>",
+			"link": "#"
+		},
+		"cpp": {
+			"name": "C++",
+			"icon": "<img src='images/icons/cpp.png'/>",
+			"link": "#"
+		},
+		"sdl2": {
+			"name": "SDL2",
+			"icon": "<img src='images/icons/sdl.png'/>",
+			"link": "https://www.libsdl.org/"
+		},
+		"gimp": {
+			"name": "GIMP",
+			"icon": "<img src='images/icons/gimp.png'/>",
+			"link": "https://www.gimp.org"
+		},
+		"vscode": {
+			"name": "VSCode",
+			"icon": "<img src='images/icons/vscode.png'/>",
+			"link": "https://code.visualstudio.com"
 		}
+		
 	}
 }
