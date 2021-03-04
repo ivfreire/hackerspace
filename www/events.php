@@ -17,7 +17,7 @@
 					<a class="bars" onclick="$('div.menu-btn').slideToggle(300);"><i class="fas fa-bars"></i></a>
 					<a class="title" href="index.html">Hackerspace</a>
 					<div class="hide-btn menu-btn">
-						<a href="events.html" class="active">Eventos</a>
+						<a href="events.php" class="active">Eventos</a>
 						<a href="info.html">Informações</a>
 					</div>
 					<div class="right">
@@ -52,10 +52,44 @@
 							<div class="content">
 								<div>
 									<div class="highlights" id="recents">
-										<!-- JS COLOCAR DESTAQUES AQUI -->
+										<?php
+											$events = json_decode(file_get_contents('assets/events/events.json'), true);
+											$events = $events['events'];
+											$event = $events[count($events) - 1];
+											echo "
+												<div class='highlight'>
+													<div class='info'>
+														<div>
+															<h2>".$event['title']."</h2><br>
+															<span>".$event['date']."</span><br><br>
+															<p>".$event['description']."</p>
+														</div>
+													</div>
+													<div class='image'>
+														<img src='assets/events/".$event['id']."/thumb.jpg'/>
+													</div>
+												</div>
+											";
+										?>
 									</div>
 									<div class="boxes" id="recents">
-										<!-- JS COLOCAR EVENTOS RECENTES AQUI -->
+										<?php
+											for($i = count($events) - 2; $i > count($events) - 5; $i--) {
+												$event = $events[$i];
+												echo "
+													<div class='box'>
+														<div class='image'>
+															<img src='assets/events/".$event['id']."/thumb.jpg'/>
+														</div>
+														<div class='text'>
+															<h2>".$event['title']."</h2><br>
+															<span>".$event['date']."</span><br><br>
+															<p>".$event['description']."</p>
+														</div>
+													</div>
+												";
+											}
+										?>
 									</div>
 								</div>
 							</div>
@@ -91,8 +125,6 @@
 					</div>
 				</div>
 
-				
-
 			</div>
 		</div>
 
@@ -120,8 +152,8 @@
 							<div>
 								<ul>
 									<li class="title"><i class="fas fa-star"></i> Extensão</li>
-									<li><a href="events.html#courses">Cursos</a></li>
-									<li><a href="events.html#workshops">Oficinas</a></li>
+									<li><a href="events.php#courses">Cursos</a></li>
+									<li><a href="events.php#workshops">Oficinas</a></li>
 									<li><a href="robotics.html">Grupo de robótica</a></li>
 									<li><a href="gamedev.php">Gamedev</a></li>
 								</ul>

@@ -30,7 +30,7 @@ nav.navigation div.menu a.title:hover { background: transparent; }
 header {
 	height: 100vh;
 	background-color: #231F20;
-	background-image: url('../images/headers/gamedev.jpg');
+	background-image: url('../images/headers/gamedev_desktop.jpg');
 	background-attachment: fixed;
 }
 
@@ -38,11 +38,13 @@ header div.shadow {
 	width: 100%;
 	height: 100%;
 	box-shadow: inset 0 0 1000px #000;
+	display: none;
 }
 
 header div.text {
 	position: absolute;
 	bottom: 50%;
+	display: none;
 }
 
 header div.text div.wrapper { text-align: center; }
@@ -158,6 +160,12 @@ div#all-titles div.game div.thumb img {
 }
 
 @media only screen and (max-width: 800px) {
+	header {
+		background-image: url('../images/headers/gamedev_mobile.jpg');
+		background-size: 100vw auto;
+		background-position-y: center;
+	}
+
 	div#tools a {
 		width: 49%;
 		margin-bottom: 30px;
