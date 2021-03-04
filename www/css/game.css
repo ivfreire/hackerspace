@@ -2,6 +2,11 @@ body {
 	display: none;
 }
 
+header img {
+	min-width: 100vw;
+	min-height: 100vh;
+}
+
 div.gameinfo {
 	display: flex;
 	flex-flow: row wrap;
