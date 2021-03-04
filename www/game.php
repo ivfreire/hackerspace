@@ -29,7 +29,7 @@
 			<div class="wrapper">
 				<div class="menu">
 					<a class="bars" onclick="$('div.menu-btn').slideToggle(300);"><i class="fas fa-bars"></i></a>
-					<a class="title" href="index.html">Hackerspace</a>
+					<a class="title" href="index.php">Hackerspace</a>
 					<div class="hide-btn menu-btn">
 						<a href="events.php">Eventos</a>
 						<a href="info.html">Informações</a>
