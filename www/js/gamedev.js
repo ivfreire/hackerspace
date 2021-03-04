@@ -1,6 +1,9 @@
 
 window.onload = function() {
+	$('body').show();
 	Hackerspace.onload();
+
+	$('header div.text').hide();
 }
 
 window.onscroll = function() {
