@@ -31,7 +31,7 @@
 					<a class="bars" onclick="$('div.menu-btn').slideToggle(300);"><i class="fas fa-bars"></i></a>
 					<a class="title" href="index.html">Hackerspace</a>
 					<div class="hide-btn menu-btn">
-						<a href="events.html">Eventos</a>
+						<a href="events.php">Eventos</a>
 						<a href="info.html">Informações</a>
 					</div>
 					<div class="right">
@@ -145,9 +145,9 @@
 												<?php
 													if (isset($game['platforms'])) {
 														foreach($game['platforms'] as $platform) {
-															if ($platform['platform'] == 'windows') $res = [ 'fab fa-windows', 'Windows 7/8/10' ];
-															if ($platform['platform'] == 'linux') $res = [ 'fab fa-linux', 'GNU/Linux' ];
-															if ($platform['platform'] == 'browser') $res = [ 'fas fa-globe', 'Navegador' ];
+															if ($platform['platform'] == 'windows') $res = array('fab fa-windows', 'Windows 7/8/10');
+															if ($platform['platform'] == 'linux') $res = array('fab fa-linux', 'GNU/Linux');
+															if ($platform['platform'] == 'browser') $res = array('fas fa-globe', 'Navegador');
 															echo "
 																<a href='".$platform['link']."' rel='noopener norefferer' target='_blank'>
 																	<div>
@@ -174,7 +174,8 @@
 											<div id="built-with">
 												<?php
 													if (isset($game['built-with'])) {
-														$tools = json_decode(file_get_contents('assets/tools.json'), true)['tools'];
+														$tools = json_decode(file_get_contents('assets/tools.json'), true);
+														$tools = $tools['tools'];
 														foreach($game['built-with'] as $tool) {
 															echo "
 																<a href='".$tools[$tool]['link']."' rel='noopener norefferer' target='_blank'>
@@ -244,8 +245,8 @@
 							<div>
 								<ul>
 									<li class="title"><i class="fas fa-star"></i> Extensão</li>
-									<li><a href="events.html#courses">Cursos</a></li>
-									<li><a href="events.html#workshops">Oficinas</a></li>
+									<li><a href="events.php#courses">Cursos</a></li>
+									<li><a href="events.php#workshops">Oficinas</a></li>
 									<li><a href="robotics.html">Grupo de robótica</a></li>
 									<li><a href="gamedev.php">Gamedev</a></li>
 								</ul>
