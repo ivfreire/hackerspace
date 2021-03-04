@@ -38,11 +38,13 @@ header div.shadow {
 	width: 100%;
 	height: 100%;
 	box-shadow: inset 0 0 1000px #000;
+	display: none;
 }
 
 header div.text {
 	position: absolute;
 	bottom: 50%;
+	display: none;
 }
 
 header div.text div.wrapper { text-align: center; }
