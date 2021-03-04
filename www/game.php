@@ -145,9 +145,9 @@
 												<?php
 													if (isset($game['platforms'])) {
 														foreach($game['platforms'] as $platform) {
-															if ($platform['platform'] == 'windows') $res = [ 'fab fa-windows', 'Windows 7/8/10' ];
-															if ($platform['platform'] == 'linux') $res = [ 'fab fa-linux', 'GNU/Linux' ];
-															if ($platform['platform'] == 'browser') $res = [ 'fas fa-globe', 'Navegador' ];
+															if ($platform['platform'] == 'windows') $res = array('fab fa-windows', 'Windows 7/8/10');
+															if ($platform['platform'] == 'linux') $res = array('fab fa-linux', 'GNU/Linux');
+															if ($platform['platform'] == 'browser') $res = array('fas fa-globe', 'Navegador');
 															echo "
 																<a href='".$platform['link']."' rel='noopener norefferer' target='_blank'>
 																	<div>
@@ -174,7 +174,8 @@
 											<div id="built-with">
 												<?php
 													if (isset($game['built-with'])) {
-														$tools = json_decode(file_get_contents('assets/tools.json'), true)['tools'];
+														$tools = json_decode(file_get_contents('assets/tools.json'), true);
+														$tools = $tools['tools'];
 														foreach($game['built-with'] as $tool) {
 															echo "
 																<a href='".$tools[$tool]['link']."' rel='noopener norefferer' target='_blank'>

@@ -159,7 +159,8 @@
 							<div class="content">
 								<div class="boxes" id="recents">
 									<?php
-										$games = json_decode(file_get_contents('assets/games/games.json'), true)['games'];
+										$games = json_decode(file_get_contents('assets/games/games.json'), true);
+										$games = $games['games'];
 										if (isset($games)) {
 											for($i = count($games) - 1; $i > count($games) - 4; $i--) {
 												echo "
@@ -196,7 +197,8 @@
 							<div class="content">
 								<div id="all-titles">
 									<?php
-										$games = json_decode(file_get_contents('assets/games/games.json'), true)['games'];
+										$games = json_decode(file_get_contents('assets/games/games.json'), true);
+										$games = $games['games'];
 										if (isset($games)) {
 											foreach($games as $game) {
 												echo "
