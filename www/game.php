@@ -45,6 +45,7 @@
 		</nav>
 
 		<header>
+			<?php echo "<img src='assets/games/".$game_id."/thumb.jpg'/>"; ?>
 			<div class="shadow"></div>
 			<div class="text">
 				<div class="wrapper">
