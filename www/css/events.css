@@ -10,8 +10,7 @@ header {
 div.highlights { margin-bottom: 20px; }
 div.highlights div.highlight { flex-direction: row-reverse; }
 
-div.other { padding: 20px 0 0 0; }
-
+div.boxes#recents { margin-top: 2%; }
 div.boxes#recents div.box { width: 32%; }
 div.presents#intro div.item { width: 30%; }
 
