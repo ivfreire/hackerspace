@@ -49,6 +49,8 @@ header div.text {
 
 header div.text div.wrapper { text-align: center; }
 
+div.page { box-shadow: 0 0 100px #000000; }
+
 footer { background: #4D4D4D; }
 
 div.presents#intro > div { width: 30%; }
