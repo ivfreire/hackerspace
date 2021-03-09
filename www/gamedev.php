@@ -109,40 +109,35 @@
 										</div>
 									</a>
 								</div>
+								<div class="highlights" id="feat">
+									<a href="assets/res" taget="_blank">
+										<div class="highlight">
+											<div class="info">
+												<div>
+													<h2>Galeria de Recursos</h2><br>
+													<p>Recursos como imagens, texturas, modelos 3d e mais que foram utilizados nos títulos do <b>Hackerspace</b>.</p>
+												</div>
+											</div>
+											<div class="image">
+												<img class="background" src="images/misc/gamedev_assets.png" alt="icone de recursos">
+											</div>
+										</div>
+									</a>
+									<a>
+										<div class="highlight">
+											<div class="info">
+												<div>
+													<h2>Coding</h2><br>
+													<p>No processo de desenvolvimento de jogos programação e <i>coding</i> são muito importantes para escrever as mecânicas dos jogos e a lógica.</p>
+												</div>
+											</div>
+											<div class="image">
+												<img class="background" src="images/misc/gamedev_coding.png" alt="icone de programação">
+											</div>
+										</div>
+									</a>
+								</div>
 							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="element darker" style="padding-top: 0;">
-					<div class="wrapper">
-						<div class="highlights" id="feat">
-							<a href="assets/res" taget="_blank">
-								<div class="highlight">
-									<div class="info">
-										<div>
-											<h2>Galeria de Recursos</h2><br>
-											<p>Recursos como imagens, texturas, modelos 3d e mais que foram utilizados nos títulos do <b>Hackerspace</b>.</p>
-										</div>
-									</div>
-									<div class="image">
-										<img class="background" src="images/misc/gamedev_assets.png" alt="curso de gamedev do hackerspace">
-									</div>
-								</div>
-							</a>
-							<a>
-								<div class="highlight">
-									<div class="info">
-										<div>
-											<h2>Galeria de Recursos</h2><br>
-											<p>Recursos como imagens, texturas, modelos 3d e mais que foram utilizados nos títulos do <b>Hackerspace</b>.</p>
-										</div>
-									</div>
-									<div class="image">
-										<img class="background" src="images/misc/gamedev_assets.png" alt="curso de gamedev do hackerspace">
-									</div>
-								</div>
-							</a>
 						</div>
 					</div>
 				</div>

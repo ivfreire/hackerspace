@@ -60,11 +60,12 @@ div#tools {
 	display: flex;
 	justify-content: space-between;
 	flex-flow: row wrap;
+	padding-bottom: 2%;
 }
 
 div#tools a {
 	display: flex;
-	width: 23%;
+	width: 23.5%;
 	height: auto;
 	text-decoration: none;
 }
@@ -87,6 +88,8 @@ div#tools a > div div.image { padding: 0 0 30px 0; }
 div#tools a > div div.image img { height: 60px; }
 
 div#tools a > div div.title { padding: 0 0 10px 0; }
+
+div#feat div.highlight { height: 100%; }
 
 div.highlights#coming-soon div.highlight {
 	width: 49%;
@@ -172,10 +175,17 @@ div#feat > a {
 		background-position-y: center;
 	}
 
+	div#tools { padding: 0; }
 	div#tools a {
 		width: 49%;
-		margin-bottom: 30px;
+		padding-bottom: 2%;
 	}
+
+	div.highlights#feat div.highlight {
+		flex-direction: column-reverse;
+	}
+
+	div.highlights#feat div.highlight > div { width: 100%; }
 
 	div.highlights#coming-soon div.highlight { width: 100%; margin-bottom: 30px; }
 	div.highlights#coming-soon div.highlight:last-child { margin-bottom: 0; }
@@ -191,6 +201,10 @@ div#feat > a {
 	div.presents#intro div.item:last-child { margin-bottom: 0; }
 
 	div#tools a { width: 100%; }
+
+	div.highlights#feat > a {
+		width: 100%;
+	}
 
 	div.boxes#recents a { width: 100%; }
 
