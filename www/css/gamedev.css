@@ -161,6 +161,10 @@ div#all-titles div.game div.thumb img {
 	border-radius: 5px;
 }
 
+div#feat > a {
+	width: 49%;
+}
+
 @media only screen and (max-width: 800px) {
 	header {
 		background-image: url('../images/headers/gamedev_mobile.jpg');

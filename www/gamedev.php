@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8"/>
-		<meta name="description" content="Seção de desenvolvimento de jogos digitais (Gamedev) do Hackerspace da Física."/>
+		<meta name="description" content="Seção de desenvolvimento de jogos digitais (Gamedev) do Hackerspace da Física. No Instituto de Física da Universidade de São Paulo - IF-USP."/>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 		<title>Hackerspace IFUSP - Gamedev</title>
 		<link rel="stylesheet" href="css/style.css"/>
@@ -116,6 +116,39 @@
 
 				<div class="element darker" style="padding-top: 0;">
 					<div class="wrapper">
+						<div class="highlights" id="feat">
+							<a href="assets/res" taget="_blank">
+								<div class="highlight">
+									<div class="info">
+										<div>
+											<h2>Galeria de Recursos</h2><br>
+											<p>Recursos como imagens, texturas, modelos 3d e mais que foram utilizados nos títulos do <b>Hackerspace</b>.</p>
+										</div>
+									</div>
+									<div class="image">
+										<img class="background" src="images/misc/gamedev_assets.png" alt="curso de gamedev do hackerspace">
+									</div>
+								</div>
+							</a>
+							<a>
+								<div class="highlight">
+									<div class="info">
+										<div>
+											<h2>Galeria de Recursos</h2><br>
+											<p>Recursos como imagens, texturas, modelos 3d e mais que foram utilizados nos títulos do <b>Hackerspace</b>.</p>
+										</div>
+									</div>
+									<div class="image">
+										<img class="background" src="images/misc/gamedev_assets.png" alt="curso de gamedev do hackerspace">
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="element darker" style="padding-top: 0;">
+					<div class="wrapper">
 						<div class="panel">
 							<div class="title">
 								<h2>Em breve</h2>
@@ -130,7 +163,7 @@
 											</div>
 										</div>
 										<div class="image">
-											<img class="background" src="images/misc/gamedev_course.jpg" alt="curso de gamedev do hackerspace">
+											<img class="background" src="images/misc/gamedev_course.png" alt="curso de gamedev do hackerspace">
 										</div>
 									</div>
 									<div class="highlight">
