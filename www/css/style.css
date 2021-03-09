@@ -447,7 +447,7 @@ div.boxes div.box div.text h3 { padding-bottom: 10px; }
 
 	div.highlights div.highlight { width: 100%; flex-direction: column; }
 	div.highlights div.highlight > div { width: 100%; }
-	div.highlights > a { width: 100%; margin-bottom: 30px; }
+	div.highlights > a { width: 100%; padding-bottom: 2%; }
 	div.highlights > a:last-child { margin-bottom: 0; }
 
 	div.boxes div.box { width: 100%; margin-bottom: 30px; }
