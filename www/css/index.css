@@ -75,9 +75,7 @@ div#activities div.holder > div#courses:hover div.image {
 }
 
 div#activities div.holder > div#gamedev div.bg {
-	background-image: url('../images/headers/gamedev.jpg');
-	background-size: cover;
-	background-position: center;
+	background-color: #FF3F00;
 	border-radius: 5px;
 }
 
