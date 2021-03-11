@@ -79,27 +79,31 @@ div#tools a > div {
 }
 
 div#tools a > div:hover {
-	transform: scale(1.1);
 	box-shadow: 0 0 30px #121212;
 }
 
 div#tools a > div div.image { padding: 0 0 30px 0; }
 
-div#tools a > div div.image img { height: 60px; }
+div#tools a > div div.image img {
+	height: 60px;
+	transition: all 0.25s;
+}
+
+div#tools a > div:hover div.image img { transform: scale(1.5); }
 
 div#tools a > div div.title { padding: 0 0 10px 0; }
 
-div#feat div.highlight { height: 100%; }
+div.highlights#feat div.highlight { height: 100%; }
 
+div.highlights#coming-soon > a { width: 49%; }
 div.highlights#coming-soon div.highlight {
-	width: 49%;
+	height: 100%;
 	flex-direction: row-reverse;
 }
 
-div.highlights#coming-soon div.highlight div.info h2 { transition: all 0.25s; }
-div.highlights#coming-soon div.highlight:hover div.info h2 { color: #ff3f00; }
-
 div.boxes#recents > a { width: 32%; }
+
+div.boxes#recents div.box { height: 100%; }
 
 div.boxes#recents > a > div div.text span {
 	color: #ff3f00;
@@ -117,15 +121,15 @@ div#all-titles {
 }
 
 div#all-titles > a {
-	width: 33%;
+	width: 32%;
 	text-decoration: none;
-	margin-bottom: 0.5%;
+	margin-bottom: 2%;
 }
 
 div#all-titles div.game { transition: all 0.25s; }
 div#all-titles div.game:hover {
 	transform: scale(1.1);
-	box-shadow: 0 0 30px #121212;
+	box-shadow: 0 0 32px #121212;
 }
 
 div#all-titles div.game div.title {
@@ -187,8 +191,8 @@ div#feat > a {
 
 	div.highlights#feat div.highlight > div { width: 100%; }
 
-	div.highlights#coming-soon div.highlight { width: 100%; margin-bottom: 30px; }
-	div.highlights#coming-soon div.highlight:last-child { margin-bottom: 0; }
+	div.highlights#coming-soon > a { width: 100%; margin-bottom: 30px; }
+	div.highlights#coming-soon > a:last-child { margin-bottom: 0; }
 
 	div#all-titles > a {
 		width: 49.5%;
@@ -202,13 +206,9 @@ div#feat > a {
 
 	div#tools a { width: 100%; }
 
-	div.highlights#feat > a {
-		width: 100%;
-	}
+	div.highlights#feat > a { width: 100%; }
 
 	div.boxes#recents a { width: 100%; }
 
-	div#all-titles > a {
-		width: 100%;
-	}
+	div#all-titles > a { width: 100%; }
 }

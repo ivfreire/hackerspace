@@ -100,7 +100,7 @@
 							</div> -->
 							<div class="content">
 								<div class="highlights" id="highlights">
-									<a href="https://revistapesquisa.fapesp.br/espaco-livre-para-criar/?cat=tecnologia/">
+									<a href="https://revistapesquisa.fapesp.br/espaco-livre-para-criar/?cat=tecnologia/" rel="nopener norefferer" target="_blank">
 										<div class="highlight">
 											<div class="info">
 												<div>

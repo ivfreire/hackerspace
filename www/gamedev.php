@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8"/>
 		<meta name="description" content="Seção de desenvolvimento de jogos digitais (Gamedev) do Hackerspace da Física. No Instituto de Física da Universidade de São Paulo - IF-USP."/>
-		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<title>Hackerspace IFUSP - Gamedev</title>
 		<link rel="stylesheet" href="css/style.css"/>
 		<link rel="stylesheet" href="css/gamedev.css"/>
@@ -111,7 +111,7 @@
 								</div>
 								<div class="highlights" id="feat">
 									<a href="assets/res" taget="_blank">
-										<div class="highlight">
+										<div class="highlight icon">
 											<div class="info">
 												<div>
 													<h2>Galeria de Recursos</h2><br>
@@ -123,8 +123,8 @@
 											</div>
 										</div>
 									</a>
-									<a>
-										<div class="highlight">
+									<a href="#">
+										<div class="highlight icon">
 											<div class="info">
 												<div>
 													<h2>Coding</h2><br>
@@ -150,28 +150,32 @@
 							</div>
 							<div class="content">
 								<div class="highlights" id="coming-soon">
-									<div class="highlight">
-										<div class="info">
-											<div>
-												<h2>Curso de Gamedev</h2><br>
-												<p>Curso de desenvolvimento de jogos digitais do <b>Hackerspace</b>.</p><br>
+									<a href="#">
+										<div class="highlight">
+											<div class="info">
+												<div>
+													<h2>Curso de Gamedev</h2><br>
+													<p>Curso de desenvolvimento de jogos digitais do <b>Hackerspace</b>.</p><br>
+												</div>
+											</div>
+											<div class="image">
+												<img class="background" src="images/misc/gamedev_course.png" alt="curso de gamedev do hackerspace">
 											</div>
 										</div>
-										<div class="image">
-											<img class="background" src="images/misc/gamedev_course.png" alt="curso de gamedev do hackerspace">
-										</div>
-									</div>
-									<div class="highlight">
-										<div class="info">
-											<div>
-												<h2>Hackerspace Game Jam</h2><br>
-												<p>Competição de Gamedev do <b>Hackerspace</b>.</p><br>
+									</a>
+									<a href="#">
+										<div class="highlight">
+											<div class="info">
+												<div>
+													<h2>Hackerspace Game Jam</h2><br>
+													<p>Competição de Gamedev do <b>Hackerspace</b>.</p><br>
+												</div>
+											</div>
+											<div class="image">
+												<img class="background" src="images/misc/gamejam_icon.png" alt="gamejam hackerspace">
 											</div>
 										</div>
-										<div class="image">
-											<img class="background" src="images/misc/gamejam_icon.png" alt="gamejam hackerspace">
-										</div>
-									</div>
+									</a>
 								</div>
 							</div>
 						</div>
