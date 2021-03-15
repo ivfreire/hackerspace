@@ -22,7 +22,6 @@
 					</div>
 					<div class="right">
 						<a class="status closed" title="O Hackerspace está fechado atualmente."><i class="fas fa-door-closed"></i></a>
-						<a class="active hide-btn">Português</a>
 						<a class="hide-btn" href="/en">English</a>
 						<a><i class="fas fa-search"></i></a>
 					</div>
@@ -122,9 +121,9 @@
 				<div class="element light" id="extension">
 					<div class="wrapper">
 						<div class="panel">
-							<!-- <div class="title">
+							<div class="title">
 								<h2>Atividades de Extensão</h2>
-							</div> -->
+							</div>
 							<div class="content">
 								<div id="activities">
 									<div class="holder">
@@ -158,7 +157,7 @@
 													<div class="content">
 														<p>O grupo de robótica explora as possibilidades de construção de robôs com Arduinos e componentes eletrônicos.</p>
 														<div class="more">
-															<!-- <a href="robotics.html">Saiba mais <i class="fas fa-chevron-right"></i></a> -->
+															<a href="#">Em breve</a>
 														</div>
 													</div>
 												</div>

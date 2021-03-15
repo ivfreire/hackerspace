@@ -23,7 +23,6 @@
 					<div class="right">
 						<a class="status closed" title="O Hackerspace está fechado atualmente."><i class="fas fa-door-closed"></i></a>
 						<a class="hide-btn" href="../">Português</a>
-						<a class="active hide-btn" href="/en-US">English</a>
 						<a><i class="fas fa-search"></i></a>
 					</div>
 				</div>
