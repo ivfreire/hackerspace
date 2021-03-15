@@ -144,6 +144,27 @@
 
 				<div class="element darker" style="padding-top: 0;">
 					<div class="wrapper">
+						<div class="panel" id="demo">
+							<div class="title">
+								<h2>Demo</h2>
+							</div>
+							<div class="content">
+								<div class="left">
+									<div class="holder">
+										<iframe class="demo" src="//v6p9d9t4.ssl.hwcdn.net/html/3501473/index.html" frameborder="0" width="100%"></iframe>
+									</div>
+								</div>
+								<div class="right">
+									<h3>Hackerspace 2021</h3><br>
+									<p>This is a small example of a game made for a free course that I will teach soon. Has no commercial porpuse and the music are made by Adam Haynes for his channel.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="element darker" style="padding-top: 0;">
+					<div class="wrapper">
 						<div class="panel">
 							<div class="title">
 								<h2>Em breve</h2>
