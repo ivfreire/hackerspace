@@ -5,8 +5,8 @@
 		<meta name="description" content="O Hackerspace da Física é um ambiente propício ao desenvolvimento de novos projetos e tecnologias dentro do Instituto de Física da USP."/>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 		<title>Hackerspace IFUSP</title>
-		<link rel="stylesheet" href="css/style.css"/>
-		<link rel="stylesheet" href="css/index.css"/>
+		<link rel="stylesheet" href="../css/style.css"/>
+		<link rel="stylesheet" href="../css/index.css"/>
 		<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
 	</head>
 	<body>
@@ -17,13 +17,13 @@
 					<a class="bars" onclick="$('div.menu-btn').slideToggle(300);"><i class="fas fa-bars"></i></a>
 					<a class="title" href="index.php">Hackerspace</a>
 					<div class="hide-btn menu-btn">
-						<a href="events.php">Eventos</a>
-						<a href="info.html">Informações</a>
+						<a href="events.php">Events</a>
+						<a href="info.html">Info</a>
 					</div>
 					<div class="right">
 						<a class="status closed" title="O Hackerspace está fechado atualmente."><i class="fas fa-door-closed"></i></a>
-						<a class="active hide-btn">Português</a>
-						<a class="hide-btn" href="/en">English</a>
+						<a class="hide-btn" href="../">Português</a>
+						<a class="active hide-btn" href="/en-US">English</a>
 						<a><i class="fas fa-search"></i></a>
 					</div>
 				</div>
@@ -35,7 +35,7 @@
 			<div class="text">
 				<div class="wrapper">
 					<h1>Hackerspace</h1>
-					<h4>Muito mais que um <b>espaço</b>.<br>Um <b>space</b>.</h4>
+					<h4>Even more than a <b>space</b>.<br>A <b>community</b>.</h4>
 				</div>
 			</div>
 			<div class="social">
@@ -62,30 +62,30 @@
 						<div class="panel presents" id="goals">
 							<div class="item">
 								<div class="icon"><i class="fas fa-globe-americas"></i></div>
-								<div class="title"><h2>Olá, mundo!</h2></div>
+								<div class="title"><h2>Hello world!</h2></div>
 								<div class="text">
-									<p>Hackerspaces são espaços físicos mantidos e operados pela comunidade, onde pessoas compartilham seus interesses e projetos relacionados à tecnologia e aprendem com o trabalho dos outros.</p>
+									<p><b>Hackerspaces</b> are community-operated physical places, where people share their interest in tinkering with technology, meet and work on their projects, and learn from each other.</p>
 								</div>
 							</div>
 							<div class="item">
 								<div class="icon"><i class="fas fa-code"></i></div>
-								<div class="title"><h2>Desenvolver</h2></div>
+								<div class="title"><h2>Develop</h2></div>
 								<div class="text">
-									<p>A programação é uma importante ferramenta para solução de problemas, aplicações práticas e análise de dados.</p>
+									<p>Technology has shaped the way we live, it is of paramount importance to learn the language of the machines to create new and better solutions and world-changing technologies.</p>
 								</div>
 							</div>
 							<div class="item">
 								<div class="icon"><i class="fas fa-shapes"></i></div>
-								<div class="title"><h2>Construir</h2></div>
+								<div class="title"><h2>Build</h2></div>
 								<div class="text">
-									<p>No HS, dispomos de componentes eletrônicos, arduinos, Raspberries Pi e outros equipamentos para construir máquinas, geringonças e te manter curioso.</p>
+									<p>Apply your solutions to the world in a practical way, creating and tinkering with hardware, electronic components and micro-controllers. Build all sorts of curious and interesting contraptions.</p>
 								</div>
 							</div>
 							<div class="item">
 								<div class="icon"><i class="fas fa-share-alt"></i></div>
-								<div class="title"><h2>Conectar</h2></div>
+								<div class="title"><h2>Connect</h2></div>
 								<div class="text">
-									<p>Conhecer pessoas que podem agregar no seu conhecimento e crescimento.</p>
+									<p>Meet and connect to new people with stunning tech and science background, discuss new technologies and engage on a community project to show off your work and learn from others.</p>
 								</div>
 							</div>
 						</div>
@@ -104,8 +104,8 @@
 										<div class="highlight">
 											<div class="info">
 												<div>
-													<h2>Espaço livre para criar.</h2><br>
-													<p>Hackerspace IFUSP em destaque na revista FAPESP.</p><br>
+													<h2>A free space for creativity.</h2><br>
+													<p>Hackerspace IFUSP spotted by FAPESP periodical.</p><br>
 												</div>
 											</div>
 											<div class="image">
@@ -135,12 +135,12 @@
 												</div>
 												<div class="text">
 													<div class="title">
-														<h2>Cursos e Oficinas</h2>
+														<h2>Classes and Workshops</h2>
 													</div>
 													<div class="content">
-														<p>O <b>Hackerspace</b> reune pessoas dispostas a dividir seus conhecimentos com a comunidade para organizar cursos e oficinas no espaço.</p>
+														<p>We gather skilled people from the academic community with strong background in tech to teach classes and offer workshops hosted in the <b>Hackerspace</b>. We strongly support the sharing of precious knowlegge across our community.</p>
 														<div class="more">
-															<a href="events.php">Saiba mais <i class="fas fa-chevron-right"></i></a>
+															<a href="events.php">Learn more <i class="fas fa-chevron-right"></i></a>
 														</div>
 													</div>
 												</div>
@@ -153,10 +153,10 @@
 												</div>
 												<div class="text">
 													<div class="title">
-														<h2>Grupo de Robótica</h2>
+														<h2>Robotics</h2>
 													</div>
 													<div class="content">
-														<p>O grupo de robótica explora as possibilidades de construção de robôs com Arduinos e componentes eletrônicos.</p>
+														<p>Our recently gathered team of robotics is composed of students who wants to build something meaningful meanwhile having a great learning experience and a good source of entertainment. We hope to engage more students in this project and bring new ideas to the stage.</p>
 														<div class="more">
 															<!-- <a href="robotics.html">Saiba mais <i class="fas fa-chevron-right"></i></a> -->
 														</div>
@@ -173,12 +173,12 @@
 												</div>
 												<div class="text">
 													<div class="title">
-														<h2>Gamedev</h2>
+														<h2>Game Development</h2>
 													</div>
 													<div class="content">
-														<p>Recentemente criado, o grupo de Gamedev do <b>Hackerspace</b> é formado por alunos interessados no desenvolvimento de jogos eletônicos para múltiplas plataformas.</p>
+														<p>Most exciting of all, we built a team of students focused on the development of electronic video-games, from concept art to coding, we cover it all. This idea is prospective due to the level of engagement we expect from the community and the several ways it can contribute to research, teaching and scientific dissemination across society.</p>
 														<div class="more">
-															<a href="gamedev.php">Saiba mais <i class="fas fa-chevron-right"></i></a>
+															<a href="gamedev.php">Learn more <i class="fas fa-chevron-right"></i></a>
 														</div>
 													</div>
 												</div>
@@ -201,15 +201,15 @@
 						<div>
 							<div>
 								<ul>
-									<li class="title"><i class="fas fa-door-open"></i> Acesso</li>
-									<li><a href="info.html#access">Alunos</a></li>
-									<li><a href="info.html#access">Membros</a></li>
-									<li><a href="info.html#access">Sem vínculo universitário</a></li>
+									<li class="title"><i class="fas fa-door-open"></i> Access</li>
+									<li><a href="info.html#access">Students</a></li>
+									<li><a href="info.html#access">Members</a></li>
+									<li><a href="info.html#access">Non-related to the USP</a></li>
 								</ul>
 							</div>
 							<div>
 								<ul>
-									<li class="title"><i class="fas fa-globe"></i> Redes</li>
+									<li class="title"><i class="fas fa-globe"></i> Network</li>
 									<li><a href="https://facebook.com/hackerspace.ifusp">Facebook</a></li>
 									<li><a href="https://github.com/ivfreire/hackerspace">GitHub</a></li>
 									<li><a href="https://www.youtube.com/channel/UCk59MC1ylz1vRz8xIPoxnyA">YouTube</a></li>
@@ -217,20 +217,20 @@
 							</div>
 							<div>
 								<ul>
-									<li class="title"><i class="fas fa-star"></i> Extensão</li>
-									<li><a href="events.php#courses">Cursos</a></li>
-									<li><a href="events.php#workshops">Oficinas</a></li>
-									<li><a href="robotics.html">Grupo de robótica</a></li>
-									<li><a href="gamedev.php">Gamedev</a></li>
+									<li class="title"><i class="fas fa-star"></i> Extension</li>
+									<li><a href="events.php#courses">Classes</a></li>
+									<li><a href="events.php#workshops">Workshops</a></li>
+									<li><a href="robotics.html">Robotics</a></li>
+									<li><a href="gamedev.php">Game Development</a></li>
 								</ul>
 							</div>
 							<div>
 								<ul>
-									<li class="title"><i class="fas fa-info-circle"></i> Informações</li>
-									<li><a href="http://portal.if.usp.br/ifusp/">Instituto de Física</a></li>
+									<li class="title"><i class="fas fa-info-circle"></i> Info</li>
+									<li><a href="http://portal.if.usp.br/ifusp/">Institute of Physics</a></li>
 									<li><a href="http://usp.br/">USP</a></li>
 									<li><a href="http://cefisma.org.br/">CEFISMA</a></li>
-									<li><a href="info.html#contact">Contato</a></li>
+									<li><a href="info.html#contact">Contact</a></li>
 								</ul>
 							</div>
 						</div>
@@ -244,16 +244,16 @@
 			</div>
 			<div class="bottom">
 				<div class="wrapper">
-					<p>Sala 1013, Instituto de Física da USP - Prédio Principal<br>R. do Matão, 1371 - Cid. Universitária - Butantã - São Paulo, SP</p>
+					<p>Room 1013, Institute of Physics of the USP - Main Building<br>R. do Matão, 1371 - University Town - Butantã - São Paulo, Brazil</p>
 				</div>
 			</div>
 		</footer>
 
 	</body>
 
-	<script src="js/fontawesome.js"></script>
-	<script src="js/jquery.js"></script>
-	<script src="js/particles.min.js"></script>
-	<script src="js/script.js"></script>
-	<script src="js/index.js"></script>
+	<script src="../js/fontawesome.js"></script>
+	<script src="../js/jquery.js"></script>
+	<script src="../js/particles.min.js"></script>
+	<script src="../js/script.js"></script>
+	<script src="../js/index.js"></script>
 </html>
