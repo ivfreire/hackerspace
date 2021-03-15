@@ -216,8 +216,8 @@ div.panel#demo div.holder iframe {
 
 	div.highlights#feat div.highlight > div { width: 100%; }
 
-	div.panel#demo div.content > div { width: 100%; padding-bottom: 2%;}
-	div.panel#demo div.content > div:last-child { padding-bottom: 0;}
+	div.panel#demo div.content > div { width: 100%; padding-bottom: 2%; }
+	div.panel#demo div.content > div:last-child { padding-bottom: 0; }
 
 	div.highlights#coming-soon > a { width: 100%; margin-bottom: 30px; }
 	div.highlights#coming-soon > a:last-child { margin-bottom: 0; }

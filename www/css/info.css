@@ -2,7 +2,17 @@ body { display: block; }
 
 header {
 	height: 100vh;
-	background-color: #00425C;
+	background-color: transparent;
+}
+
+header > img {
+	z-index: -1;
+	position: fixed;
+	min-width: 120vw;
+	min-height: 120vh;
+	margin-left: -10vw;
+	margin-top: -10vh;
+	filter: blur(8px);
 }
 
 header > div {
@@ -12,103 +22,16 @@ header > div {
 
 header > div h3 { font-weight: normal; }
 
-div.stack div.element.img-holder { padding: 0; }
-
-div.img-holder > div {
-	display: flex;
-	flex-flow: row wrap;
-}
-
-div.img-holder > div > div {
-	display: flex;
-	width: 50%;
-}
-
-div.img-holder div.image {
-	background-size: cover;
-	width: 50%;
-}
-
-div.img-holder div.panel {
-	display: flex;
-	align-self: center;
-	padding: 60px;
-}
-
-div.img-holder div.panel div.title { text-align: left; }
-
-div.img-holder div.panel div.content { width: 60%; }
-
-div.img-holder div.panel div.content p {
-	font-size: 20px;
-	line-height: 32px;
-}
-
-div.img-holder div.panel div.content a { text-decoration: none; }
-
-div.img-holder div.panel div.content a:hover {
-	color: #0F6688;
-	text-decoration: underline;
-}
-
-div#about div.image {
-	background-image: url('../images/spherical.jpg');
-	background-position: center;
-}
-
-div.row {
-	display: flex;
-	justify-content: space-between;
-	flex-flow: row wrap;
-	width: 100%;
-}
-
-div.row > div {
-	width: 12.5%;
-	display: flex;
-	flex-direction: column;
-}
-
-div.row > div > div { display: flex; }
-
-div.row > div div.icon {
-	font-size: 42px;
-	justify-content: center;
-	flex-direction: row;
-	padding: 0 0 20px 0;
-}
-
-div.row > div div.title {
-	width: 100%;
-	text-align: center;
-}
-
-div.row > div div.text { text-align: center; }
-
-div.row > div > div.content { flex-direction: column; }
+div.presents#intro div.item { width: 45%; }
 
 div.presents#access > div { width: 30%; }
 
 @media only screen and (max-width: 1200px) {
-	div.img-holder div.panel div.content { width: 100%; }
 }
 
 @media only screen and (max-width: 800px) {
-	div.img-holder > div { flex-direction: column; }
-
-	div.img-holder > div > div, div.img-holder > div div.image { width: 100%; }
-
-	div.row > div {
-		width: 50%;
-		padding: 30px 0;
-	}
 }
 
 @media only screen and (max-width: 624px) {
-	div.img-holder div.panel div.content p {
-		font-size: 18px;
-		line-height: 24px;
-	}
-
 	div.presents#access div.item { width: 100%; }
 }
