@@ -255,4 +255,9 @@
 	<script src="../js/particles.min.js"></script>
 	<script src="../js/script.js"></script>
 	<script src="../js/index.js"></script>
+	<script>
+		particlesJS.load('particles-js', '../assets/particles.json', function() {
+			console.log('callback - particles.js config loaded');
+		});
+	</script>
 </html>

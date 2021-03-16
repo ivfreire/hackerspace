@@ -7,7 +7,7 @@
 		<title>Hackerspace IFUSP</title>
 		<link rel="stylesheet" href="css/style.css"/>
 		<link rel="stylesheet" href="css/index.css"/>
-		<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+		<link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
 	</head>
 	<body>
 
@@ -22,7 +22,7 @@
 					</div>
 					<div class="right">
 						<a class="status closed" title="O Hackerspace está fechado atualmente."><i class="fas fa-door-closed"></i></a>
-						<a class="hide-btn" href="/en">English</a>
+						<a class="hide-btn" href="en">English</a>
 						<a><i class="fas fa-search"></i></a>
 					</div>
 				</div>
@@ -108,7 +108,7 @@
 												</div>
 											</div>
 											<div class="image">
-												<img class="background" src="assets/highlights/hackerspace_fapesp.jpg" alt="hackerspace, impressora 3d">
+												<img class="background" src="../assets/highlights/hackerspace_fapesp.jpg" alt="hackerspace, impressora 3d">
 											</div>
 										</div>
 									</a>
@@ -236,7 +236,7 @@
 					</div>
 					<div class="logos">
 						<div class="holder">
-							<img src="images/icons/ifusp.png" alt="IFUSP" title="Instituto de Física da USP" class="logo" id="ifusp">
+							<img src="../images/icons/ifusp.png" alt="IFUSP" title="Instituto de Física da USP" class="logo" id="ifusp">
 						</div>
 					</div>
 				</div>

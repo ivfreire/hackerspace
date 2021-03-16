@@ -20,7 +20,7 @@ div.darker button:hover { background-color: #cc0c00; }
 
 div.panel div.title { text-align: left; }
 
-body { display: block; }
+body { display: none; }
 
 nav.navigation { background: transparent; }
 
