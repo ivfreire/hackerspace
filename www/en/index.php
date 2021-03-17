@@ -108,7 +108,7 @@
 												</div>
 											</div>
 											<div class="image">
-												<img class="background" src="assets/highlights/hackerspace_fapesp.jpg" alt="hackerspace, impressora 3d">
+												<img class="background" src="../assets/highlights/hackerspace_fapesp.jpg" alt="hackerspace, impressora 3d">
 											</div>
 										</div>
 									</a>
@@ -236,7 +236,7 @@
 					</div>
 					<div class="logos">
 						<div class="holder">
-							<img src="images/icons/ifusp.png" alt="IFUSP" title="Instituto de Física da USP" class="logo" id="ifusp">
+							<img src="../images/icons/ifusp.png" alt="IFUSP" title="Instituto de Física da USP" class="logo" id="ifusp">
 						</div>
 					</div>
 				</div>
