@@ -4,6 +4,7 @@
 		<meta charset="utf-8"/>
 		<meta name="description" content="O Hackerspace da Física é um ambiente propício ao desenvolvimento de novos projetos e tecnologias dentro do Instituto de Física da USP."/>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<meta name="google-site-verification" content="U8f5wnlNCiLO8B9--r-Irq0sg3EiM0unoGiqNFEMmoU" />
 		<title>Hackerspace IFUSP</title>
 		<link rel="stylesheet" href="css/style.css"/>
 		<link rel="stylesheet" href="css/index.css"/>
