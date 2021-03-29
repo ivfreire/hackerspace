@@ -35,6 +35,12 @@
 			"description": "Explore o mar e ilhas desconhecidas.",
 			"year": "2021",
 			"id": "islandexplorer"
+		},
+		{
+			"title": "Jogo do coelho",
+			"description": "Jogo do coelho genérico na fábrica de chocolate.",
+			"year": "2021",
+			"id": "jogodocoelho"
 		}
 	]
 }
