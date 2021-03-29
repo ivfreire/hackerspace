@@ -135,10 +135,7 @@ div#platforms div {
 	cursor: pointer;
 }
 
-div#platforms div:hover {
-	background: #4D4D4F;
-	transform: scale(1.1);
-}
+div#platforms div:hover { background: #4D4D4F; }
 
 div#platforms div i { font-size: 48px; }
 
@@ -162,14 +159,9 @@ div#built-with div {
 	cursor: pointer;
 }
 
-div#built-with div:hover {
-	background: #4D4D4F;
-	transform: scale(1.1);
-}
+div#built-with div:hover { background: #4D4D4F; }
 
-div#built-with div img {
-	height: 50px;
-}
+div#built-with div img { height: 50px; }
 
 div#built-with div i { font-size: 48px; }
 
