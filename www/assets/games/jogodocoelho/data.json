@@ -1,0 +1,57 @@
+{
+	"title": "Jogo do Coelho",
+	"description": "Jogo do coelho genérico na fábrica de chocolate.",
+	"links": {
+		"itch.io": {
+			"text": "itch.io",
+			"link": "https://keichits.itch.io/jogo-do-coelho-genrico-na-fbrica-de-chocolate"
+		}
+	},
+	"year": "2021",
+	"developers": [
+		{
+			"name": "Victor Keichi Tsutsumiuchi",
+			"role": "Programming, Sprites, AI & Level Design"
+		},
+		{
+			"name": "Ricardo Pitta",
+			"role": "Programming & Sprites"
+		},
+		{
+			"name": "João Paulo Parmegiani",
+			"role": "OST"
+		},
+		{
+			"name": "Julio de Oliveira Junior",
+			"role": "Beta-tester"
+		}
+	],
+	"platforms": [
+		{
+			"platform": "windows",
+			"link": "https://keichits.itch.io/jogo-do-coelho-genrico-na-fbrica-de-chocolate"
+		},
+		{
+			"platform": "linux",
+			"link": "https://keichits.itch.io/jogo-do-coelho-genrico-na-fbrica-de-chocolate"
+		}
+	],
+	"built-with": [ "godot" ],
+	"tags": [ "2d", "top-down", "candy", "sweet" ],
+	"images": {
+		"screenshots": [ "screen_0.jpg", "screen_1.png" ]
+	},
+	"system-requirements": {
+		"windows": {
+			"minimal": {
+				"version": "Windows 7/8/10 (64 bits)",
+				"cpu": "64 bits processor x64",
+				"gpu": "Integrated Graphics Card",
+				"memory": "2 GB",
+				"storage": "12 GB",
+				"direct-x": "Version 11"
+			}
+		}
+	},
+	"status": "done"
+}
