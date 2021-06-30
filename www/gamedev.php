@@ -156,7 +156,7 @@
 								</div>
 								<div class="right">
 									<h3>Hackerspace 2021</h3><br>
-									<p></p>
+									<p>Bem vindxs ao Hackerspace 2021!<br><br>O Hackerspace IFUSP é um laboratório aberto à comunidade acadêmica da Universidade. Localizado no prédio principal do Instituto de Física da USP.<br><br>Em 2021, o espaço não pôde ser aberto devido às restrições sanitárias causadas pela pandemia de COVID-19, porém, o HS decidiu fazer uma cerimônia de recepção dos calouros de 2021 online.<br><br>O projeto para 2021 é um curso de Gamedev online ofericido por alunos da graduação, ao lado está um protótipo de uma jogo desenvolvido pela equipe do HS.</p>
 								</div>
 							</div>
 						</div>
