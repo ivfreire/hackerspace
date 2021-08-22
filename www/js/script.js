@@ -19,8 +19,11 @@ let Hackerspace = {
 		}, 1500);
 	},
 	onscroll: function() {
-		if (window.scrollY == 0) $('div.indicator i').fadeIn(1000);
-		else $('div.indicator i').fadeOut(250);
+		if (window.scrollY == 0) { 
+			$('div.indicator i').fadeIn(1000);
+		} else {
+			$('div.indicator i').fadeOut(250);
+		}
 	}
 }
 
