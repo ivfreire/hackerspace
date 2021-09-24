@@ -254,6 +254,8 @@ div.bottom {
 	padding-top: 60px;
 }
 
+div.bottom div.wrapper { text-align: center; }
+
 div.presents {
 	width: 100%;
 	display: flex;
