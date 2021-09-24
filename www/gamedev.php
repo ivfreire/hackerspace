@@ -2,9 +2,9 @@
 <html>
 	<head>
 		<meta charset="utf-8"/>
-		<meta name="description" content="Seção de desenvolvimento de jogos digitais (Gamedev) do Hackerspace da Física. No Instituto de Física da Universidade de São Paulo - IF-USP."/>
+		<meta name="description" content="Página principal do grupo de GameDev do Hackerspace IFUSP."/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-		<title>Hackerspace IFUSP - Gamedev</title>
+		<title>Gamedev - Hackerspace</title>
 		<link rel="stylesheet" href="css/style.css"/>
 		<link rel="stylesheet" href="css/gamedev.css"/>
 		<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
@@ -14,14 +14,11 @@
 		<?php include('templates/nav-bar.php'); ?>
 
 		<header>
-			<div class="shadow"></div>
 			<div class="text">
 				<div class="wrapper">
-					<h4><b>Hackerspace</b></h4>
 					<h1>Gamedev</h1>
 				</div>
 			</div>
-			<div class="indicator"><i class="fas fa-chevron-down"></i></div>
 		</header>
 
 		<div class="page">
@@ -39,7 +36,7 @@
 							</div>
 							<div class="item">
 								<div class="icon"><i class="fas fa-question-circle"></i></div>
-								<div class="title"><h2>Contribuições?</h2></div>
+								<div class="title"><h2>Contribuições</h2></div>
 								<div class="text">
 									<p>Jogos digitais têm um impacto imenso sobre a didática no ensino e divulgação científica para o público geral.</p>
 								</div>

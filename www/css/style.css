@@ -36,7 +36,7 @@ div.light div.box, div.light div.highlight { background: #E6E7E8; }
 
 div.gray { background-color: #E6E7E8; }
 div.gray h1, div.gray h2, div.gray h3, div.gray h4, div.gray h5, div.gray h6 { color: #0F6688; }
-div.gray p, div.gray a, div.gray span { color: #808285; }
+div.gray p, div.gray a, div.gray span { color: #606265; }
 div.gray i { color: #808285; }
 div.gray button { background: white; color: #4D4D4F; transition: all 200ms; }
 div.gray button i { color: #4D4D4F; transition: all 200ms; }
@@ -152,25 +152,23 @@ nav.navigation i.fas { font-size: 14px; }
 /* HEADER */
 
 header {
+	display: flex;
 	width: 100%;
 	overflow: hidden;
 	background-size: cover;
 	background-position: center;
+	flex-direction: column;
+	justify-content: center;
 }
 
 header div.text {
+	display: flex;
 	width: 100%;
-	position: absolute;
 	font-family: Eau;
 	font-size: 32px;
 	color: white;
-	text-shadow: 4px 0 0 #00203A;
-	top: 40vh;
 	z-index: 0;
-	display: none;
 }
-
-header div.text > div { text-align: center; }
 
 header div.text h1 { font-size: 120px; }
 header div.text h4 { font-weight: normal; }
@@ -238,13 +236,9 @@ footer div.menu ul li a {
 	text-decoration: none;
 }
 
-footer div.menu ul li a:hover {
-	font-weight: bold;
-}
+footer div.menu ul li a:hover {	text-decoration: underline; }
 
-footer div.menu ul li.title {
-	font-weight: bold;
-}
+footer div.menu ul li.title { font-weight: bold; }
 
 footer div.logos { padding: 0 60px 0 0; }
 
@@ -259,8 +253,6 @@ div.bottom {
 	line-height: 20px;
 	padding-top: 60px;
 }
-
-div.bottom div.wrapper { text-align: center; }
 
 div.presents {
 	width: 100%;

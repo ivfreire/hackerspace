@@ -9,30 +9,12 @@ header div#particles-js {
 	left: -0vw;
 }
 
-header div.text { top: 30vh; }
-
-header div.social {
+header div.text {
 	position: absolute;
-	width: 100%;
-	top: 60vh;
-	display: none;
+	top: 55vh;
 }
-
-header div.social > div { text-align: center; }
-
-header div.social > div a { text-decoration: none; }
-
-header div.social > div i {
-	font-size: 48px;
-	padding: 0 15px;
-	color: white;
-	transition: transform 0.25s, text-shadow 0.25s;
-}
-
-header div.social > div i:hover {
-	transform: scale(1.3);
-	text-shadow: 0 0 20px #333;
-}
+header div.text div.wrapper { text-align: left; }
+header div.text h4 { font-family: Cantarell, Eau; }
 
 div.page { z-index: 2; }	
 
@@ -55,7 +37,7 @@ div#activities div.holder > div > div {
 div#activities div.holder > div div.image i { transition: all 300ms; }
 div#activities div.holder > div:hover div.image i {
 	color: white;
-	transform: scale(1.2) rotate(15deg);
+	transform: scale(1.1);
 }
 
 div#activities div.holder > div#gamedev:hover div.image {
@@ -125,7 +107,10 @@ div#activities div.holder > div div.text div.content div.more a i {
 	transition: all 100ms;
 }
 
-div.presents#goals > div { width: 20%; }
+div.presents#goals > div {
+	width: 24%;
+	text-align: center;
+}
 
 @media only screen and (max-width: 800px) {
 	div.presents#goals > div { width: 40%; }

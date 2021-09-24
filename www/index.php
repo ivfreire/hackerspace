@@ -2,10 +2,10 @@
 <html>
 	<head>
 		<meta charset="utf-8"/>
-		<meta name="description" content="O Hackerspace da Física é um ambiente propício ao desenvolvimento de novos projetos e tecnologias dentro do Instituto de Física da USP."/>
+		<meta name="description" content="O Hackerspace IFUSP é um laboratório aberto ao público no Instituto de Física da USP. É um dos primeiros hackerspaces do Brasil atualmente, localizado no bairro do Butantã, na cidade de São Paulo."/>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 		<meta name="google-site-verification" content="U8f5wnlNCiLO8B9--r-Irq0sg3EiM0unoGiqNFEMmoU" />
-		<title>Hackerspace IFUSP</title>
+		<title>Hackerspace</title>
 		<link rel="stylesheet" href="css/style.css"/>
 		<link rel="stylesheet" href="css/index.css"/>
 		<link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
@@ -18,21 +18,10 @@
 			<div id="particles-js"></div>
 			<div class="text">
 				<div class="wrapper">
-					<h1>Hackerspace</h1>
-					<h4>Muito mais que um <b>espaço</b>.<br>Um <b>space</b>.</h4>
-				</div>
-			</div>
-			<div class="social">
-				<div class="wrapper">
-					<a href="https://facebook.com/hackerspace.ifusp" target="_blank" rel="noopener noreferrer" title="Facebook">
-						<i class="fab fa-facebook-square"></i>
-					</a>
-					<a href="https://github.com/ivfreire/hackerspace" target="_blank" rel="noopener noreferrer" title="Github">
-						<i class="fab fa-github-square"></i>
-					</a>
-					<a href="https://www.youtube.com/channel/UCk59MC1ylz1vRz8xIPoxnyA" target="_blank" rel="noopener noreferrer" title="YouTube">
-						<i class="fab fa-youtube-square"></i>
-					</a>
+					<div>
+						<h1>Hackerspace</h1>
+						<h4>Muito mais que um <b>espaço</b>. Um <b>space</b>.</h4>
+					</div>
 				</div>
 			</div>
 			<div class="indicator"><i class="fas fa-chevron-down"></i></div>
@@ -47,30 +36,22 @@
 							<div class="item">
 								<div class="icon"><i class="fas fa-globe-americas"></i></div>
 								<div class="title"><h2>Olá, mundo!</h2></div>
-								<div class="text">
-									<p>Hackerspaces são espaços físicos mantidos e operados pela comunidade, onde pessoas compartilham seus interesses e projetos relacionados à tecnologia e aprendem com o trabalho dos outros.</p>
-								</div>
+								<div class="text"><p>O <b>Hackerpace</b> é um laboratório de tecnologia aberto à comunidade no Instituto de Física da USP.</p></div>
 							</div>
 							<div class="item">
 								<div class="icon"><i class="fas fa-code"></i></div>
 								<div class="title"><h2>Desenvolver</h2></div>
-								<div class="text">
-									<p>A programação é uma importante ferramenta para solução de problemas, aplicações práticas e análise de dados.</p>
-								</div>
+								<div class="text"><p>O objetivo do <b>Hackerpace</b> é desenvolver projetos relacionados à ciência e tecnologia.</p></div>
 							</div>
 							<div class="item">
 								<div class="icon"><i class="fas fa-shapes"></i></div>
 								<div class="title"><h2>Construir</h2></div>
-								<div class="text">
-									<p>No HS, dispomos de componentes eletrônicos, arduinos, Raspberries Pi e outros equipamentos para construir máquinas, geringonças e te manter curioso.</p>
-								</div>
+								<div class="text"><p>O <b>Hackerspace</b> dispõe de equipamentos, peças e ferramentas para montar projetos.</p></div>
 							</div>
 							<div class="item">
 								<div class="icon"><i class="fas fa-share-alt"></i></div>
 								<div class="title"><h2>Conectar</h2></div>
-								<div class="text">
-									<p>Conhecer pessoas que podem agregar no seu conhecimento e crescimento.</p>
-								</div>
+								<div class="text"><p>O <b>Hackerspace</b> é um espaço aberto à workshops, cursos e outros eventos promovidos pela comunidade.</p></div>
 							</div>
 						</div>
 					</div>

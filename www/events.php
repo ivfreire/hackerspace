@@ -4,7 +4,7 @@
 		<meta charset="utf-8"/>
 		<meta name="description" content="Eventos, cursos, oficinas e palestras que acontecem no Hackerspace IFUSP."/>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
-		<title>Hackerspace IFUSP - Eventos</title>
+		<title>Eventos</title>
 		<link rel="stylesheet" href="css/style.css"/>
 		<link rel="stylesheet" href="css/events.css"/>
 		<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
@@ -16,11 +16,9 @@
 		<header>
 			<div class="text">
 				<div class="wrapper">
-					<h1>Hackerspace</h1>
-					<h4><b>Eventos</b></h4>
+					<h1>Eventos</h1>
 				</div>
 			</div>
-			<div class="indicator"><i class="fas fa-chevron-down"></i></div>
 		</header>
 
 		<div class="page">

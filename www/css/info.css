@@ -1,23 +1,8 @@
 body { display: block; }
 
 header {
-	height: 100vh;
-	background-color: transparent;
-}
-
-header > img {
-	z-index: -1;
-	position: fixed;
-	min-width: 120vw;
-	min-height: 120vh;
-	margin-left: -10vw;
-	margin-top: -10vh;
-	filter: blur(8px);
-}
-
-header > div {
-	bottom: 45%;
-	text-align: center;
+	height: 50vh;
+	background-image: url('../images/headers/info.jpg');
 }
 
 header > div h3 { font-weight: normal; }
