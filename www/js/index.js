@@ -15,10 +15,11 @@ window.onscroll = () =>{
 }
 
 $('header').mousemove((ev) => {
-	var delta = [ (ev.pageX - window.innerWidth)/2, (ev.pageY - window.innerHeight)/2 ] 
+	var delta = [ ev.pageX - window.innerWidth/2, ev.pageY - window.innerHeight/2 ] 
 	$('header div.text').css({
-		left: `${-delta[0]/10}px`,
-		marginTop: `${-delta[1]/7}px`
+		left: `${-delta[0]/30}px`,
+		marginTop: `${-delta[1]/30}px`
 	});
-	$('header div.text h1').css({ marginLeft: `${-delta[0]/25}px` });
+	$('header div.text h1').css({ marginLeft: `${-delta[0]/50}px` });
+	console.log(delta[0])
 });
