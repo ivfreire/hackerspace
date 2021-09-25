@@ -20,7 +20,7 @@
 				<div class="wrapper">
 					<div>
 						<h1>Hackerspace</h1>
-						<h4>Muito mais que um <b>espaço</b>. Um <b>space</b>.</h4>
+						<h4>Muito mais que um <b>espaço</b>. Uma <b>comunidade</b>.</h4>
 					</div>
 				</div>
 			</div>

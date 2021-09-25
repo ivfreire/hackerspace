@@ -3,6 +3,7 @@ body { display: block; }
 header {
 	height: 50vh;
 	background-image: url('../images/headers/info.jpg');
+	background-attachment: fixed;
 }
 
 header > div h3 { font-weight: normal; }

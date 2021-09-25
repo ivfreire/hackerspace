@@ -120,10 +120,12 @@ nav.navigation a {
 	text-decoration: none;
 	font-size: 16px;
 	transition: background-color 0.2s;
+
+	border-top: transparent solid 3px;
 }
 
 nav.navigation a:hover {
-	background-color: #00536D;
+	border-top: white solid 3px;
 }
 
 nav.navigation a.active {

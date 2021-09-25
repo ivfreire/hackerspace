@@ -24,16 +24,15 @@ body { display: none; }
 
 nav.navigation { background: transparent; }
 
-nav.navigation div.menu a:hover, nav.navigation div.menu a.active { background: #4D4D4F; }
-nav.navigation div.menu a.title:hover { background: transparent; }
-
 header {
 	height: 50vh;
 	background-color: #231F20;
 	background-image: url('../images/headers/gamedev_desktop.jpg');
-	background-position-y: center;
+	background-position-y: -280px;
 	background-attachment: fixed;
 }
+
+header div.text div.wrapper { display: none; }
 
 footer { background: #4D4D4D; }
 
@@ -62,19 +61,9 @@ div#tools a > div {
 	transition: all 0.25s;
 }
 
-div#tools a > div:hover {
-	box-shadow: 0 0 30px #121212;
-}
-
+div#tools a > div:hover { box-shadow: 0 0 30px #121212; }
 div#tools a > div div.image { padding: 0 0 30px 0; }
-
-div#tools a > div div.image img {
-	height: 60px;
-	transition: all 0.25s;
-}
-
-div#tools a > div:hover div.image img { transform: scale(1.5); }
-
+div#tools a > div div.image img { height: 60px; }
 div#tools a > div div.title { padding: 0 0 10px 0; }
 
 div.highlights#feat div.highlight { height: 100%; }
