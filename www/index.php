@@ -138,7 +138,7 @@
 												</div>
 												<div class="text">
 													<div class="title">
-														<h2>Gamedev</h2>
+														<h2>Grupo de GameDev</h2>
 													</div>
 													<div class="content">
 														<p>Recentemente criado, o grupo de Gamedev do <b>Hackerspace</b> é formado por alunos interessados no desenvolvimento de jogos eletônicos para múltiplas plataformas.</p>

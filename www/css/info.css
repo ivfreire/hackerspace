@@ -8,14 +8,29 @@ header {
 
 header > div h3 { font-weight: normal; }
 
-div.presents#intro div.item { width: 45%; }
+div.presents#intro div.item { width: 47.5%; }
+div.presents#intro div.item div.text { text-align: justify; }
 
 div.presents#access > div { width: 30%; }
+div.presents#access div.item { text-align: center; }
+
+div.container#coffee {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+div.container#coffee > div.left { width: 47.5% }
+div.container#coffee > div.right { width: 47.5%; }
+div.container#coffee > div.left img { width: 100%; }
+
 
 @media only screen and (max-width: 1200px) {
 }
 
 @media only screen and (max-width: 800px) {
+	div.presents#intro div.item { width: 100%; }
+	div.container#coffee > div.left, div.container#coffee > div.right { width: 1005% }
 }
 
 @media only screen and (max-width: 624px) {

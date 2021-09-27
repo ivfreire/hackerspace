@@ -24,9 +24,15 @@ p {
 	line-height: 24px;
 }
 
+img {
+	border-radius: 10px;
+}
+
 div.light { background-color: white; }
 div.light h1, div.light h2, div.light h3, div.light h4, div.light h5, div.light h6 { color: #0F6688; }
 div.light p, div.light a, div.light i, div.light span { color: #808285; }
+div.light p.large, div.light a.large, div.light i.large, div.light span.large { color: #0F6688; }
+div.light p.large > span, div.light a.large > span, div.light i.large > span, div.light span.large > span { color: white; background-color: #0F6688; }
 div.light i { color: #808285; }
 div.light button { background: #E6E7E8; color: #4D4D4F; transition: all 200ms; }
 div.light button i { color: #4D4D4F; transition: all 200ms; }
@@ -64,6 +70,16 @@ div.warn p, div.warn a, div.warn i, div.warn span { color: white; }
 
 div.page { width: 100%; }
 
+p.large, span.large, i.large {
+	font-size: 100px;
+	font-weight: bold;
+}
+
+p.medium, span.medium, i.medium {
+	font-size: 48px;
+}
+
+
 div.wrapper {
 	width: 70%;
 	padding: 0 15%;
@@ -96,15 +112,14 @@ div.panel.box {
 	border-radius: 5px;
 }
 
-div.panel > div.title { text-align: center; }
+div.panel > div.title { text-align: center; padding-bottom: 20px; }
 div.panel > div.title i.indicator { display: none; float: right; }
-div.panel > div.content { padding-top: 20px; }
 
 /* NAVBAR */
 
 nav.navigation {
 	position: absolute;
-	background-color: transparent;
+	background: transparent;
 	width: 100%;
 	color: white;
 	font-family: Eau;
@@ -375,6 +390,9 @@ div.boxes div.box div.text h3 { padding-bottom: 10px; }
 }
 
 @media only screen and (max-width: 800px) {
+	p.large, span.large, i.large { font-size: 56px; font-weight: bold; }
+	p.medium, span.medium, i.medium { font-size: 24px; }
+
 	div.wrapper {
 		width: 90%;
 		padding: 0 5%;
@@ -397,12 +415,12 @@ div.boxes div.box div.text h3 { padding-bottom: 10px; }
 	footer div.lowermenu div.logos { padding: 60px 0 0 0; }
 	footer div.lowermenu div.logos img { width: 50%; }
 
-	div.stack div.element {
-		padding: 50px 0;
-	}
+	div.stack div.element { padding: 50px 0; }
 }
 
 @media only screen and (max-width: 624px) {
+	div.stack div.element { padding: 10% 0; }
+
 	nav.navigation a.bars { display: block; }
 	nav.navigation .hide-btn { display: none; }
 
@@ -436,7 +454,8 @@ div.boxes div.box div.text h3 { padding-bottom: 10px; }
 	div.panel.toggle > div.content { display: none; }
 	div.panel > div.title i.indicator { display: block; }
 
-	div.presents div.item { width: 100%;  padding: 30px 0; }
+	div.presents div.item { width: 100%; margin-bottom: 10%; }
+	div.presents div.item:last-of-type { margin-bottom: 0; }
 	div.presents div.item div.icon { text-align: center; }
 	div.presents div.item div.title { text-align: center; }
 
