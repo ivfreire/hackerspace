@@ -16,7 +16,9 @@
 		<header>
 			<div class="text">
 				<div class="wrapper">
-					<h1>Gamedev</h1>
+					<span>HS Gamedev</span>
+					<h1>Crie e explore novos universos.</h1>
+					<p>O HSGD é um projeto de extensão universitária dedicado à pesquisa e ao desenvolvimento de jogos digitais e ligado ao Hackerspace IFUSP.</p>
 				</div>
 			</div>
 		</header>
@@ -24,6 +26,43 @@
 		<div class="page">
 			<div class="stack">
 
+				<div class="element darker">
+					<div class="wrapper">
+						<div class="panel">
+							<div class="title"><h2></h2></div>
+						</div>
+					</div>
+				</div>
+
+				<div class="element darker">
+					<div class="wrapper">
+						<div class="panel presents" id="intro">
+							<div class="item">
+								<div class="icon"><i class="fas fa-gamepad"></i></div>
+								<div class="title"><h2>Gamedev</h2></div>
+								<div class="text">
+									<p>O grupo de Gamedev recém formado do <b>Hackerspace</b> é composto por alunos interessados no desenvolvimento de jogos digitais.</p>
+								</div>
+							</div>
+							<div class="item">
+								<div class="icon"><i class="fas fa-question-circle"></i></div>
+								<div class="title"><h2>Contribuições</h2></div>
+								<div class="text">
+									<p>Jogos digitais têm um impacto imenso sobre a didática no ensino e divulgação científica para o público geral.</p>
+								</div>
+							</div>
+							<div class="item">
+								<div class="icon"><i class="fas fa-tools"></i></i></div>
+								<div class="title"><h2>Ferramentas</h2></div>
+								<div class="text">
+									<p>Nós priorizamos o uso de ferramentas e <i>softwares</i> open-source no processo de desenvolvimento. Porém programas proprietários também são usados sem problemas.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!--
 				<div class="element dark">
 					<div class="wrapper">
 						<div class="panel presents" id="intro">
@@ -256,6 +295,7 @@
 						</div>
 					</div>
 				</div>
+				-->
 
 			</div>
 		</div>
