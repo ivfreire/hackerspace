@@ -24,9 +24,7 @@ p {
 	line-height: 24px;
 }
 
-img {
-	border-radius: 10px;
-}
+img { border-radius: 10px; }
 
 div.light { background-color: white; }
 div.light h1, div.light h2, div.light h3, div.light h4, div.light h5, div.light h6 { color: #0F6688; }
@@ -100,10 +98,19 @@ div.stack {
 }
 
 div.stack div.element {
+	position: relative;
 	width: 100%;
 	padding: 100px 0;
 	background-position-x: center;
 	background-size: cover;
+}
+
+div.stack div.element img.bg-img {
+	position: absolute;
+	min-width: 100%;
+	min-height: 100%;
+	top: -100px;
+	z-index: -1;
 }
 
 div.panel.box {
@@ -112,8 +119,9 @@ div.panel.box {
 	border-radius: 5px;
 }
 
-div.panel > div.title { text-align: center; padding-bottom: 20px; }
+div.panel > div.title { width: 100%; text-align: center; padding-bottom: 20px; }
 div.panel > div.title i.indicator { display: none; float: right; }
+div.panel > div.content { width: 100%; display: flex; justify-content: space-between; }
 
 /* NAVBAR */
 
@@ -134,8 +142,7 @@ nav.navigation a {
 	padding: 20px 18px;
 	text-decoration: none;
 	font-size: 16px;
-	transition: background-color 0.2s;
-
+	transition: background-color 0.2s, border-top 0.5s;
 	border-top: transparent solid 3px;
 }
 
@@ -169,6 +176,7 @@ nav.navigation i.fas { font-size: 14px; }
 /* HEADER */
 
 header {
+	position: relative;
 	display: flex;
 	width: 100%;
 	overflow: hidden;

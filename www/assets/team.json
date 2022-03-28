@@ -1,0 +1,44 @@
+{
+    "team": [
+        {
+            "id": "KeichiTS",
+            "nickname": "Pikachu",
+            "name": "Victor Tsutsumiuchi",
+            "twitter": "nukechu",
+            "itch": "KeichiTS",
+            "github": "KeichiTS"
+        },
+        {
+            "id": "jaspior",
+            "nickname": "",
+            "name": "Ricardo Pitta",
+            "twitter": "jaspio7",
+            "itch": "jaspior",
+            "github": "jaspior"
+        },
+        {
+            "id": "joaoppar",
+            "nickname": "joaoppar",
+            "name": "",
+            "twitter": "",
+            "itch": "",
+            "github": ""
+        },
+        {
+            "id": "ivfreire",
+            "nickname": "Asas de Cera",
+            "name": "Ícaro Freire",
+            "twitter": "ovfreire",
+            "github": "ivfreire",
+            "itch": "ivfreire"
+        },
+        {
+            "id": "julio",
+            "nickname": "",
+            "name": "Júlio Castaway",
+            "twitter": "",
+            "itch": "",
+            "github": "Julio-Castaway"
+        }
+    ]
+}
