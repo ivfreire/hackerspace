@@ -84,6 +84,85 @@
 					</div>
 				</div>
 
+				<div class="element light">
+					<div class="wrapper">
+						<div class="panel">
+							<div class="content">
+								<div class="presents" id="intro">
+									<div class="item">
+										<div class="icon">
+											<i class="fas fa-robot"></i>
+										</div>
+										<div class="title">
+											<h2>Hackerspace</h2>
+										</div>
+										<div class="text">
+											<p><b>Hackerspaces</b>, também conhecidos como makerspaces, são laboratórios onde profissionais da tecnologia, estudantes e entusiastas se reúnem para trabalhar em projetos relacionados à eletrônica, tecnologia, desenvolvimento de software e ciência.</p>
+										</div>
+									</div>
+									<div class="item">
+										<div class="icon">
+											<i class="fas fa-atom"></i>
+										</div>
+										<div class="title">
+											<h2>Instituto de Física</h2>
+										</div>
+										<div class="text">
+											<p>O <b>Hackerspace IFUSP</b> é associado à Universidade de São Paulo e é um dos primeiros hackerspaces do Brasil. Foi fundado em 2018 pelo Prof. Dr. Alexandre Suaide que trouxe essa ideia de universidades norte-americanas. O espaço tem uma proposta inovadora que contrasta com a natureza teórica acadêmica do Instituto.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="element light" style="padding-top: 0; padding-bottom: 0;">
+					<div class="wrapper">
+						<div class="panel">
+							<div class="content">
+								<div class="container" id="coffee">
+									<div class="left"><img src="images/misc/cafe.jpg" alt="cafe no hackerspace"/></div>
+									<div class="right">
+										<span class="large">Um <span>espaço</span> para grandes <span>ideias</span>.<br>(e café!)</span><br><br>
+										<span class="medium">Preparo do café no HS</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="element light" id="lately" style="padding-bottom: 0;">
+					<div class="wrapper">
+						<div class="panel">
+							<div class="title"><h2>Eventos recentes</h2></div>
+							<div class="content">
+								<div id="lately">
+									<div class="holder">
+										<?php
+											$events = json_decode(file_get_contents('assets/events/events.json'), true);
+											$events = $events['events'];
+											for($i = count($events) - 1; $i > count($events) - 5; $i--) {
+												$event = $events[$i];
+												echo "
+													<div class='box'>
+														<div class='image'><img src='assets/events/".$event['id']."/thumb.jpg'/></div>
+														<div class='text'>
+															<h2>".$event['title']."</h2>
+															<p>".$event['description']."</p>
+														</div>
+													</div>
+												";
+											}
+										?>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
 				<div class="element light" id="extension">
 					<div class="wrapper">
 						<div class="panel">

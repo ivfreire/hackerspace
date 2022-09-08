@@ -112,6 +112,57 @@ div.presents#goals > div {
 	text-align: center;
 }
 
+div.container#coffee {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+div.container#coffee > div.left { width: 47.5% }
+div.container#coffee > div.right { width: 47.5%; }
+div.container#coffee > div.left img { width: 100%; }
+
+div.presents#intro div.item { width: 47.5%; }
+div.presents#intro div.item div.text { text-align: justify; }
+
+div.presents#intro div.item i { color: #0F6688; }
+
+div#lately > div.holder {
+	display: flex;
+	justify-content: space-between;
+}
+
+div#lately > div.holder div.box {
+	background: transparent;
+	width: 24%;
+	cursor: pointer;
+}
+
+div#lately > div.holder div.box div.image {
+	overflow: hidden;
+	width: 100%;
+	height: 0;
+	padding-bottom: 100%;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+div#lately > div.holder div.box div.image img {
+	width: 100%;
+	border-radius: 0;
+	transition: all 250ms;
+}
+
+div#lately > div.holder div.box:hover div.image img {
+	transform: scale(1.2);
+}
+
+
+div#lately > div.holder div.box div.text h2, div#lately > div.holder div.box div.text p {
+	font-size: 16px;
+	margin-bottom: 5px;
+}
+
 @media only screen and (max-width: 800px) {
 	div.presents#goals > div { width: 40%; }
 	div.presents#goals > div:first-child { padding: 0 0 60px 0; }

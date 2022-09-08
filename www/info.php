@@ -24,55 +24,6 @@
 		<div class="page">
 			<div class="stack">
 
-				<div class="element light">
-					<div class="wrapper">
-						<div class="panel">
-							<div class="content">
-								<div class="presents" id="intro">
-									<div class="item">
-										<div class="icon">
-											<i class="fas fa-robot"></i>
-										</div>
-										<div class="title">
-											<h2>Hackerspace</h2>
-										</div>
-										<div class="text">
-											<p><b>Hackerspaces</b> são laboratórios físicos mantidos pela comunidade onde profissionais, estudantes e entusiastas da ciência e tecnologia se reúnem para compartilhar experiências, conhecer novas pessoas da área e trabalhar em projetos conjuntos.</p>
-										</div>
-									</div>
-									<div class="item">
-										<div class="icon">
-											<i class="fas fa-atom"></i>
-										</div>
-										<div class="title">
-											<h2>Instituto de Física da USP</h2>
-										</div>
-										<div class="text">
-											<p>O <b>Hackerspace IFUSP</b> é associado à Universidade de São Paulo e é um dos primeiros hackerspaces do Brasil. Foi fundado em 2018 pelo Prof. Dr. Alexandre Suaide e alguns geniosos alunos da graduação. O espaço tem uma proposta inovadora que contrasta com a natureza teórica acadêmica da Universidade.</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="element light" style="padding-top: 0;">
-					<div class="wrapper">
-						<div class="panel">
-							<div class="content">
-								<div class="container" id="coffee">
-									<div class="left"><img src="images/misc/cafe.jpg" alt="cafe no hackerspace"/></div>
-									<div class="right">
-										<span class="large">Um <span>espaço</span> para grandes <span>ideias</span>.<br>(e café!)</span><br><br>
-										<span class="medium">Preparo do café no HS</span>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
 				<div class="element light" id="access" style="padding-top: 0;">
 					<div class="wrapper">
 						<div class="panel">

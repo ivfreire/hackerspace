@@ -23,6 +23,30 @@
 			"description": "Apresentação do <b>Hackerspace</b> aos bixos de 2019 com oficina de Arduino e rubber-ducky.",
 			"date": "FEV 2019",
 			"id": "recepcao_dos_bixos_2019"
+		},
+		{
+			"title": "Python, primeiros passos: programção científica e Data Science.",
+			"description": "",
+			"date": "OUT 2022",
+			"id": "python_primeiros_passos"
+		},
+		{
+			"title": "Conversa sobre Segurança da Informação.",
+			"description": "",
+			"date": "OUT 2022",
+			"id": "conversa_sobre_seguranca_da_informacao"
+		},
+		{
+			"title": "Introdução aos algorítmos de Monte Carlo.",
+			"description": "",
+			"date": "OUT 2022",
+			"id": "introducao_aos_algoritimos_de_monte_carlo"
+		},
+		{
+			"title": "Minicurso de BASH para bioinformática.",
+			"description": "",
+			"date": "OUT 2022",
+			"id": "minicurso_bash_para_informatica"
 		}
 	]
 }
