@@ -20,7 +20,7 @@
 					<h1>Crie e explore novos universos.</h1>
 					<p>O <b>HSGD</b> é um projeto de extensão universitária dedicado ao desenvolvimento de jogos digitais e ligado ao <b>Hackerspace</b> IFUSP.</p>
 					<div class="buttons">
-						<button>Nossa biblioteca</button>
+						<a href="#library"><button>Nossa biblioteca</button></a>
 						<button>Faça parte!</button>
 					</div>
 				</div>
@@ -58,10 +58,10 @@
 					</div>
 				</div>
 
-				<div class="element darker" style="padding-top: 0;">
+				<div class="element dark">
 					<div class="wrapper">
 						<div class="panel presents" id="recents">
-							<!-- <div class="title"><h2>Títulos recentes</h2></div> -->
+							<div class="title"><h2>Títulos recentes</h2></div>
 							<div class="content">
 								<?php
 									$games = json_decode(file_get_contents('assets/games/games.json'), true);
@@ -83,40 +83,46 @@
 					</div>
 				</div>
 
-				<div class="element dark" id="team">
+				<div class="element dark" id="activities">
 					<div class="wrapper">
 						<div class="panel">
-							<div class="title"><h2>Equipe</h2><br><p>Alunos que fazem parte do grupo de GameDev</p></div>
+							<div class="title"><h2>Em breve</h2></div>
 							<div class="content">
-								<div id="team-wall">
-									<?php
-										$devs = json_decode(file_get_contents('assets/team.json'), true);
-										$devs = $devs['team'];
-										if (isset($devs)) {
-											foreach ($devs as $dev) {
-												echo "
-													<a href='https://twitter.com/".$dev['twitter']."'>
-														<div class='dev' title='".$dev['name']."'>
-															<img src='assets/team/".$dev['id'].".png'/>
-															<span>".$dev['id']."</span>
-															<span>".$dev['name']."</span>
-														</div>
-													</a>
-												";
-											}
-										}
-									?>
+								<div id="soon">
+									<div>
+										<div class="image"><img src="images/misc/gamedev_course.png"/></div>
+										<div class="text">
+											<span>Curso de GameDev</span>
+											<p>Curso de desenvolvimento de jogos eletrônicos usando ferramentas open-source oferecido pelo Hackerspace.</p>
+										</div>
+									</div>
+									<div>
+										<div class="image"><img src="images/misc/gamejam_icon.png"/></div>
+										<div class="text">
+											<span>Hackerspace GameJam</span>
+											<p>Competição de desenvolvimento de jogos.</p>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 
-				<div class="element darker">
+				<div class="element darker" id="library">
 					<div class="wrapper">
 						<div class="panel">
+							<div class="title"><h2>Nossa biblioteca</h2></div>
 							<div class="content">
-								
+								<div class="library">
+									<ul>
+										<?php
+											foreach (array_reverse($games) as $game) {
+												echo "<li><a href='game.php?g=".$game['id']."'><div><img src='assets/games/".$game['id']."/thumb.jpg' /></div><span>".$game['title']."</span></a></li>";
+											}
+										?>
+									</ul>
+								</div>
 							</div>
 						</div>
 					</div>

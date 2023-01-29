@@ -2,7 +2,9 @@
 	--theme-color: #18a3df;
 }
 
-div.dark { background-color: #4D4D4F; }
+body { display: block; }
+
+div.dark { background: linear-gradient(115deg, #4D4D4F, #2D2D2F); }
 div.dark h1, div.dark h2, div.dark h3, div.dark h4, div.dark h5, div.dark h6 { color: white; }
 div.dark p, div.dark a, div.dark i, div.dark span { color: white; }
 div.dark button { background: #17739A; color: white; transition: all 200ms; }
@@ -12,7 +14,7 @@ div.dark div.box, div.dark div.highlight { background: #4D4D4F; }
 div.dark button { background-color: #ff3f00; }
 div.dark button:hover { background-color: #cc0c00; }
 
-div.darker { background-color: #231F20; }
+div.darker { background: linear-gradient(-35deg, #332F30, #130F10); }
 div.darker h1, div.darker h2, div.darker h3, div.darker h4, div.darker h5, div.darker h6 { color: white; }
 div.darker p, div.darker a, div.darker i, div.darker span { color: white; }
 div.darker button { background: #17739A; color: white; transition: all 200ms; }
@@ -142,41 +144,86 @@ div.presents#recents div.item div.image img {
 	transition: left 0.2s;
 }
 
-div.element#team {
+div.element#activities {
 	background-image: url('../images/headers/team.jpg');
 	background-size: cover;
 	background-attachment: fixed;
 }
 
-div#team-wall { 
+div#library a { text-decoration: none; }
+
+div#library ul {
 	display: flex;
-	width: 100%;
+	flex-flow: row wrap;
 	justify-content: space-between;
-	padding: 50px 0 0 0;
+	list-style-type: none;
 }
-div#team-wall a { text-decoration: none; }
-div#team-wall div.dev { 
+
+div#library ul li {
+	width: 32%;
+	margin-bottom: 20px;
+	transition: all 250ms;
+}
+
+
+div#library ul li:hover { transform: translateY(-10px); }
+div#library ul li:hover div { border: 2px solid var(--theme-color); }
+div#library ul li:hover span { color: var(--theme-color); }
+
+div#library ul li div {
+	overflow: hidden;
+	width: 100%;
+	height: 0;
+	padding-bottom: 56.75%;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	border: 2px solid transparent;
+	transition: all 250ms;
+}
+
+div#library ul li img { width: 110%; }
+
+div#library ul li span {
+	color: white;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+	transition: all 250ms;
+}
+
+div#soon {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+div#soon div {
+	display: flex;
+	overflow: hidden;
+	width: 49%;
+	background: #4D4D4D;
+	border-radius: 10px;
+}
+
+div#soon div div.image { border-radius: 0; width: 40%; }
+div#soon div div.text {
 	display: flex;
 	flex-direction: column;
-	transition: all 0.2s;
+	justify-content: center;
+	width: 50%;
+	padding: 5%;
 }
-div#team-wall div.dev:hover img { border: 3px solid var(--theme-color); transform: scale(1.2); }
-div#team-wall div.dev img {
-	border-radius: 100%;
-	width: 150px;
-	height: 150px;
-	border: 3px solid transparent;
-	transition: all 0.2s;
-	box-shadow: #000000 0 0 50px;
+
+div#soon div div.image img {
+	width: 100%;
+	border-radius: 0;
 }
-div#team-wall div.dev span {
-	text-align: center;
-	margin-top: 30px;
-	font-size: 16px;
-}
-div#team-wall div.dev span:last-of-type {
-	margin-top: 5px;
-	color: rgba(200, 200, 200, 0.7);
+
+
+div#soon div div.text span {
+	font-size: 28px;
+	font-weight: bold;
+	margin-bottom: 14px;
 }
 
 /** MEDIA CTL **/

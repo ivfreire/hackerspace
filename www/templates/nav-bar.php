@@ -6,7 +6,6 @@
 			<div class="hide-btn menu-btn">
 				<a href="events.php">Eventos</a>
 				<a href="gamedev.php">Gamedev</a>
-				<a href="info.php">Informações</a>
 			</div>
 			<div class="right">
 				<!-- <a class="status closed" title="O Hackerspace está fechado atualmente."><i class="fas fa-door-closed"></i></a> -->

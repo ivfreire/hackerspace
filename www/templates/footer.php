@@ -15,6 +15,7 @@
 						<ul>
 							<li class="title"><i class="fas fa-globe"></i> Redes</li>
 							<li><a href="https://facebook.com/hackerspace.ifusp">Facebook</a></li>
+							<li><a href="https://instagram.com/hackerspacesp">Instagram</a></li>
 							<li><a href="https://github.com/ivfreire/hackerspace">GitHub</a></li>
 							<li><a href="https://www.youtube.com/channel/UCk59MC1ylz1vRz8xIPoxnyA">YouTube</a></li>
 						</ul>
@@ -49,6 +50,8 @@
 	<div class="bottom">
 		<div class="wrapper">
 			<p>Sala 1013, Instituto de Física da USP - Prédio Principal<br>R. do Matão, 1371 - Cid. Universitária - Butantã - São Paulo, SP</p>
+			<br>
+			<span><i>Criado por Ícaro Freire.</i></span>
 		</div>
 	</div>
 </footer>

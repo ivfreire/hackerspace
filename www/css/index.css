@@ -58,7 +58,7 @@ div#activities div.holder > div#courses:hover div.image {
 
 div#activities div.holder > div#gamedev div.bg {
 	background-color: #FF3F00;
-	border-radius: 5px;
+	border-radius: 10px;
 }
 
 div#activities div.holder > div div.image {
@@ -67,7 +67,7 @@ div#activities div.holder > div div.image {
 	text-align: center;
 	font-size: 100px;
 	padding: 60px 0;
-	border-radius: 5px;
+	border-radius: 10px;
 	transition: all 300ms;
 }
 
@@ -143,7 +143,7 @@ div#lately > div.holder div.box div.image {
 	width: 100%;
 	height: 0;
 	padding-bottom: 100%;
-	border-radius: 5px;
+	border-radius: 10px;
 	margin-bottom: 10px;
 }
 

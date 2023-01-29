@@ -84,23 +84,17 @@
 							<div class="item">
 								<div class="icon"><i class="fas fa-tools"></i></div>
 								<div class="title"><h2>Oficinas</h2></div>
-								<div class="text">
-									<p>Oficinas no <b>Hackerspace</b> são eventos práticos que ensinam novas tecnologias e técnicas para a comunidade. Eletrônica, análise de dados, bibliotecas, <i>software</i> são alguns entre muitas coisas ensinadas.</p>
-								</div>
+								<div class="text"><p>As oficinas no <b>Hackerspace</b> são eventos práticos que ensinam o uso de novas tecnologias para a comunidade acadêmica. Eletrônica, análise de dados, bibliotecas, <i>software</i> são alguns entre muitas coisas ensinadas.</p></div>
 							</div>
 							<div class="item">
 								<div class="icon"><i class="fas fa-university"></i></div>
 								<div class="title"><h2>Cursos</h2></div>
-								<div class="text">
-									<p>Além de oficinas práticas, o <b>Hackerspace</b> também oferece cursos de curto prazo para a comunidade acadêmica.</p>
-								</div>
+								<div class="text"><p>Além de oficinas práticas, o <b>Hackerspace</b> também oferece cursos de curto prazo para a comunidade acadêmica.</p></div>
 							</div>
 							<div class="item">
 								<div class="icon"><i class="fas fa-sun"></i></div>
 								<div class="title"><h2>Cursos de Verão</h2></div>
-								<div class="text">
-									<p>Todo verão o Instituto de Física oferece cursos de férias para os alunos da Universidade, o <b>Hackerspace</b> também faz parte disso, oferecendo cursos e disponibilizando o local para palestrantes.</p>
-								</div>
+								<div class="text"><p>Todo verão o Instituto de Física oferece cursos de férias para os alunos da Universidade, o <b>Hackerspace</b> também participa disso, oferecendo cursos e disponibilizando o local para alunos e professores palestrantes.</p></div>
 							</div>
 						</div>
 					</div>
