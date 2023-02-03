@@ -6,6 +6,7 @@
 			<div class="hide-btn menu-btn">
 				<a href="events.php">Eventos</a>
 				<a href="gamedev.php">Gamedev</a>
+				<a href="recepcao.php">Recepção 2023</a>
 			</div>
 			<div class="right">
 				<!-- <a class="status closed" title="O Hackerspace está fechado atualmente."><i class="fas fa-door-closed"></i></a> -->

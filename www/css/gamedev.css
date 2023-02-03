@@ -24,7 +24,7 @@ div.darker div.box, div.darker div.highlight { background: #4D4D4F; }
 div.darker button { background-color: #ff3f00; }
 div.darker button:hover { background-color: #cc0c00; }
 
-div.panel > div.title h2 { font-size: 72px; }
+div.panel > div.title h2 { font-size: 42px; }
 
 nav.navigation a { transition: all 0.2s; }
 nav.navigation a:hover { color: var(--theme-color); border-color: var(--theme-color);}

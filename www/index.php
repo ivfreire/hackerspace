@@ -36,7 +36,7 @@
 							<div class="item">
 								<div class="icon"><i class="fas fa-globe-americas"></i></div>
 								<div class="title"><h2>Olá, mundo!</h2></div>
-								<div class="text"><p>O <b>Hackerpace</b> é um laboratório de tecnologia aberto à comunidade no Instituto de Física da USP.</p></div>
+								<div class="text"><p>O <b>Hackerpace</b> é um laboratório de eletrônica e tecnologia no Instituto de Física da USP.</p></div>
 							</div>
 							<div class="item">
 								<div class="icon"><i class="fas fa-code"></i></div>
@@ -60,21 +60,32 @@
 				<div class="element light" id="highlight">
 					<div class="wrapper">
 						<div class="panel">
-							<!-- <div class="title" style="text-align: left;">
-								<h2>Em destaque</h2>
-							</div> -->
 							<div class="content">
-								<div class="highlights" id="highlights">
-									<a href="https://revistapesquisa.fapesp.br/espaco-livre-para-criar/?cat=tecnologia/" rel="nopener norefferer" target="_blank">
-										<div class="highlight">
+								<div id="highlights">
+									<a href="recepcao.php" rel="nopener norefferer" target="_blank">
+										<div>
+											<div class="image"><img class="background" src="assets/highlights/recepcao.png" alt="hackerspace, impressora 3d"></div>
 											<div class="info">
-												<div>
-													<h2>Espaço livre para criar.</h2><br>
-													<p>Hackerspace IFUSP em destaque na revista FAPESP.</p><br>
-												</div>
+												<h3>Recepção aos Calouros 2023.</h3>
+												<p>Programação dos eventos, palestras e workshops que serão realizados no Hackerspace na primeira semana de aula de 2023.</p>
 											</div>
-											<div class="image">
-												<img class="background" src="assets/highlights/hackerspace_fapesp.jpg" alt="hackerspace, impressora 3d">
+										</div>
+									</a>
+									<a href="https://portal.if.usp.br/imprensa/pt-br/node/3891" rel="nopener norefferer" target="_blank">
+										<div>
+											<div class="image"><img class="background" src="assets/highlights/recepcao.png" alt="hackerspace, impressora 3d"></div>
+											<div class="info">
+												<h3>Equipe do Hackerspace IFUSP fica em segundo lugar na competição HackAtom 2022</h3>
+												<p>Em outubro de 2022, a equipe do Hackerspace ficou em 2º lugar na maratona hacker promovida pela Rosatom e pelo IPEN.</p>
+											</div>
+										</div>
+									</a>
+									<a href="https://revistapesquisa.fapesp.br/espaco-livre-para-criar/?cat=tecnologia/" rel="nopener norefferer" target="_blank">
+										<div>
+											<div class="image"><img class="background" src="assets/highlights/hackerspace_fapesp.jpg" alt="hackerspace, impressora 3d"></div>
+											<div class="info">
+												<h3>Espaço livre para criar.</h3>
+												<p>Hackerspace IFUSP em destaque na revista FAPESP.</p>
 											</div>
 										</div>
 									</a>
@@ -84,7 +95,7 @@
 					</div>
 				</div>
 
-				<div class="element light">
+				<div class="element dark">
 					<div class="wrapper">
 						<div class="panel">
 							<div class="content">
@@ -117,7 +128,7 @@
 					</div>
 				</div>
 
-				<div class="element light" style="padding-top: 0; padding-bottom: 0;">
+				<div class="element darker">
 					<div class="wrapper">
 						<div class="panel">
 							<div class="content">
@@ -125,7 +136,7 @@
 									<div class="left"><img src="images/misc/cafe.jpg" alt="cafe no hackerspace"/></div>
 									<div class="right">
 										<span class="large">Um <span>espaço</span> para grandes <span>ideias</span>.<br>(e café!)</span><br><br>
-										<span class="medium">Preparo do café no HS</span>
+										<span class="medium">1º café no Hackerspace.</span>
 									</div>
 								</div>
 							</div>
@@ -133,7 +144,7 @@
 					</div>
 				</div>
 
-				<div class="element light" id="lately" style="padding-bottom: 0;">
+				<div class="element gray" id="lately">
 					<div class="wrapper">
 						<div class="panel">
 							<div class="title"><h2>Eventos recentes</h2></div>
@@ -231,6 +242,14 @@
 									</div>
 								</div>
 							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="element gray">
+					<div class="wrapper">
+						<div class="panel">
+							<div class="title"><h1>Olá, mundo!</h1></div>
 						</div>
 					</div>
 				</div>

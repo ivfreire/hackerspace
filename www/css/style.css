@@ -31,7 +31,7 @@ div.light h1, div.light h2, div.light h3, div.light h4, div.light h5, div.light 
 div.light p, div.light a, div.light i, div.light span { color: #808285; }
 div.light p.large, div.light a.large, div.light i.large, div.light span.large { color: #0F6688; }
 div.light p.large > span, div.light a.large > span, div.light i.large > span, div.light span.large > span { color: white; background-color: #0F6688; }
-div.light i { color: #808285; }
+div.light i { color: #0F6688; }
 div.light button { background: #E6E7E8; color: #4D4D4F; transition: all 200ms; }
 div.light button i { color: #4D4D4F; transition: all 200ms; }
 div.light button:hover { background: #0F6688; color: white; }
@@ -41,7 +41,7 @@ div.light div.box, div.light div.highlight { background: #E6E7E8; }
 div.gray { background-color: #E6E7E8; }
 div.gray h1, div.gray h2, div.gray h3, div.gray h4, div.gray h5, div.gray h6 { color: #0F6688; }
 div.gray p, div.gray a, div.gray span { color: #606265; }
-div.gray i { color: #808285; }
+div.gray i { color: #0F6688; }
 div.gray button { background: white; color: #4D4D4F; transition: all 200ms; }
 div.gray button i { color: #4D4D4F; transition: all 200ms; }
 div.gray button:hover { background: #0F6688; color: white; }
@@ -100,7 +100,7 @@ div.stack {
 div.stack div.element {
 	position: relative;
 	width: 100%;
-	padding: 100px 0;
+	padding: 10% 0;
 	background-position-x: center;
 	background-size: cover;
 }
@@ -119,7 +119,7 @@ div.panel.box {
 	border-radius: 5px;
 }
 
-div.panel > div.title { width: 100%; text-align: center; padding-bottom: 100px; }
+div.panel > div.title { width: 100%; text-align: center; padding-bottom: 2%; }
 div.panel > div.title i.indicator { display: none; float: right; }
 div.panel > div.content { width: 100%; display: flex; justify-content: space-between; }
 
@@ -314,49 +314,6 @@ div.presents div.item div.text {
 	font-size: 16px;
 	line-height: 24px;
 }
-
-div#highlight { padding-bottom: 0; }
-
-div.highlights {
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-between;
-	width: 100%;
-	overflow: hidden;
-}
-
-div.highlights a { text-decoration: none; }
-
-div.highlights div.highlight {
-	display: flex;
-	flex-flow: row wrap;
-	width: 100%;
-	border-radius: 5px;
-	overflow: hidden;
-}
-
-div.highlights div.highlight > div {
-	display: flex;
-	width: 50%;
-	overflow: hidden;
-}
-
-div.highlights div.highlight div.info {
-	flex-flow: column;
-	justify-content: center;
-}
-
-div.highlights div.highlight div.info > div {
-	width: 80%;
-	padding: 10% 10%;
-}
-
-div.highlights div.highlight div.image img {
-	width: 100%;
-	transition: all 0.25s;
-}
-
-div.highlights div.highlight:hover div.image img { transform: scale(1.2); }
 
 div.boxes {
 	display: flex;

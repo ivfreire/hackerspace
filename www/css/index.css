@@ -16,7 +16,45 @@ header div.text {
 header div.text div.wrapper { text-align: left; }
 header div.text h4 { font-family: Cantarell, Eau; }
 
-div.page { z-index: 2; }	
+div.page { z-index: 2; }
+
+div#highlights {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	width: 100%;
+	overflow: hidden;
+}
+div#highlights a {
+	width: 30%;
+	text-decoration: none;
+}
+div#highlights a > div {
+	display: flex;
+	flex-flow: column;
+	width: 100%;
+	border-radius: 5px;
+	overflow: hidden;
+	background: transparent;
+}
+div#highlights a div > div {
+	display: flex;
+	width: 100%;
+}
+div#highlights div div.info {
+	flex-flow: column;
+	justify-content: center;
+}
+div#highlights div div.info h3 { margin: 5% 0; }
+div#highlights div div.image {
+	overflow: hidden;
+	border-radius: 10px;
+}
+div#highlights div div.image img {
+	width: 100%;
+	transition: all 0.25s;
+}
+div#highlights div:hover div.image img { transform: scale(1.2); }
 
 div#activities div.holder {
 	display: flex;
@@ -118,14 +156,13 @@ div.container#coffee {
 	justify-content: space-between;
 }
 
-div.container#coffee > div.left { width: 47.5% }
-div.container#coffee > div.right { width: 47.5%; }
+div.container#coffee > div.left { width: 45% }
+div.container#coffee > div.right { width: 45%; }
 div.container#coffee > div.left img { width: 100%; }
 
-div.presents#intro div.item { width: 47.5%; }
+div.presents#intro div.item { width: 45%; }
+div.presents#intro div.item div.icon, div.presents#intro div.item div.title { text-align: center; }
 div.presents#intro div.item div.text { text-align: justify; }
-
-div.presents#intro div.item i { color: #0F6688; }
 
 div#lately > div.holder {
 	display: flex;

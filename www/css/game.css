@@ -7,6 +7,8 @@ body {
 	display: none;
 }
 
+div.indicator { display: none; }
+
 header img {
 	min-width: 100vw;
 	min-height: 100vh;
@@ -14,6 +16,9 @@ header img {
 	transform: scale(1.3) rotate(5deg);
 	animation: hd-img 2s;
 }
+
+div.panel > div.title { padding-bottom: 5%; }
+div.panel > div.title h2 { font-size: 32px; }
 
 div.gameinfo {
 	display: flex;
@@ -30,10 +35,10 @@ div.gameinfo div.left {
 div.gameinfo div.right { 
 	display: flex;
 	flex-direction: column;
-	width: 68%;
+	width: 60%;
 }
 
-div.gameinfo div.right > div { margin-bottom: 40px; }
+div.gameinfo div.right > div { margin-bottom: 10%; }
 div.gameinfo div.right > div:last-child { margin-bottom: 0; }
 
 div.gameinfo div.info {

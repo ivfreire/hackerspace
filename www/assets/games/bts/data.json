@@ -1,0 +1,53 @@
+{
+	"title": "BTS²",
+	"description": "",
+	"links": {
+		"itch.io": {
+			"text": "itch.io",
+			"link": "https://keichits.itch.io/bts"
+		}
+	},
+	"year": "2022",
+	"developers": [
+		{
+			"name": "Ricardo Pitta",
+			"role": "Arte, polimento e programação."
+		},
+		{
+			"name": "Joaoppar",
+			"role": "Sonografia."
+		},
+		{
+			"name": "Julio Oliveira",
+			"role": "Narrativa."
+		},
+		{
+			"name": "KeichiTS",
+			"role": "Programação, sonografia e arte."
+		},
+		{
+			"name": "ivfreire",
+			"role": "Programação."
+		}
+	],
+	"platforms": [
+		{
+			"platform": "browser",
+			"link": "https://keichits.itch.io/bts"
+		},
+		{
+			"platform": "linux",
+			"link": "https://keichits.itch.io/bts"
+		},
+		{
+			"platform": "windows",
+			"link": "https://keichits.itch.io/bts"
+		}
+	],
+	"built-with": [ "godot" ],
+	"tags": [ "2D", "Music", "Bees", "Insect" ],
+	"images": {
+	},
+	"status": "done",
+	"id": "bts"
+}

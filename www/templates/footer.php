@@ -51,7 +51,7 @@
 		<div class="wrapper">
 			<p>Sala 1013, Instituto de Física da USP - Prédio Principal<br>R. do Matão, 1371 - Cid. Universitária - Butantã - São Paulo, SP</p>
 			<br>
-			<span><i>Criado por Ícaro Freire.</i></span>
+			<span><i>Criado por <a href="https://ivfreire.github.io/">Ícaro Freire</a>.</i></span>
 		</div>
 	</div>
 </footer>

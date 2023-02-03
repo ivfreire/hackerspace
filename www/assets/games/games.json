@@ -41,6 +41,12 @@
 			"description": "Jogo do coelho genérico na fábrica de chocolate.",
 			"year": "2021",
 			"id": "jogodocoelho"
+		},
+		{
+			"title": "BTS²",
+			"description": "",
+			"year": "2022",
+			"id": "bts"
 		}
 	]
 }
