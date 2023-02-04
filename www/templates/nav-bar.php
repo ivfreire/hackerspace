@@ -9,13 +9,14 @@
 				<a href="recepcao.php">Recepção 2023</a>
 			</div>
 			<div class="right">
-				<!-- <a class="status closed" title="O Hackerspace está fechado atualmente."><i class="fas fa-door-closed"></i></a> -->
 				<?php
+					/*
 					$hs_open = file_get_contents('data/HS_STATE.txt') == "ON";
 					if ($hs_open) echo "<a class='status open' title='O Hackerspace está aberto!'><i class='fas fa-door-closed'></i></a>";
 					else  echo "<a class='status closed' title='O Hackerspace está fechado atualmente.'><i class='fas fa-door-closed'></i></a>";
+					*/
 				?>
-				<a class="hide-btn" href="en">English</a>
+				<!-- <a class="hide-btn" href="en">English</a> -->
 				<a><i class="fas fa-search"></i></a>
 			</div>
 		</div>

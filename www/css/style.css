@@ -119,7 +119,11 @@ div.panel.box {
 	border-radius: 5px;
 }
 
-div.panel > div.title { width: 100%; text-align: center; padding-bottom: 2%; }
+div.panel > div.title {
+	width: 100%;
+	text-align: center;
+	padding-bottom: 5%;
+}
 div.panel > div.title i.indicator { display: none; float: right; }
 div.panel > div.content { width: 100%; display: flex; justify-content: space-between; }
 

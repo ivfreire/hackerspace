@@ -4,7 +4,7 @@
 
 body { display: block; }
 
-div.dark { background: linear-gradient(115deg, #4D4D4F, #2D2D2F); }
+div.dark { background: #2D2D2F; }
 div.dark h1, div.dark h2, div.dark h3, div.dark h4, div.dark h5, div.dark h6 { color: white; }
 div.dark p, div.dark a, div.dark i, div.dark span { color: white; }
 div.dark button { background: #17739A; color: white; transition: all 200ms; }
@@ -14,7 +14,7 @@ div.dark div.box, div.dark div.highlight { background: #4D4D4F; }
 div.dark button { background-color: #ff3f00; }
 div.dark button:hover { background-color: #cc0c00; }
 
-div.darker { background: linear-gradient(-35deg, #332F30, #130F10); }
+div.darker { background: #130F10; }
 div.darker h1, div.darker h2, div.darker h3, div.darker h4, div.darker h5, div.darker h6 { color: white; }
 div.darker p, div.darker a, div.darker i, div.darker span { color: white; }
 div.darker button { background: #17739A; color: white; transition: all 200ms; }

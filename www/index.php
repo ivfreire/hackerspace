@@ -5,7 +5,7 @@
 		<meta name="description" content="O Hackerspace IFUSP é um laboratório aberto ao público no Instituto de Física da USP. É um dos primeiros hackerspaces do Brasil atualmente, localizado no bairro do Butantã, na cidade de São Paulo."/>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 		<meta name="google-site-verification" content="U8f5wnlNCiLO8B9--r-Irq0sg3EiM0unoGiqNFEMmoU" />
-		<title>Hackerspace</title>
+		<title>Hackerspace IFUSP</title>
 		<link rel="stylesheet" href="css/style.css"/>
 		<link rel="stylesheet" href="css/index.css"/>
 		<link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
@@ -20,7 +20,8 @@
 				<div class="wrapper">
 					<div>
 						<h1>Hackerspace</h1>
-						<h4>Muito mais que um <b>espaço</b>. Uma <b>comunidade</b>.</h4>
+						<h4>Instituto de Física da USP.</h4>
+						<!-- <h4>Muito mais que um <b>espaço</b>. Uma <b>comunidade</b>.</h4> -->
 					</div>
 				</div>
 			</div>
@@ -46,13 +47,26 @@
 							<div class="item">
 								<div class="icon"><i class="fas fa-shapes"></i></div>
 								<div class="title"><h2>Construir</h2></div>
-								<div class="text"><p>O <b>Hackerspace</b> dispõe de equipamentos, peças e ferramentas para montar projetos.</p></div>
+								<div class="text"><p>O <b>Hackerspace</b> dispõe de equipamentos, ferramentas e peças para montar projetos eletrônicos.</p></div>
 							</div>
 							<div class="item">
 								<div class="icon"><i class="fas fa-share-alt"></i></div>
 								<div class="title"><h2>Conectar</h2></div>
-								<div class="text"><p>O <b>Hackerspace</b> é um espaço aberto à workshops, cursos e outros eventos promovidos pela comunidade.</p></div>
+								<div class="text"><p>O <b>Hackerspace</b> é um espaço aberto a eventos, oficinas, cursos e encontros relacionados à tecnologia.</p></div>
 							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="element dark" id="socials">
+					<div class="wrapper">
+						<div class="panel">
+							<ul>
+								<a href="https://github.com/hacker-if"><li><i class="fa-brands fa-github"></i></li></a>
+								<a href="https://www.instagram.com/hackerspacesp/"><li><i class="fa-brands fa-instagram"></i></li></a>
+								<a href="https://www.facebook.com/hackerspaceifusp/"><li><i class="fa-brands fa-facebook"></i></li></a>
+								<a href="https://www.youtube.com/channel/UCk59MC1ylz1vRz8xIPoxnyA"><li><i class="fa-brands fa-youtube"></i></li></a>
+							</ul>
 						</div>
 					</div>
 				</div>
@@ -60,6 +74,7 @@
 				<div class="element light" id="highlight">
 					<div class="wrapper">
 						<div class="panel">
+							<div class="title"><h2>Destaques</h2></div>
 							<div class="content">
 								<div id="highlights">
 									<a href="recepcao.php" rel="nopener norefferer" target="_blank">
@@ -95,34 +110,17 @@
 					</div>
 				</div>
 
-				<div class="element dark">
+				<div class="element gray" id="groups">
 					<div class="wrapper">
 						<div class="panel">
+							<div class="title"><h2>Grupos do Hackerspace</h2></div>
 							<div class="content">
-								<div class="presents" id="intro">
-									<div class="item">
-										<div class="icon">
-											<i class="fas fa-robot"></i>
-										</div>
-										<div class="title">
-											<h2>Hackerspace</h2>
-										</div>
-										<div class="text">
-											<p><b>Hackerspaces</b>, também conhecidos como makerspaces, são laboratórios onde profissionais da tecnologia, estudantes e entusiastas se reúnem para trabalhar em projetos relacionados à eletrônica, tecnologia, desenvolvimento de software e ciência.</p>
-										</div>
-									</div>
-									<div class="item">
-										<div class="icon">
-											<i class="fas fa-atom"></i>
-										</div>
-										<div class="title">
-											<h2>Instituto de Física</h2>
-										</div>
-										<div class="text">
-											<p>O <b>Hackerspace IFUSP</b> é associado à Universidade de São Paulo e é um dos primeiros hackerspaces do Brasil. Foi fundado em 2018 pelo Prof. Dr. Alexandre Suaide que trouxe essa ideia de universidades norte-americanas. O espaço tem uma proposta inovadora que contrasta com a natureza teórica acadêmica do Instituto.</p>
-										</div>
-									</div>
-								</div>
+								<ul>
+									<a href=""><li title="Grupo de drones"><img src="images/groups/drone.png" ></li></a>
+									<a href=""><li title="International Physics Tournament"><img src="images/groups/ipt.png" ></li></a>
+									<!-- <a href=""><li><img src="images/groups/drone.png" ></li></a> -->
+									<!-- <a href=""><li><img src="images/groups/drone.png" ></li></a> -->
+								</ul>
 							</div>
 						</div>
 					</div>
@@ -137,6 +135,29 @@
 									<div class="right">
 										<span class="large">Um <span>espaço</span> para grandes <span>ideias</span>.<br>(e café!)</span><br><br>
 										<span class="medium">1º café no Hackerspace.</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="element dark">
+					<div class="wrapper">
+						<div class="panel">
+							<div class="content">
+								<div class="presents" id="intro">
+									<div class="item">
+										<div class="icon"><i class="fas fa-robot"></i></div>
+										<div class="text">
+											<p><b>Hackerspaces</b>, também conhecidos como makerspaces, são laboratórios onde profissionais da tecnologia, estudantes e entusiastas se reúnem para trabalhar em projetos relacionados à eletrônica, tecnologia, desenvolvimento de software e ciência.</p>
+										</div>
+									</div>
+									<div class="item">
+										<div class="icon"><i class="fas fa-atom"></i></div>
+										<div class="text">
+											<p>O <b>Hackerspace IFUSP</b> é associado à Universidade de São Paulo e é um dos primeiros hackerspaces do Brasil. Foi fundado em 2018 pelo Prof. Dr. Alexandre Suaide que trouxe essa ideia de universidades norte-americanas. O espaço tem uma proposta inovadora que contrasta com a natureza teórica acadêmica do Instituto.</p>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -261,7 +282,7 @@
 
 	</body>
 
-	<script src="js/fontawesome.js"></script>
+	<script src="https://kit.fontawesome.com/24c1955c0e.js" crossorigin="anonymous"></script>
 	<script src="js/jquery.js"></script>
 	<script src="js/particles.min.js"></script>
 	<script src="js/script.js"></script>
